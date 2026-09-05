@@ -9,7 +9,7 @@ Git for Windows가 설치된 PowerShell에서 배포 담당자가 제공한 저�
 ```powershell
 git clone --depth 1 --branch dh-csmanager-release https://github.com/solesence-cloud/agneskhala.git DH.CSManager-Release
 cd DH.CSManager-Release
-powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1
+powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteractive
 ```
 
 앱은 `%LOCALAPPDATA%\DH.CSManager`에 설치한다. 업무 데이터는 기존처럼
