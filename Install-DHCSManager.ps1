@@ -1,7 +1,8 @@
 [CmdletBinding(SupportsShouldProcess, ConfirmImpact = 'High')]
 param(
     [string]$InstallRoot = (Join-Path $env:LOCALAPPDATA 'DH.CSManager'),
-    [switch]$NoShortcuts
+    [switch]$NoShortcuts,
+    [switch]$NonInteractive
 )
 
 Set-StrictMode -Version Latest
@@ -123,7 +124,7 @@ $backup = Assert-Descendant -Candidate (Join-Path $backupRoot ('DH.CSManager.' +
 if (Test-Path -LiteralPath $staging) { throw "Staging path already exists: $staging" }
 if (Test-Path -LiteralPath $backup) { throw "Backup path already exists: $backup" }
 
-if (-not $PSCmdlet.ShouldProcess($safeInstall, "install DH.CSManager $($release.release_id); preserve previous version at $backup")) {
+if (-not $NonInteractive -and -not $PSCmdlet.ShouldProcess($safeInstall, "install DH.CSManager $($release.release_id); preserve previous version at $backup")) {
     exit 0
 }
 

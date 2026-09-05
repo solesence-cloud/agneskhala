@@ -18,7 +18,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 $installer = Join-Path $repositoryRoot 'Install-DHCSManager.ps1'
-$installArguments = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $installer, '-Confirm:$false')
+$installArguments = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $installer, '-NonInteractive')
 if ($NoShortcuts) { $installArguments += '-NoShortcuts' }
 if (-not [string]::IsNullOrWhiteSpace($InstallRoot)) { $installArguments += @('-InstallRoot', $InstallRoot) }
 & powershell.exe @installArguments
