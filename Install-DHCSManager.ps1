@@ -109,7 +109,7 @@ if ([string]::IsNullOrWhiteSpace($installParent) -or $installRoot -eq $installPa
     throw "Unsafe install root: $installRoot"
 }
 $safeInstall = Assert-Descendant -Candidate $installRoot -Parent $installParent
-$running = Test-AppRunning -Root $safeInstall
+$running = @(Test-AppRunning -Root $safeInstall)
 if ($running.Count -gt 0) {
     $ids = ($running | Select-Object -ExpandProperty ProcessId) -join ', '
     throw "DH.CSManager is running (PID: $ids). Close it and retry."
