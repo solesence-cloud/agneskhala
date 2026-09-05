@@ -14,5 +14,5 @@ if ($LASTEXITCODE -ne 0) {
     throw "git pull --ff-only failed ($LASTEXITCODE). The installed app was not changed."
 }
 
-& (Join-Path $repositoryRoot 'Install-DHCSManager.ps1') -NoShortcuts:$NoShortcuts
+& (Join-Path $repositoryRoot 'Install-DHCSManager.ps1') -NoShortcuts:$NoShortcuts -Confirm:$false
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
