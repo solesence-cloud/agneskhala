@@ -1,5 +1,8 @@
 [CmdletBinding()]
-param([switch]$NoShortcuts)
+param(
+    [switch]$NoShortcuts,
+    [string]$InstallRoot
+)
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
@@ -17,5 +20,6 @@ if ($LASTEXITCODE -ne 0) {
 $installer = Join-Path $repositoryRoot 'Install-DHCSManager.ps1'
 $installArguments = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $installer, '-Confirm:$false')
 if ($NoShortcuts) { $installArguments += '-NoShortcuts' }
+if (-not [string]::IsNullOrWhiteSpace($InstallRoot)) { $installArguments += @('-InstallRoot', $InstallRoot) }
 & powershell.exe @installArguments
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
