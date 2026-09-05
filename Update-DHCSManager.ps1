@@ -14,5 +14,8 @@ if ($LASTEXITCODE -ne 0) {
     throw "git pull --ff-only failed ($LASTEXITCODE). The installed app was not changed."
 }
 
-& (Join-Path $repositoryRoot 'Install-DHCSManager.ps1') -NoShortcuts:$NoShortcuts -Confirm:$false
+$installer = Join-Path $repositoryRoot 'Install-DHCSManager.ps1'
+$installArguments = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $installer, '-Confirm:$false')
+if ($NoShortcuts) { $installArguments += '-NoShortcuts' }
+& powershell.exe @installArguments
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
