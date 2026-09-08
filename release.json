@@ -1,9 +1,9 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.09.08-r1",
-    "archive":  "releases/2026.09.08-r1/CS_Manager-2026.09.08-r1.zip",
-    "archive_sha256":  "7616e03824a7d30dcbaa12197f46e6e363a668456961255d35b007da190ae8b5",
-    "manifest":  "releases/2026.09.08-r1/manifest.json",
-    "manifest_signature":  "releases/2026.09.08-r1/manifest.json.sig"
+    "release_id":  "2026.09.08-r2",
+    "archive":  "releases/2026.09.08-r2/CS_Manager-2026.09.08-r2.zip",
+    "archive_sha256":  "453f878a5129b7ae237be19f512a16985f52a1b6b57458e6cfe1997f90bba86e",
+    "manifest":  "releases/2026.09.08-r2/manifest.json",
+    "manifest_signature":  "releases/2026.09.08-r2/manifest.json.sig"
 }
