@@ -8,7 +8,8 @@
 
 ## 처음 설치
 
-Git for Windows가 설치된 PowerShell에서 배포 담당자가 제공한 저장소 주소를 사용한다.
+Git for Windows가 설치된 PowerShell에서 실행한다. 저장소는 private 이므로 회사 Git
+계정 권한이 필요하다 — 그 권한이 최초 신뢰 경계다.
 
 ```powershell
 git clone --depth 1 --branch dh-csmanager-release https://github.com/solesence-cloud/agneskhala.git DH.CSManager-Release

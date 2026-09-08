@@ -7,10 +7,17 @@
 새로 깐 Windows PC에 CS Manager를 설치하고, 계정을 만들고, 나중에 새 버전으로
 바꾸는 것까지 순서대로 적었습니다. **위에서부터 그대로 따라 하면 됩니다.**
 
-컴퓨터를 잘 몰라도 됩니다. 다만 두 가지는 미리 받아 두세요.
+컴퓨터를 잘 몰라도 됩니다. 다만 하나는 미리 받아 두세요.
 
 - **초대 코드** — 운영자에게 받습니다. 이게 없으면 가입이 안 됩니다.
-- **배포 저장소 주소** — 설치 파일을 받는 곳입니다. 역시 운영자에게 받습니다.
+
+설치 파일은 아래 저장소에서 받습니다. **회사 Git 계정으로 로그인해야 받아집니다** —
+권한이 없다고 나오면 운영자에게 요청하세요.
+
+```
+https://github.com/solesence-cloud/agneskhala.git
+브랜치: dh-csmanager-release
+```
 
 ---
 
@@ -55,11 +62,11 @@ git --version
 
 ## 3단계 · 설치 파일 받기
 
-운영자에게 받은 저장소 주소를 넣어 아래를 칩니다. 주소가 다르면 그 부분만 바꿉니다.
+아래를 그대로 칩니다. 한 줄씩 복사해 붙여 넣으면 됩니다.
 
 ```powershell
 cd $env:USERPROFILE
-git clone --depth 1 --branch dh-csmanager-release <운영자에게 받은 주소> DH.CSManager-Release
+git clone --depth 1 --branch dh-csmanager-release https://github.com/solesence-cloud/agneskhala.git DH.CSManager-Release
 cd DH.CSManager-Release
 ```
 
