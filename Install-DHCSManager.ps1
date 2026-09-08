@@ -39,6 +39,17 @@ function Read-ReleaseMetadata {
     if ($metadata.archive_sha256 -notmatch '^[0-9a-fA-F]{64}$') {
         throw 'release.json archive_sha256 must be a SHA-256 value.'
     }
+    # archive_url is optional: older releases shipped the ZIP inside the repo.
+    # When present it must be https -- the SHA-256 below is what actually
+    # protects the payload, but plain http would let a proxy watch the download
+    # and would train people to accept http URLs from us.
+    if ($metadata.PSObject.Properties.Name -contains 'archive_url') {
+        $url = [string]$metadata.archive_url
+        if (-not [string]::IsNullOrWhiteSpace($url) -and
+            -not $url.StartsWith('https://', [StringComparison]::OrdinalIgnoreCase)) {
+            throw "release.json archive_url must be https: $url"
+        }
+    }
     return $metadata
 }
 
@@ -95,12 +106,50 @@ function New-Shortcut {
 }
 
 $release = Read-ReleaseMetadata
-$archive = Assert-Descendant -Candidate (Join-Path $repositoryRoot $release.archive) -Parent $repositoryRoot
-if (-not (Test-Path -LiteralPath $archive -PathType Leaf)) {
-    throw "Release archive is missing: $archive. Run git pull --ff-only and retry."
+
+# Where the ZIP lives.
+#
+# It used to sit in this repository. Each one is ~66MB and Git keeps every one
+# forever, so the checkout grew without bound. Now the ZIP is served from our own
+# HTTPS server and the repository carries only the URL and the hash -- a clone is
+# a few hundred KB. The same URL is what winget will point at later, so moving to
+# winget does not mean moving the artifact again.
+#
+# The repo-local path still works: releases published before this change have no
+# archive_url, and a checkout that already holds the ZIP installs offline.
+$downloadedArchive = $null
+$archiveUrl = ''
+if ($release.PSObject.Properties.Name -contains 'archive_url') {
+    $archiveUrl = [string]$release.archive_url
 }
+$localArchive = Assert-Descendant -Candidate (Join-Path $repositoryRoot $release.archive) -Parent $repositoryRoot
+
+if (Test-Path -LiteralPath $localArchive -PathType Leaf) {
+    $archive = $localArchive
+}
+elseif (-not [string]::IsNullOrWhiteSpace($archiveUrl)) {
+    $safeName = $release.release_id -replace '[^A-Za-z0-9._-]', '_'
+    $downloadedArchive = Join-Path ([IO.Path]::GetTempPath()) ('DH.CSManager-' + $safeName + '.zip')
+    Write-Host "Downloading $archiveUrl"
+    try {
+        # -UseBasicParsing keeps this working on a machine where Internet
+        # Explorer was never opened; without it Invoke-WebRequest can block.
+        Invoke-WebRequest -Uri $archiveUrl -OutFile $downloadedArchive -UseBasicParsing
+    }
+    catch {
+        throw "Could not download the release: $($_.Exception.Message)"
+    }
+    $archive = $downloadedArchive
+}
+else {
+    throw "Release archive is missing: $localArchive. Run git pull --ff-only and retry."
+}
+
+# The hash is checked the same way whichever route the file came in by. This is
+# what makes downloading over the network safe: a swapped file fails here.
 $actualHash = (Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash.ToLowerInvariant()
 if (-not $actualHash.Equals($release.archive_sha256.ToLowerInvariant(), [StringComparison]::Ordinal)) {
+    if ($null -ne $downloadedArchive) { Remove-Item -LiteralPath $downloadedArchive -Force -ErrorAction SilentlyContinue }
     throw "Release archive SHA-256 mismatch. Expected $($release.archive_sha256), got $actualHash."
 }
 
@@ -164,6 +213,12 @@ if (-not $NoShortcuts) {
     catch {
         Write-Warning "Installed, but shortcuts could not be created: $($_.Exception.Message)"
     }
+}
+
+# A 66MB file left in %TEMP% every update adds up on a small SSD, and the
+# installed copy is already verified by now.
+if ($null -ne $downloadedArchive) {
+    Remove-Item -LiteralPath $downloadedArchive -Force -ErrorAction SilentlyContinue
 }
 
 Write-Host "Installed DH.CSManager $($release.release_id) at $safeInstall"
