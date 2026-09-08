@@ -2,6 +2,10 @@
 
 이 저장소는 사용자 설치용 파일만 담는다. 개발 소스·Python 가상환경·서명 개인키는 없다.
 
+> **컴퓨터를 새로 깐 분은 [`START-HERE.md`](START-HERE.md) 를 보세요.**
+> Git 설치부터 회원가입·업데이트까지 한 줄씩 따라 하도록 적어 뒀습니다.
+> 아래는 이미 익숙한 사람을 위한 요약입니다.
+
 ## 처음 설치
 
 Git for Windows가 설치된 PowerShell에서 배포 담당자가 제공한 저장소 주소를 사용한다.
@@ -14,6 +18,11 @@ powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteracti
 
 앱은 `%LOCALAPPDATA%\DH.CSManager`에 설치한다. 업무 데이터는 기존처럼
 `%USERPROFILE%\CS_Manager_Data`에 남으므로 업데이트가 데이터를 지우지 않는다.
+
+설치 뒤 회원가입에는 **운영자에게 받은 초대 코드**가 필요하다. 코드 없이는
+가입 자체가 되지 않고, 가입 뒤에도 운영자가 승인해야 로그인된다.
+서명 인증서가 없는 배포라 첫 실행 때 Windows SmartScreen 경고가 뜬다 —
+`추가 정보` → `실행` 으로 넘어간다.
 
 ## 업데이트
 
