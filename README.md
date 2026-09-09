@@ -3,31 +3,52 @@
 이 저장소는 사용자 설치용 파일만 담는다. 개발 소스·Python 가상환경·서명 개인키는 없다.
 
 > **컴퓨터를 새로 깐 분은 [`START-HERE.md`](START-HERE.md) 를 보세요.**
-> Git 설치부터 회원가입·업데이트까지 한 줄씩 따라 하도록 적어 뒀습니다.
+> 받은 폴더를 푸는 것부터 회원가입·업데이트까지 한 줄씩 따라 하도록 적어 뒀습니다.
+> **Git 도 GitHub 계정도 필요 없습니다** — Git 경로는 그 문서의 부록이다.
 > 아래는 이미 익숙한 사람을 위한 요약입니다.
 
 ## 운영자 — 새 사람에게 배포할 때
 
-안내서는 이 저장소 **안**에 있다. 저장소를 받는 법을 안내서가 적고 있으므로,
-받기 전에는 못 본다. 그 고리를 끊는 것이 운영자의 몫이다 — **세 가지를 준다.**
+**받는 사람에게 저장소를 주지 않는다.** 설치기는 git 을 안 쓰고, 산출물·버전
+정보·안내서가 전부 `csm-2026.com` 에서 온다. 한 번 보내면 그 뒤로는 손이 안 간다.
 
 | 순서 | 무엇 | 어디서 |
 |---|---|---|
-| 1 | **저장소 권한** | GitHub `solesence-cloud/agneskhala` 에 그 사람 계정을 추가 |
-| 2 | **안내서 링크** | `https://github.com/solesence-cloud/agneskhala/blob/dh-csmanager-release/START-HERE.md` |
-| 3 | **초대 코드** | 앱 `🌐 서버 계정` → `초대 코드` → `코드 발급` |
+| 1 | **설치 폴더** (아래 ZIP) 또는 안내서 링크 | 메일·메신저로 **한 번만** |
+| 2 | **초대 코드** | 앱 `🌐 서버 계정` → `초대 코드` → `코드 발급` |
+| 3 | **가입 승인** | 그 사람이 가입한 뒤 `🌐 서버 계정` 에서 우클릭 → 승인 |
 
-2번 링크는 **1번을 준 뒤에야 열린다**(private 저장소다). 순서를 지킨다.
-링크 대신 `START-HERE.md` 파일을 그대로 보내도 된다 — 어느 쪽이든 **최신본은
-이 저장소의 `dh-csmanager-release` 브랜치**가 정본이다.
+```powershell
+Compress-Archive -Path START-HERE.md, Install-DHCSManager.ps1, `
+    Update-DHCSManager.ps1, release.json `
+    -DestinationPath "$env:USERPROFILE\Desktop\DH.CSManager-Setup.zip" -Force
+```
 
-받는 사람이 `csm-2026.com` 에 닿는지도 미리 확인하게 한다. 설치가 거기서
-산출물을 받는다.
+받는 사람이 `csm-2026.com` 에 닿는지 **설치 전에** 확인하게 한다.
 
-## 처음 설치
+### 릴리스마다 다시 보낼 것은 없다
 
-Git for Windows가 설치된 PowerShell에서 실행한다. 저장소는 private 이므로 회사 Git
-계정 권한이 필요하다.
+`current` 가 릴리스 폴더를 가리키는 심볼릭 링크라, 배포하면 아래 셋이 한꺼번에
+최신이 된다. 주소는 고정이고 내용만 바뀐다.
+
+| 주소 | 누가 본다 |
+|---|---|
+| `/current/release.json` | `Update-DHCSManager.ps1` — 그래서 사용자가 스스로 업데이트한다 |
+| `/current/START-HERE.md` | 아직 안 깐 사람. 링크를 한 번만 보내면 된다 |
+| `/current/Install-DHCSManager.ps1` | 첫 설치를 명령 한 줄로 하고 싶을 때 |
+
+안내서는 배포판 안(exe 옆)에도 들어간다 — 이미 깐 사람은 앱을 업데이트하면
+안내서도 같이 최신이 되고, 인터넷 없이도 읽는다.
+
+**치른 값**: 기대 해시가 산출물과 같은 서버에서 온다. 전에는 GitHub 가 그 역할이라
+서버가 털려도 해시가 안 맞아 멈췄다. 되찾으려면 설치기가 `manifest.json.sig` 를
+검증해야 한다(개인키는 서버에 없다). 앱은 이미 그렇게 한다.
+
+## 저장소로 설치 — 운영자와 스스로 업데이트할 사람만
+
+받는 사람 대부분은 위 「운영자」 절대로 폴더를 받으면 되고 이 절은 필요 없다.
+이 경로는 Git for Windows 와 회사 Git 계정 권한이 필요하다. 대신 새 버전이
+나와도 폴더를 다시 받지 않고 `Update-DHCSManager.ps1` 이 스스로 당겨 온다.
 
 **저장소에는 ZIP 이 없다.** `release.json` 의 `archive_url`(https 만 허용)·
 `archive_sha256` 과 서명만 들어 있고, 산출물(약 67MB)은 `csm-2026.com/releases/`

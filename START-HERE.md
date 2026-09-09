@@ -7,95 +7,67 @@
 새로 깐 Windows PC에 CS Manager를 설치하고, 계정을 만들고, 나중에 새 버전으로
 바꾸는 것까지 순서대로 적었습니다. **위에서부터 그대로 따라 하면 됩니다.**
 
-> **이 문서의 최신본은 여기 있습니다** — 브라우저로 열어 두고 따라 하면 편합니다.
-> `https://github.com/solesence-cloud/agneskhala/blob/dh-csmanager-release/START-HERE.md`
+컴퓨터를 잘 몰라도 됩니다. Git 이나 GitHub 계정은 **필요 없습니다.**
+
+> **이 안내서의 최신본은 항상 여기 있습니다.** 주소는 안 바뀌고 내용만 바뀝니다.
+> https://csm-2026.com/current/START-HERE.md
 >
-> 회사 Git 계정으로 로그인해야 열립니다. 안 열리면 운영자에게 저장소 권한을
-> 요청하세요 — 3단계에서 어차피 그 권한이 필요합니다.
+> 앱을 깔고 나면 프로그램 폴더 안에도 같은 파일이 들어 있습니다 — 업데이트하면
+> 그것도 같이 최신이 됩니다.
 
-컴퓨터를 잘 몰라도 됩니다. 다만 두 가지는 미리 확인하세요.
+## 미리 챙길 것 셋
 
-- **초대 코드** — 운영자에게 받습니다. 이게 없으면 가입이 안 됩니다.
-- **인터넷** — 설치할 때 회사 서버(`csm-2026.com`)에서 프로그램을 받습니다.
-  브라우저로 https://csm-2026.com 이 열리면 됩니다. 안 열리면 사내 방화벽이
-  막고 있는 것이니 **설치를 시작하기 전에** 운영자에게 알려 주세요.
+| 무엇 | 어디서 |
+|---|---|
+| **설치 폴더** | 운영자가 보내 줍니다. 파일 네 개짜리 작은 폴더입니다 |
+| **초대 코드** | 운영자에게 받습니다. 이게 없으면 가입이 안 됩니다 |
+| **인터넷** | 브라우저로 https://csm-2026.com 이 열려야 합니다 |
 
-설치 **방법**은 아래 저장소에서 받습니다. **회사 Git 계정으로 로그인해야 받아집니다** —
-권한이 없다고 나오면 운영자에게 요청하세요.
-
-```
-https://github.com/solesence-cloud/agneskhala.git
-브랜치: dh-csmanager-release
-```
+**세 번째를 설치 시작 전에 확인하세요.** 프로그램 본체(약 67MB)를 그 주소에서
+받습니다. 사내 방화벽이 막고 있으면 3단계에서 실패하니, 안 열리면 **미리**
+운영자에게 알려 주세요.
 
 ---
 
-## 1단계 · Git for Windows 설치
+## 1단계 · 받은 폴더 풀기
 
-설치 파일을 받으려면 `git`이라는 프로그램이 필요합니다. 새로 깐 Windows에는
-없습니다.
+운영자가 보낸 압축 파일을 **바탕화면**에 풀어 주세요.
 
-1. https://git-scm.com/download/win 에 들어갑니다.
-2. 내려받은 파일을 실행합니다.
-3. 설치 중 물어보는 것은 **전부 기본값(Next)** 으로 두면 됩니다.
+폴더 안에 이 네 개가 있으면 맞습니다.
 
-> **왜 이걸 깔아야 하나요?**
-> 이 저장소에는 **설치 방법**이 들어 있습니다 — 어느 버전을 받을지, 그 파일의
-> 지문(해시)이 무엇인지, 서명이 무엇인지입니다. 프로그램 파일 자체(약 67MB)는
-> 회사 서버에서 받습니다.
->
-> 안전장치는 **지문 대조**입니다. 받은 파일의 지문이 저장소에 적힌 값과 한 글자라도
-> 다르면 설치가 중단됩니다. 중간에 누가 파일을 바꿔치기해도 설치되지 않습니다.
+```
+Install-DHCSManager.ps1     설치 스크립트
+Update-DHCSManager.ps1      나중에 새 버전으로 바꿀 때
+release.json                어느 버전을 받을지, 그 파일의 지문
+START-HERE.md               이 안내서
+```
 
-설치가 끝났는지 확인하려면 2단계에서 `git --version`을 쳐 봅니다.
+**폴더를 지우지 마세요.** 업데이트할 때마다 이 폴더를 씁니다. 새 버전이 나와도
+운영자에게 다시 받을 필요가 없습니다 — 스크립트가 서버에서 알아서 확인합니다.
+
+> **`release.json` 이 뭔가요?**
+> 어느 버전을 받을지와, 받은 파일이 진짜인지 판단할 **지문**이 들어 있습니다.
+> 지문이 한 글자라도 다르면 설치가 중단됩니다.
+> 업데이트할 때는 이 파일을 스크립트가 서버에서 새로 받아 오므로, 사용자가
+> 신경 쓸 일은 없습니다.
 
 ---
 
 ## 2단계 · PowerShell 열기
 
-1. 키보드에서 **Windows 키**를 누릅니다.
-2. `powershell` 이라고 칩니다.
-3. **Windows PowerShell** 을 클릭합니다.
+1. 1단계에서 푼 **폴더를 엽니다.**
+2. 주소창(폴더 맨 위 경로가 적힌 칸)을 한 번 클릭합니다.
+3. 거기에 `powershell` 이라고 치고 **Enter** 를 누릅니다.
 
-파란 창(또는 검은 창)이 뜹니다. 여기에 명령을 칩니다.
-
-확인 삼아 이걸 쳐 보세요.
-
-```powershell
-git --version
-```
-
-`git version 2...` 처럼 나오면 1단계가 잘 된 것입니다.
-`인식할 수 없는`이라고 나오면 **PowerShell 창을 닫았다 다시 열고** 해 보세요.
-그래도 안 되면 1단계를 다시 합니다.
+파란 창(또는 검은 창)이 뜹니다. **그 폴더 위치에서 열립니다** — 이게 중요합니다.
 
 > 관리자 권한은 **필요 없습니다.** 앱은 내 계정 폴더에만 설치됩니다.
 
 ---
 
-## 3단계 · 설치 파일 받기
+## 3단계 · 설치
 
-아래를 그대로 칩니다. 한 줄씩 복사해 붙여 넣으면 됩니다.
-
-```powershell
-cd $env:USERPROFILE
-git clone --depth 1 --branch dh-csmanager-release https://github.com/solesence-cloud/agneskhala.git DH.CSManager-Release
-cd DH.CSManager-Release
-```
-
-아이디·비밀번호를 물으면 회사 Git 계정으로 로그인합니다.
-
-이제 내 폴더 안에 `DH.CSManager-Release` 폴더가 생겼습니다. **이 폴더를 지우지
-마세요.** 나중에 업데이트할 때 다시 씁니다.
-
-폴더가 작아서(1MB도 안 됩니다) 잘못된 줄 알 수 있는데 정상입니다. 프로그램은
-다음 단계에서 받습니다.
-
----
-
-## 4단계 · 설치
-
-같은 PowerShell 창에서 칩니다.
+열린 창에 아래를 그대로 칩니다. 복사해 붙여 넣어도 됩니다.
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteractive
@@ -121,7 +93,7 @@ powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteracti
 
 ---
 
-## 5단계 · 첫 실행 — Windows 경고가 뜹니다
+## 4단계 · 첫 실행 — Windows 경고가 뜹니다
 
 바탕화면의 `DH.CSManager`를 두 번 누르면 **파란 경고창**이 뜰 수 있습니다.
 
@@ -145,7 +117,7 @@ powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteracti
 
 ---
 
-## 6단계 · 회원가입
+## 5단계 · 회원가입
 
 앱이 뜨면 로그인 화면이 나옵니다. **`회원가입`** 을 누릅니다.
 
@@ -182,7 +154,7 @@ powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteracti
 
 ---
 
-## 7단계 · 승인 기다리기
+## 6단계 · 승인 기다리기
 
 가입했다고 바로 못 들어갑니다. **운영자가 승인해야 열립니다.**
 
@@ -198,7 +170,7 @@ powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteracti
 
 ---
 
-## 8단계 · 쓰기 시작
+## 7단계 · 쓰기 시작
 
 로그인하면 첫 화면이 `My Work`입니다. 자기 근무 기록만 보이는 곳입니다.
 
@@ -213,19 +185,16 @@ powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteracti
 새 버전이 나오면 앱이 **알려만 줍니다.** 스스로 바꾸지 않습니다 — 라인이 도는
 중에 갑자기 재시작되면 안 되기 때문입니다. 언제 바꿀지는 본인이 정합니다.
 
-바꾸는 순서는 이렇습니다.
+**운영자에게 다시 받을 것은 없습니다.** 처음 받은 폴더를 그대로 쓰면 됩니다 —
+스크립트가 최신 버전 정보를 서버에서 알아서 확인합니다.
 
 **1. 앱을 완전히 끕니다.** 창을 닫고, 작업표시줄 오른쪽 아이콘도 우클릭해서 끕니다.
 
-**2. PowerShell을 열고** 3단계에서 받은 폴더로 갑니다.
+**2. 처음에 받은 폴더에서** 2단계처럼 PowerShell 을 열고 칩니다.
 
 ```powershell
-cd $env:USERPROFILE\DH.CSManager-Release
 powershell -ExecutionPolicy Bypass -File .\Update-DHCSManager.ps1
 ```
-
-`git pull` 은 이 스크립트가 알아서 합니다 — 따로 칠 필요 없습니다.
-새 버전도 회사 서버에서 받으므로 **처음 설치 때처럼 몇 분 걸립니다.**
 
 **3. 앱을 다시 켭니다.**
 
@@ -245,15 +214,15 @@ powershell -ExecutionPolicy Bypass -File .\Update-DHCSManager.ps1
 
 | 증상 | 이유 | 할 일 |
 |---|---|---|
-| `git`을 인식할 수 없다고 함 | Git이 없거나 창을 다시 안 열었음 | 1단계 다시, PowerShell 새로 열기 |
-| `clone` 할 때 권한 없다고 함 | Git 계정 권한이 없음 | 운영자에게 저장소 권한을 요청 |
+| `이 시스템에서 스크립트를 실행할 수 없으므로` | 실행 정책 | 명령을 `powershell -ExecutionPolicy Bypass -File ...` 형태 그대로 칩니다 |
+| `Install-DHCSManager.ps1 을(를) 찾을 수 없습니다` | 다른 폴더에서 열림 | 2단계대로 **받은 폴더**에서 PowerShell 을 엽니다 |
 | 설치 중 서버에 연결 못 한다고 함 | 사내 방화벽이 `csm-2026.com` 을 막음 | 운영자에게 알림 |
 | 설치가 한참 멈춘 것처럼 보임 | 67MB를 받는 중 | 1~5분 기다립니다. 창을 닫지 마세요 |
 | `SHA-256 mismatch` 로 중단됨 | 받다가 끊겼음 | 한 번 더 돌려 봅니다. 또 그러면 **설치하지 말고** 운영자에게 알립니다 |
-| 파란 경고창이 뜸 | 인증서 없는 사내 앱 | `추가 정보` → `실행` (5단계) |
+| 파란 경고창이 뜸 | 인증서 없는 사내 앱 | `추가 정보` → `실행` (4단계) |
 | 백신이 파일을 지움 | 사내 앱을 모름 | 운영자에게 알림. 백신을 끄지는 말 것 |
 | 가입할 때 지도 얘기가 나옴 | 지도를 안 클릭함 | 왼쪽 지도에서 근무지 근처를 클릭 |
-| 로그인이 `승인 대기` | 아직 승인 안 됨 | 운영자에게 요청 (7단계) |
+| 로그인이 `승인 대기` | 아직 승인 안 됨 | 운영자에게 요청 (6단계) |
 | 로그인 뒤 `서버에 연결하지 못해…` | 인터넷 없음 | 그대로 써도 됩니다. 승인·직위 변경은 연결 뒤 반영 |
 | `로그인 시도가 너무 잦습니다` | 짧은 시간에 여러 번 시도 | 1분쯤 기다렸다 다시 |
 
@@ -267,3 +236,27 @@ powershell -ExecutionPolicy Bypass -File .\Update-DHCSManager.ps1
 2. **어느 화면**에서
 3. **무엇을 하다가**
 4. **어떤 문구**가 떴는지 (화면을 찍어 주면 가장 좋습니다)
+
+---
+
+## 부록 · Git 으로 받기 (안 해도 됩니다)
+
+**운영자를 위한 것입니다.** 일반 사용자는 위 1~3단계로 끝나고 업데이트도
+스스로 됩니다 — 이 방법을 쓸 이유가 없습니다.
+
+인터넷이 아예 안 되는 PC 에 넣어야 할 때나, 운영자가 릴리스를 직접 다룰 때
+씁니다. 회사 Git 계정 권한과 Git for Windows
+(https://git-scm.com/download/win) 가 필요합니다.
+
+```powershell
+cd $env:USERPROFILE
+git clone --depth 1 --branch dh-csmanager-release https://github.com/solesence-cloud/agneskhala.git DH.CSManager-Release
+cd DH.CSManager-Release
+powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteractive
+```
+
+이렇게 받으면 `Update-DHCSManager.ps1` 이 서버 대신 **저장소에서** 새 버전
+정보를 당겨 옵니다. 결과는 같습니다.
+
+이 폴더의 파일은 **고치지 마세요.** 고치면 업데이트가 "파일이 수정돼 있다"며
+멈춥니다(그때 안내문이 되돌리는 명령을 알려 줍니다).

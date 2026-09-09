@@ -1,17 +1,22 @@
 {
-  "aggregate_sha256": "1cfd9ac1097a1de64c3f264b5a2a65d6102810be23ccfe52dbf32b198124e643",
-  "created_utc": "2026-09-08T19:06:47Z",
-  "file_count": 322,
+  "aggregate_sha256": "4873c0466f1121557ae0aa4fd3a5b2eb7dfe7963da92da3eb5cfb9d6fcf5e2df",
+  "created_utc": "2026-09-09T19:09:23Z",
+  "file_count": 323,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "b1c7d09ce121d160d16bf1d684c95040f85f762fe3bd3f3c6eb441b90bc7d25f",
-      "size": 7161725
+      "sha256": "a8932a16fee08477ec8af34c6f089a0813cb3a3d3ffd04344faf0fee4119f378",
+      "size": 7222215
     },
     {
       "path": "README.md",
-      "sha256": "66517a4c7fbaf83dc5a3c9dbdf2c76bdcb2a121fa28a62befcd6db40090376e8",
-      "size": 6792
+      "sha256": "b89f2fec82b6ebc6c1384d92bb471375c4f3c41d3a09b3999e7cb828ad4633cc",
+      "size": 8353
+    },
+    {
+      "path": "START-HERE.md",
+      "sha256": "b34524fb857484ab1c7e0a2aab3a372ebd94d46b090bd48c9be2b949d0a20d99",
+      "size": 11661
     },
     {
       "path": "_internal/PySide6/MSVCP140.dll",
@@ -835,13 +840,13 @@
     },
     {
       "path": "_internal/base_library.zip",
-      "sha256": "de999e655c145f36a4ad7183259139fb559b4a55ef35a249ac07cd8c334c6b96",
+      "sha256": "cbf3fcde24801b9ed1130f255f26aadb30e5868e56ff19179217b9471cd9c700",
       "size": 1334069
     },
     {
       "path": "_internal/cs_manager/db/schema.sql",
-      "sha256": "b82c0433d5994629394dd1faded7973bd8120f0eaf97f41f2a72cc7e8c9e2a67",
-      "size": 20442
+      "sha256": "e667bc4ed046db56859a905e78b8dec8efee9cd2a6f6266949fe0e7cc5d8b3f2",
+      "size": 24467
     },
     {
       "path": "_internal/cs_manager/db/seed_data/catalog_seed.json",
@@ -1610,12 +1615,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "8586ccd799da46cb4133833b556d38edd4dca8a5c0bba74ede6fdc6abbea2e20",
+      "sha256": "a60953ddfbe516d710466aaebb0cc9c8eb0074a970d85dafb244c7bb33ae31d0",
       "size": 232
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.09.08-r2",
+  "release_id": "2026.09.09-r4",
   "schema_version": 1,
-  "total_bytes": 164438882
+  "total_bytes": 164516619
 }

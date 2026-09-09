@@ -1,17 +1,22 @@
 {
-  "aggregate_sha256": "68978ac9b43edc3caef2220ccbb2068161c7ffabe724a03b60de07299dbfae4c",
-  "created_utc": "2026-09-08T16:13:13Z",
-  "file_count": 322,
+  "aggregate_sha256": "eec3543139e93dbeb4687cfcee2707164fb46a30536bef27794f8d7ec7fbcb34",
+  "created_utc": "2026-09-09T21:37:28Z",
+  "file_count": 325,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "1bb97c08ede4ed72762285c93aea339cd918e188dfc42e6a63cdb4e59f992ec8",
-      "size": 7155571
+      "sha256": "7b44e041084ec181d03b00cec6dd1520e5b16903513e386b48d63d332db83b3e",
+      "size": 7236005
     },
     {
       "path": "README.md",
-      "sha256": "3aec3332f5b44e3311bbb9804f6ce7883a29d4aefe4ab7a17d6451c719140eae",
-      "size": 6810
+      "sha256": "b89f2fec82b6ebc6c1384d92bb471375c4f3c41d3a09b3999e7cb828ad4633cc",
+      "size": 8353
+    },
+    {
+      "path": "START-HERE.md",
+      "sha256": "b34524fb857484ab1c7e0a2aab3a372ebd94d46b090bd48c9be2b949d0a20d99",
+      "size": 11661
     },
     {
       "path": "_internal/PySide6/MSVCP140.dll",
@@ -835,13 +840,13 @@
     },
     {
       "path": "_internal/base_library.zip",
-      "sha256": "6a69017448a2b9af5b0113adcb818b10736cbba972999b2c9278aec52ab1385f",
+      "sha256": "bc28c45bfc0d6a1cdeaef8cd046454901be49b117f38aeb0463137fcaaba3242",
       "size": 1334069
     },
     {
       "path": "_internal/cs_manager/db/schema.sql",
-      "sha256": "b82c0433d5994629394dd1faded7973bd8120f0eaf97f41f2a72cc7e8c9e2a67",
-      "size": 20442
+      "sha256": "c55ea2b25617425469fcaa91ef46a7c79fe0ff9b4ef1600abf572ff2c164929d",
+      "size": 24836
     },
     {
       "path": "_internal/cs_manager/db/seed_data/catalog_seed.json",
@@ -874,6 +879,11 @@
       "size": 1288828
     },
     {
+      "path": "_internal/libcrypto-3-x64.dll",
+      "sha256": "0330b5f558996f297d687e1a2b2fcc2cacf883b16baef74aaef35285d7c1231c",
+      "size": 5805212
+    },
+    {
       "path": "_internal/libcrypto-3.dll",
       "sha256": "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de",
       "size": 5191960
@@ -882,6 +892,11 @@
       "path": "_internal/libffi-8.dll",
       "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
       "size": 39696
+    },
+    {
+      "path": "_internal/libssl-3-x64.dll",
+      "sha256": "feb5b300e0b3a021fed481178f3d66896426576d4d13b85a304d2a3809b25bfd",
+      "size": 1026716
     },
     {
       "path": "_internal/libssl-3.dll",
@@ -1610,12 +1625,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "e996063b381e919c313bf37a6af70f4a7b035def8787b6a8a00724bd99ea5c55",
+      "sha256": "9c6c2a455f5bcb7a907c0107efe9792ee09fd743d9ee016d319cc36f4f227fbb",
       "size": 232
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.09.08-r1",
+  "release_id": "2026.09.09-r5",
   "schema_version": 1,
-  "total_bytes": 164432746
+  "total_bytes": 171362706
 }
