@@ -97,7 +97,12 @@ if ($isRepository) {
     # 먼저 더러운 파일이 있는지 본다. 그냥 pull 하면 git 이 영어로 거절하는데,
     # 안내서 파일 하나가 수정됐다는 이유로 앱 업데이트가 막히는 것이라
     # 받는 사람이 그 메시지만 보고는 손을 못 쓴다.
-    $dirty = & $git.Source -C $repositoryRoot status --porcelain
+    # 추적 중인 파일의 수정만 센다. 아래 안내의 `checkout -- .` 은 추적 파일만
+    # 되돌리므로, 추적 안 되는 파일(??)까지 세면 안내대로 해도 영원히 막힌다
+    # (2026-09-11 실사용: 시험용 사본 하나와 손으로 넣은 ZIP 하나로 멈췄다).
+    # 추적 안 되는 파일은 pull --ff-only 를 막지 않는다 - 들어올 파일과 이름이
+    # 겹칠 때만 막고, 그때는 아래 pull 실패 안내로 간다.
+    $dirty = & $git.Source -C $repositoryRoot status --porcelain --untracked-files=no
     if ($LASTEXITCODE -ne 0) {
         Stop-WithMessage "git status 가 실패했습니다 ($LASTEXITCODE). 설치본은 그대로입니다."
     }
