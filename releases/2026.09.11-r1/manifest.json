@@ -1,12 +1,12 @@
 {
-  "aggregate_sha256": "eec3543139e93dbeb4687cfcee2707164fb46a30536bef27794f8d7ec7fbcb34",
-  "created_utc": "2026-09-09T21:37:28Z",
-  "file_count": 325,
+  "aggregate_sha256": "d709dd64797ac7fc49202b20e42d383241cf5027f3c5a15ce61ebf8261388fdc",
+  "created_utc": "2026-09-11T15:36:02Z",
+  "file_count": 323,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "7b44e041084ec181d03b00cec6dd1520e5b16903513e386b48d63d332db83b3e",
-      "size": 7236005
+      "sha256": "4b085cff49fe8cd24ab9bf77713bfa5d6aaa0c31247dc10f624aa383648c24b2",
+      "size": 7256463
     },
     {
       "path": "README.md",
@@ -840,13 +840,13 @@
     },
     {
       "path": "_internal/base_library.zip",
-      "sha256": "bc28c45bfc0d6a1cdeaef8cd046454901be49b117f38aeb0463137fcaaba3242",
+      "sha256": "f70cc1041ec1f63d555b561fc4cfdaf8ed804969b572370c27da9a11957e79b6",
       "size": 1334069
     },
     {
       "path": "_internal/cs_manager/db/schema.sql",
-      "sha256": "c55ea2b25617425469fcaa91ef46a7c79fe0ff9b4ef1600abf572ff2c164929d",
-      "size": 24836
+      "sha256": "c4f6d7644cc498344cd829d4a460e8f0916a51d6934d030145157ceeb5498e35",
+      "size": 24944
     },
     {
       "path": "_internal/cs_manager/db/seed_data/catalog_seed.json",
@@ -879,11 +879,6 @@
       "size": 1288828
     },
     {
-      "path": "_internal/libcrypto-3-x64.dll",
-      "sha256": "0330b5f558996f297d687e1a2b2fcc2cacf883b16baef74aaef35285d7c1231c",
-      "size": 5805212
-    },
-    {
       "path": "_internal/libcrypto-3.dll",
       "sha256": "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de",
       "size": 5191960
@@ -892,11 +887,6 @@
       "path": "_internal/libffi-8.dll",
       "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
       "size": 39696
-    },
-    {
-      "path": "_internal/libssl-3-x64.dll",
-      "sha256": "feb5b300e0b3a021fed481178f3d66896426576d4d13b85a304d2a3809b25bfd",
-      "size": 1026716
     },
     {
       "path": "_internal/libssl-3.dll",
@@ -1625,12 +1615,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "9c6c2a455f5bcb7a907c0107efe9792ee09fd743d9ee016d319cc36f4f227fbb",
+      "sha256": "086d3bd078598f3ee42b00d69003523ab795ce830d8dfa23afb089b4538b66e5",
       "size": 232
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.09.09-r5",
+  "release_id": "2026.09.11-r1",
   "schema_version": 1,
-  "total_bytes": 171362706
+  "total_bytes": 164551344
 }
