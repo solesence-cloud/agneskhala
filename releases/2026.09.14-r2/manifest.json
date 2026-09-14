@@ -1,12 +1,12 @@
 {
-  "aggregate_sha256": "88a6cc5bfff208631a723daeed91a6dbdfcd7ded09b38a1e62e0d91313b2b927",
-  "created_utc": "2026-09-14T12:14:20Z",
-  "file_count": 3059,
+  "aggregate_sha256": "0e5654d4c1379e88adae1803bbb9cff88bb60b9531789c918d86f28f94abe5c6",
+  "created_utc": "2026-09-14T23:09:32Z",
+  "file_count": 3058,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "5461aef87fc54985c1f7894de918edaa4d77b2216032d19d888c591bcff92cb2",
-      "size": 5907960
+      "sha256": "71ed4117b74727be62f02a8d6749a8d36dfb15e731e333c92baca3b4aca7d368",
+      "size": 5908871
     },
     {
       "path": "README.md",
@@ -15,8 +15,8 @@
     },
     {
       "path": "START-HERE.md",
-      "sha256": "b34524fb857484ab1c7e0a2aab3a372ebd94d46b090bd48c9be2b949d0a20d99",
-      "size": 11661
+      "sha256": "280028fa58f7a3512abb378a453c8e7df8ae0d7e8b24022cd5ca3f72a351cf54",
+      "size": 13267
     },
     {
       "path": "_internal/PySide6/MSVCP140.dll",
@@ -13484,11 +13484,6 @@
       "size": 10467680
     },
     {
-      "path": "_internal/PySide6/resources/qtwebengine_devtools_resources.debug.pak",
-      "sha256": "1b51c9f34aa20f141ba8d60fce75e9228bf1e43a385d4b0011a586994f37073c",
-      "size": 75843536
-    },
-    {
       "path": "_internal/PySide6/resources/qtwebengine_devtools_resources.pak",
       "sha256": "4062bc9b815c7d937c328e6625e1f9cbd196bbabc566e8aa173ad5d9cea43d3c",
       "size": 11609304
@@ -14665,7 +14660,7 @@
     },
     {
       "path": "_internal/base_library.zip",
-      "sha256": "8217f6ca259dedd0302d05198c8a9938c3db6a3b30503262bdc61bc67f2ab993",
+      "sha256": "d20f6ac9f51dced2961f1b543502a85e38c814386490ed53a9952cde9dc2ba20",
       "size": 1334069
     },
     {
@@ -15295,12 +15290,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "15caa7d88441ae644857cf377f5716cea2745b1194924cf0cff02e8df1854250",
+      "sha256": "074d6ba39a308b1a027cc0ab8630d44a784c54a906b8f86fb8927d727fc711b2",
       "size": 232
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.09.13-r1",
+  "release_id": "2026.09.14-r2",
   "schema_version": 1,
-  "total_bytes": 617084275
+  "total_bytes": 541243256
 }
