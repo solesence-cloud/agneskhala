@@ -88,11 +88,24 @@ if (-not (Test-Path -LiteralPath $installer -PathType Leaf)) {
 # 요구하면 받는 사람마다 GitHub 계정과 권한이 필요해진다.
 $isRepository = Test-Path -LiteralPath (Join-Path $repositoryRoot '.git')
 
+# **`.git` 이 있다고 Git 을 요구하지 않는다** (2026-09-14 사용자 신고).
+#
+# 운영자가 자기 clone 폴더를 그대로 복사해 보내면 `.git` 이 딸려 간다. 받는
+# 사람은 "파일을 받았는데도" 이 스크립트가 Git 설치를 요구하는 화면을 봤다 -
+# 바로 아래 `else` 에 서버에서 받는 길이 멀쩡히 있는데도. 파일로 받은 사람에게
+# Git 을 깔게 하는 것은 배포를 막는 것이지 지키는 것이 아니다.
+#
+# 그래서 Git 이 **없으면** 저장소가 아닌 것처럼 서버 경로로 간다. Git 이 있으면
+# 예전대로 `pull --ff-only` 를 쓴다 - 진짜 clone 을 쓰는 운영자의 경로는 그대로다.
 if ($isRepository) {
     $git = Get-Command git.exe -ErrorAction SilentlyContinue
     if ($null -eq $git) {
-        Stop-WithMessage "Git 이 없습니다. https://git-scm.com/download/win 에서 설치한 뒤 PowerShell 을 새로 열고 다시 실행하세요."
+        Write-Host 'Git 이 없어 서버에서 최신 버전 정보를 받습니다. (이 폴더는 복사본입니다)'
+        $isRepository = $false
     }
+}
+
+if ($isRepository) {
 
     # 먼저 더러운 파일이 있는지 본다. 그냥 pull 하면 git 이 영어로 거절하는데,
     # 안내서 파일 하나가 수정됐다는 이유로 앱 업데이트가 막히는 것이라

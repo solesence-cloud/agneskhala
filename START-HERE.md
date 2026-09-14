@@ -15,11 +15,41 @@
 > 앱을 깔고 나면 프로그램 폴더 안에도 같은 파일이 들어 있습니다 — 업데이트하면
 > 그것도 같이 최신이 됩니다.
 
+## 빠른 길 · 혼자 설치하기 (운영자에게 폴더를 안 받아도 됩니다)
+
+인터넷만 되면 **운영자가 파일을 보내 줄 때까지 기다릴 필요가 없습니다.**
+설치에 필요한 두 파일을 서버에서 직접 받아 설치합니다. Git 은 필요 없습니다.
+
+PowerShell 을 열고(시작 메뉴에서 `powershell`) 아래를 그대로 붙여 넣으세요.
+
+```powershell
+$d = Join-Path $env:TEMP 'DH.CSManager-Setup'
+New-Item -ItemType Directory -Force -Path $d | Out-Null
+Invoke-WebRequest https://csm-2026.com/current/release.json -OutFile "$d\release.json" -UseBasicParsing
+Invoke-WebRequest https://csm-2026.com/current/Install-DHCSManager.ps1 -OutFile "$d\Install-DHCSManager.ps1" -UseBasicParsing
+powershell -ExecutionPolicy Bypass -File "$d\Install-DHCSManager.ps1" -NonInteractive
+```
+
+**초대 코드는 여전히 운영자에게 받아야 합니다**(5단계). 설치만 혼자 할 수 있습니다.
+
+> 파일을 **받아서 실행**합니다. 인터넷 명령을 곧바로 실행하는 방식
+> (`irm ... | iex`)은 쓰지 않습니다 — 무엇이 실행되는지 볼 수 없기 때문입니다.
+
+나중에 새 버전으로 바꿀 때는 업데이트 도구도 같은 자리에서 받습니다.
+
+```powershell
+Invoke-WebRequest https://csm-2026.com/current/Update-DHCSManager.ps1 -OutFile "$d\Update-DHCSManager.ps1" -UseBasicParsing
+```
+
+운영자가 보내 준 폴더로 설치하셔도 됩니다 — 아래 1단계부터 보세요. 결과는 같습니다.
+
+---
+
 ## 미리 챙길 것 셋
 
 | 무엇 | 어디서 |
 |---|---|
-| **설치 폴더** | 운영자가 보내 줍니다. 파일 네 개짜리 작은 폴더입니다 |
+| **설치 폴더** | 운영자가 보내 줍니다. 파일 네 개짜리 작은 폴더입니다 (위 「빠른 길」로 하면 안 받아도 됩니다) |
 | **초대 코드** | 운영자에게 받습니다. 이게 없으면 가입이 안 됩니다 |
 | **인터넷** | 브라우저로 https://csm-2026.com 이 열려야 합니다 |
 

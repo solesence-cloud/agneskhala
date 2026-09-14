@@ -14,9 +14,18 @@
 
 | 순서 | 무엇 | 어디서 |
 |---|---|---|
-| 1 | **설치 폴더** (아래 ZIP) 또는 안내서 링크 | 메일·메신저로 **한 번만** |
+| 1 | **안내서 링크** 하나 (또는 아래 ZIP) | 메일·메신저로 **한 번만** |
 | 2 | **초대 코드** | 앱 `🌐 서버 계정` → `초대 코드` → `코드 발급` |
 | 3 | **가입 승인** | 그 사람이 가입한 뒤 `🌐 서버 계정` 에서 우클릭 → 승인 |
+
+**파일을 안 보내도 된다.** 받는 사람이 인터넷만 되면 안내서의 「빠른 길」대로
+설치기와 `release.json` 을 서버에서 직접 받아 깐다. 링크 하나면 끝난다.
+
+    https://csm-2026.com/current/START-HERE.md
+
+파일로 주고 싶으면(인터넷이 막힌 PC 등) 아래로 묶는다. **clone 폴더를 통째로
+복사하지 않는다** — `.git` 이 딸려 가고, 받는 사람 PC 에서 그게 저장소로 보인다.
+아래 명령은 필요한 넷만 담는다.
 
 ```powershell
 Compress-Archive -Path START-HERE.md, Install-DHCSManager.ps1, `
@@ -78,7 +87,10 @@ powershell -ExecutionPolicy Bypass -File .\Install-DHCSManager.ps1 -NonInteracti
 powershell -ExecutionPolicy Bypass -File .\Update-DHCSManager.ps1
 ```
 
-`Update-DHCSManager.ps1` 이 `git pull --ff-only` 를 먼저 하므로 따로 당길 필요는 없다.
+폴더가 **clone 이고 Git 이 깔려 있으면** `Update-DHCSManager.ps1` 이 먼저
+`git pull --ff-only` 를 하므로 따로 당길 필요는 없다. 파일로만 받은 폴더(또는
+Git 이 없는 PC)에서는 같은 스크립트가 `csm-2026.com/current/release.json` 에서
+최신 정보를 받아 온다 — **받는 사람에게 Git 을 요구하지 않는다**(2026-09-14).
 
 설치 스크립트는 ZIP을 내려받아 SHA-256을 `release.json` 값과 비교하고, 압축 구조를
 확인한 뒤 staging으로 풀어 기존 버전을 백업하고 교체한다. 실패하면 기존 설치를
