@@ -60,7 +60,7 @@ Compress-Archive -Path START-HERE.md, Install-DHCSManager.ps1, `
 나와도 폴더를 다시 받지 않고 `Update-DHCSManager.ps1` 이 스스로 당겨 온다.
 
 **저장소에는 ZIP 이 없다.** `release.json` 의 `archive_url`(https 만 허용)·
-`archive_sha256` 과 서명만 들어 있고, 산출물(약 67MB)은 `csm-2026.com/releases/`
+`archive_sha256` 과 서명만 들어 있고, 산출물(약 210MB)은 `csm-2026.com/releases/`
 에서 받는다. 그래서 clone 이 가볍고, 11월 winget 전환 때 산출물을 또 옮기지
 않는다 — winget 의 `InstallerUrl`/`InstallerSha256` 이 같은 값이다.
 설치에는 **저장소 권한과 서버 접근이 둘 다** 필요하다.
