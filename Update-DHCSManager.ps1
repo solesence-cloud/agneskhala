@@ -198,7 +198,25 @@ $bootstrapBaseUrl = $ReleaseInfoUrl -replace '/release\.json$', ''
 Write-Host '설치기·업데이터·안내문을 최신 묶음으로 갱신합니다...'
 Refresh-BootstrapBundle -BaseUrl $bootstrapBaseUrl
 
-Write-Host "설치를 시작합니다. 프로그램을 인터넷에서 받으므로 몇 분 걸릴 수 있습니다."
+# 이미 그 버전이면 아무것도 받지 않는다 (2026-09-16). 전에는 매번 전체를 다시
+# 설치했다 - 220MB 를 받아 같은 파일로 바꿔 끼웠다.
+$installedRoot = if ([string]::IsNullOrWhiteSpace($InstallRoot)) { Join-Path $env:LOCALAPPDATA 'DH.CSManager' } else { $InstallRoot }
+$installedStamp = Join-Path $installedRoot 'installed_release.json'
+try {
+    $wanted = [string](Get-Content -LiteralPath $metadata -Raw -Encoding utf8 | ConvertFrom-Json).release_id
+    $have = if (Test-Path -LiteralPath $installedStamp -PathType Leaf) {
+        [string](Get-Content -LiteralPath $installedStamp -Raw -Encoding utf8 | ConvertFrom-Json).release_id
+    } else { '' }
+}
+catch { $wanted = ''; $have = '' }
+if (-not [string]::IsNullOrWhiteSpace($wanted) -and $wanted -eq $have) {
+    Write-Host ''
+    Write-Host "이미 최신 버전입니다 ($have). 받을 것이 없습니다."
+    Write-Host ''
+    exit 0
+}
+
+Write-Host "설치를 시작합니다. 바뀐 파일만 받으므로 보통 금방 끝납니다."
 
 $installArguments = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $installer, '-NonInteractive')
 if ($NoShortcuts) { $installArguments += '-NoShortcuts' }

@@ -1,0 +1,1031 @@
+{
+  "aggregate_sha256": "246ffb227a133710ae042f884134b5aecefb08e9705bb24ecfb0ec00a9849d28",
+  "created_utc": "2026-09-17T13:56:27Z",
+  "file_count": 204,
+  "files": [
+    {
+      "path": "CS_Manager.exe",
+      "sha256": "a3b34f2538966b304a0927f4f62f5b4efad1f748d6635ace6196c2c92ade281b",
+      "size": 3251307
+    },
+    {
+      "path": "README.md",
+      "sha256": "b89f2fec82b6ebc6c1384d92bb471375c4f3c41d3a09b3999e7cb828ad4633cc",
+      "size": 8353
+    },
+    {
+      "path": "START-HERE.md",
+      "sha256": "16c1db5ea9515a34684dcf9c10eeb1c54107e9cd58d3b62d8914b77f013e12d7",
+      "size": 13272
+    },
+    {
+      "path": "_internal/PySide6/MSVCP140.dll",
+      "sha256": "708dd7bbc7bd23bce9e93f7837a70c2dd7ad55cff43801e92c0f7fcd7dda47cd",
+      "size": 549176
+    },
+    {
+      "path": "_internal/PySide6/MSVCP140_1.dll",
+      "sha256": "b2113956aa3fcb9decfe65be1ee7829f8e3ae0899633ae89fe04888ada201594",
+      "size": 27448
+    },
+    {
+      "path": "_internal/PySide6/MSVCP140_2.dll",
+      "sha256": "1b806b427ffb573deff8478cf6fe336465fe2c67e0919bb95f452b6f31d25736",
+      "size": 271672
+    },
+    {
+      "path": "_internal/PySide6/Qt6Core.dll",
+      "sha256": "65fe6224b6c47a15b058738031d31dce9928c4d7a58e1b8db6434f6f5cddd702",
+      "size": 10480440
+    },
+    {
+      "path": "_internal/PySide6/Qt6Gui.dll",
+      "sha256": "cd071161ad325ff2de92b0e33d71334ef20712544796949623ce92dfb3957e90",
+      "size": 9589560
+    },
+    {
+      "path": "_internal/PySide6/Qt6Network.dll",
+      "sha256": "dfd0dd852274a5fe9b3c7d2dd9fffe7e2117d28c10fc862174d6675d42395177",
+      "size": 1771320
+    },
+    {
+      "path": "_internal/PySide6/Qt6OpenGL.dll",
+      "sha256": "b31d20dc5ab28731d43ac5312c46c8fe1c39ea3e9614c46e6419b4debc87c1eb",
+      "size": 1977656
+    },
+    {
+      "path": "_internal/PySide6/Qt6Pdf.dll",
+      "sha256": "cf8ae19cf5f98db4a3ae332fbe6bd00bc4cdf5ca5779f88b2071cf8180610106",
+      "size": 4611384
+    },
+    {
+      "path": "_internal/PySide6/Qt6Positioning.dll",
+      "sha256": "006b08e87fa3a4c970f66819a5926b3906bc760db6c40614a60fc37d9d0fc009",
+      "size": 523064
+    },
+    {
+      "path": "_internal/PySide6/Qt6PrintSupport.dll",
+      "sha256": "978f4fbf76293fbfe8e8c8a504f78dbf7351122b220729f1e3d69d55951644fd",
+      "size": 407352
+    },
+    {
+      "path": "_internal/PySide6/Qt6Qml.dll",
+      "sha256": "5dd60d8e2048557bc1b8a57f6bb44986f45d693c3b0930d1341b07089478f09d",
+      "size": 5380920
+    },
+    {
+      "path": "_internal/PySide6/Qt6QmlMeta.dll",
+      "sha256": "1ae5a50e8defa2b60518a2261a2472ecf4d3e3ca965780339953d658844d4aa0",
+      "size": 160056
+    },
+    {
+      "path": "_internal/PySide6/Qt6QmlModels.dll",
+      "sha256": "1ec0d115747d65a994798064618ffd9e3e9efa1548297e64e08c49c9a98f0feb",
+      "size": 997176
+    },
+    {
+      "path": "_internal/PySide6/Qt6QmlWorkerScript.dll",
+      "sha256": "3a764b6c2bc8cb21f009485e7410e6d29b9edd5e0addbed8fb89292c0ab64c97",
+      "size": 80696
+    },
+    {
+      "path": "_internal/PySide6/Qt6Quick.dll",
+      "sha256": "33bddb006a99c82ce3bb677fd2535dfb651d4b2fb12aa13eadde6dc442bf7f0d",
+      "size": 6593336
+    },
+    {
+      "path": "_internal/PySide6/Qt6QuickWidgets.dll",
+      "sha256": "8cdef54abd76fec3c87f963c780659b4a4f12d77b975e1e8032c7607372306eb",
+      "size": 134968
+    },
+    {
+      "path": "_internal/PySide6/Qt6SerialPort.dll",
+      "sha256": "154170443055d98540d37d187af7af470a3c8421f07bb5088d10452713e5f63a",
+      "size": 134968
+    },
+    {
+      "path": "_internal/PySide6/Qt6Svg.dll",
+      "sha256": "a7352e8062d02e2108e37db4050fb3315d3c03c7d36acdc24b98b9a6c129c1de",
+      "size": 642360
+    },
+    {
+      "path": "_internal/PySide6/Qt6VirtualKeyboard.dll",
+      "sha256": "e8db083111dc264c80c81920c882ed1c2c28043edffa988894e0a82723b2aa4b",
+      "size": 443192
+    },
+    {
+      "path": "_internal/PySide6/Qt6WebChannel.dll",
+      "sha256": "3ed190570b3f0db820d49e77cbd383e529b170288f6fcbb69ab7feb779b3d2ef",
+      "size": 255800
+    },
+    {
+      "path": "_internal/PySide6/Qt6WebEngineCore.dll",
+      "sha256": "7ee2fafc26b2318d28ae6f6ad8ac3e2651bf506f8b2e6c23071c8f07096f0214",
+      "size": 204828984
+    },
+    {
+      "path": "_internal/PySide6/Qt6WebEngineWidgets.dll",
+      "sha256": "f4a510279bd1f924eed74409c4790c035e4d719c64355c3b56d3dc261f4ea944",
+      "size": 188728
+    },
+    {
+      "path": "_internal/PySide6/Qt6Widgets.dll",
+      "sha256": "5a9f37dedd3dc5bcc1a4bb8ea919c49fc62df751a1450accc34379eb6710eab6",
+      "size": 6594360
+    },
+    {
+      "path": "_internal/PySide6/QtCore.pyd",
+      "sha256": "be52341a5df1f76ecca2fb1e94eb429dfa46f0b659ed6536f25119b565b21ea8",
+      "size": 3330360
+    },
+    {
+      "path": "_internal/PySide6/QtGui.pyd",
+      "sha256": "f0549716b10a8b4fbd5c6c041f36af215223809f919f4c4722d44cc199d5c593",
+      "size": 3896632
+    },
+    {
+      "path": "_internal/PySide6/QtNetwork.pyd",
+      "sha256": "3953a86c9545ad8fa1cf1dec27085dd357838464cd6e2131c9963caad6234b67",
+      "size": 1007416
+    },
+    {
+      "path": "_internal/PySide6/QtOpenGL.pyd",
+      "sha256": "0e166f207602e2de6153a05ebe04762d1396428ab0734947d9ebd6f871bbedf5",
+      "size": 8713016
+    },
+    {
+      "path": "_internal/PySide6/QtPositioning.pyd",
+      "sha256": "8fd6ed14f1c4667f1aadca2610d91ee7fb1355d3bcc6162848e5e25f346ccd24",
+      "size": 325432
+    },
+    {
+      "path": "_internal/PySide6/QtPrintSupport.pyd",
+      "sha256": "be544f7f2abba474ebdcb9169c3baf143d12cba8f7cd5256e9877af168e6756e",
+      "size": 277304
+    },
+    {
+      "path": "_internal/PySide6/QtQml.pyd",
+      "sha256": "1f9c5c5967e1f02641845060d0d1976b320542150cf5e273dfc22724b734ef53",
+      "size": 474936
+    },
+    {
+      "path": "_internal/PySide6/QtQuick.pyd",
+      "sha256": "c6fdf28260af879cae1f04b162815dc6800158931e0f8420967bb17153a268a8",
+      "size": 774456
+    },
+    {
+      "path": "_internal/PySide6/QtQuickWidgets.pyd",
+      "sha256": "26f1f6f556e1030a070c2096447855cb5a77e31432f9553fe7c64b10f1f8084f",
+      "size": 133944
+    },
+    {
+      "path": "_internal/PySide6/QtWebChannel.pyd",
+      "sha256": "5ba36a6a7c9e987113eb0f5216986c8708caf20d307c88e6411dc1bfee33a7ec",
+      "size": 92472
+    },
+    {
+      "path": "_internal/PySide6/QtWebEngineCore.pyd",
+      "sha256": "c96e171d7bc5b8b1a457214bbcf5634a4e787de955a53e208529e16ce74c9aae",
+      "size": 525624
+    },
+    {
+      "path": "_internal/PySide6/QtWebEngineProcess.exe",
+      "sha256": "e02087f5f2e692253d29615c84b7983c6b604981af874105aab77739bee43489",
+      "size": 773432
+    },
+    {
+      "path": "_internal/PySide6/QtWebEngineWidgets.pyd",
+      "sha256": "110dd080a2ce06771ec321eb0d786b570be38d80d3c90c2e602e01331e640e56",
+      "size": 131384
+    },
+    {
+      "path": "_internal/PySide6/QtWidgets.pyd",
+      "sha256": "85cb6c2181b4b09887a7d8507dd950844d1b8f74a9c4002c7b71169f75bf6fda",
+      "size": 4856120
+    },
+    {
+      "path": "_internal/PySide6/VCRUNTIME140.dll",
+      "sha256": "c6e841078cd352299a58925991e2552f7251b046253ba895b3ad50cd5cd32ec6",
+      "size": 116024
+    },
+    {
+      "path": "_internal/PySide6/VCRUNTIME140_1.dll",
+      "sha256": "b322e382ea249b50009f14a9a71ad16729eb6e4b58a8d3b3be6ac66ea6342a22",
+      "size": 41272
+    },
+    {
+      "path": "_internal/PySide6/opengl32sw.dll",
+      "sha256": "4a7d90f91fdecb5df7b426bc2d05974b8d7ffa450af2d1f93f3eca05800718da",
+      "size": 20639544
+    },
+    {
+      "path": "_internal/PySide6/plugins/generic/qtuiotouchplugin.dll",
+      "sha256": "1ee2810eef83dbb2740d4f796f8149dc5752ffd3dd60e39796a9a4d6a6a0ae38",
+      "size": 101176
+    },
+    {
+      "path": "_internal/PySide6/plugins/iconengines/qsvgicon.dll",
+      "sha256": "dd60826f1959faa7ea137e00959717450da9f2e0c151054daeff1e9d1226fab2",
+      "size": 72504
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qgif.dll",
+      "sha256": "8b8dea2abaed333f1fbbdf3c8867ceb6040722c88a1fb81ea451f8b8bc9e8ee0",
+      "size": 47928
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qicns.dll",
+      "sha256": "6a5aed435989d54234c16581e66f6a59137bfccd180565a217a8676bcda6dc8d",
+      "size": 55608
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qico.dll",
+      "sha256": "f81378dd51392ff0d3ae094d5e59dfc4fa664a0ef4d756d6ed40584f90af2758",
+      "size": 45880
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qjpeg.dll",
+      "sha256": "97af9ceaf3ebefefeb7aede27ae07b73ae1d2ed479427beebf61c58654361d43",
+      "size": 577848
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qpdf.dll",
+      "sha256": "273a1b6daaf3c0def92902044cf35d0ec65e56f904acb7fbf428d80dae2bb9d5",
+      "size": 42296
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qsvg.dll",
+      "sha256": "d4100055c3a4d6c1bca5e303e3d2049bde54d4e916442ee0a3e9b4dfa7d416fc",
+      "size": 39224
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qtga.dll",
+      "sha256": "50f0e6ff9b7fca9386ccad52eb5e83466774e6282c9532b03b11e5a64951dffb",
+      "size": 38200
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qtiff.dll",
+      "sha256": "087a3425962e838c35c9073bdf8de13712466e9b9590717666af7839db068dba",
+      "size": 441656
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qwbmp.dll",
+      "sha256": "28a6447d44169acbf2eab38c475dc0aa9e32abb3f29f72257726497353b9bf63",
+      "size": 36664
+    },
+    {
+      "path": "_internal/PySide6/plugins/imageformats/qwebp.dll",
+      "sha256": "3e2bf546a3885cbe3e2b64058b1c58377d3c8822f51b37ba967f61e8054d7719",
+      "size": 562488
+    },
+    {
+      "path": "_internal/PySide6/plugins/networkinformation/qnetworklistmanager.dll",
+      "sha256": "aeef84e74d3114f62f4650305b403ef9f81e8c05bc67c86683d999c5c1243926",
+      "size": 70968
+    },
+    {
+      "path": "_internal/PySide6/plugins/platforminputcontexts/qtvirtualkeyboardplugin.dll",
+      "sha256": "d116b216a50037cbfa6ee9afd94bea357cdbee263e0f9b8c6ef2e811da29eb70",
+      "size": 33592
+    },
+    {
+      "path": "_internal/PySide6/plugins/platforms/qdirect2d.dll",
+      "sha256": "f099af483b0d71a6a028bc15ad98a407e4c820400e6626cdc8e66b5f5e4cfed2",
+      "size": 1088824
+    },
+    {
+      "path": "_internal/PySide6/plugins/platforms/qminimal.dll",
+      "sha256": "97d81b9ee7cbbeb68e46eefce24d4b929b7a24cc646cebe3d4d03e2734f97935",
+      "size": 61752
+    },
+    {
+      "path": "_internal/PySide6/plugins/platforms/qoffscreen.dll",
+      "sha256": "426266e8ba0ea07c416616ad9973702fe126d4559cb2ee11e1c9bdbae85ba755",
+      "size": 113976
+    },
+    {
+      "path": "_internal/PySide6/plugins/platforms/qwindows.dll",
+      "sha256": "54d736de022f707e9f7f555e4c9f9e993253cd5b0ee2364e6a9458c180828c42",
+      "size": 1006904
+    },
+    {
+      "path": "_internal/PySide6/plugins/position/qtposition_nmea.dll",
+      "sha256": "dfaf726c349622702d3950f7a8458e67fd102a8175a58261de839ad6db3d0e9a",
+      "size": 85816
+    },
+    {
+      "path": "_internal/PySide6/plugins/position/qtposition_positionpoll.dll",
+      "sha256": "36811fb31d1a9f7f649ba312f53ede493cfe0be204af2b812f1b14a701b6cef1",
+      "size": 76088
+    },
+    {
+      "path": "_internal/PySide6/plugins/position/qtposition_winrt.dll",
+      "sha256": "b86bc90f21e768007e4adfa04a9ba3c1987a3cd5fe261c43e95a10b549c0f842",
+      "size": 67384
+    },
+    {
+      "path": "_internal/PySide6/plugins/styles/qmodernwindowsstyle.dll",
+      "sha256": "9af96b09ebaf7ff13e22c70bf69b9c3f226f069375d1a9f9efd63e944e43f5fb",
+      "size": 230712
+    },
+    {
+      "path": "_internal/PySide6/plugins/tls/qcertonlybackend.dll",
+      "sha256": "45b9f59593a1567f7d6725ddfa53f667f8f26b7795b1e2d0e1080a4025bafc02",
+      "size": 103736
+    },
+    {
+      "path": "_internal/PySide6/plugins/tls/qopensslbackend.dll",
+      "sha256": "c7222880a7defe7a5c84f5871cdc7e34df22f3de6646026683042fab5c22b561",
+      "size": 319288
+    },
+    {
+      "path": "_internal/PySide6/plugins/tls/qschannelbackend.dll",
+      "sha256": "d09487a64be0e1d4545a8230e7fe05d163375610adf175407a6742944f16deb9",
+      "size": 263992
+    },
+    {
+      "path": "_internal/PySide6/pyside6.abi3.dll",
+      "sha256": "d4072be872b31f3748de5e6c28cb2976dafbf063d3ccfa38e5dabda29babcdaf",
+      "size": 248632
+    },
+    {
+      "path": "_internal/PySide6/pyside6qml.abi3.dll",
+      "sha256": "500cb3cfa66b94f83457cab3ca6983f50a7f33ff27d891613b706b7968266dc6",
+      "size": 84280
+    },
+    {
+      "path": "_internal/PySide6/qt.conf",
+      "sha256": "7712b1f9e1ccfab81569eeb9551791b96ff8b3db7df89086cddc2336c8527bd6",
+      "size": 21
+    },
+    {
+      "path": "_internal/PySide6/resources/icudtl.dat",
+      "sha256": "5070de99fbd8a48378543511fb7a072f85bf36f94b4f4e1d420d54be1435d6f1",
+      "size": 10467680
+    },
+    {
+      "path": "_internal/PySide6/resources/qtwebengine_resources.pak",
+      "sha256": "9fe78a37e53b7b2b758123e7f00cad8815726fd1b78756ade1735b84b8d98839",
+      "size": 2267897
+    },
+    {
+      "path": "_internal/PySide6/resources/qtwebengine_resources_100p.pak",
+      "sha256": "bcb53a053fe3c3f9e00d80f7da01e2eb77777e993271425a79e5115735da1cdb",
+      "size": 151066
+    },
+    {
+      "path": "_internal/PySide6/resources/qtwebengine_resources_200p.pak",
+      "sha256": "aaef9ae44bf93ed1c7537cfba76b9a1a738a33e9f25ff5f466f23722ba971aa3",
+      "size": 195754
+    },
+    {
+      "path": "_internal/PySide6/resources/v8_context_snapshot.bin",
+      "sha256": "424e004d1f551ec269c9eeefa4da9e64e2e35922622a0329eeb23b82215ede7e",
+      "size": 693957
+    },
+    {
+      "path": "_internal/PySide6/translations/qtwebengine_locales/en-US.pak",
+      "sha256": "3d3967a20a78e66e73bd5293f431e8cd2f08a3275594d9e8aaa998e4b42e6e13",
+      "size": 550316
+    },
+    {
+      "path": "_internal/PySide6/translations/qtwebengine_locales/ko.pak",
+      "sha256": "58d56e049e0f9e2c0e02d6a84b8834a64c8a4f65c9a1a8d720fed74fe07f730e",
+      "size": 673923
+    },
+    {
+      "path": "_internal/VCRUNTIME140.dll",
+      "sha256": "4d292623516f65c80482081e62d5dadb759dc16e851de5db24c3cbb57b87db83",
+      "size": 119192
+    },
+    {
+      "path": "_internal/VCRUNTIME140_1.dll",
+      "sha256": "a113f192195f245f17389e6ecbed8005990bcb2476ddad33f7c4c6c86327afe5",
+      "size": 49528
+    },
+    {
+      "path": "_internal/_bz2.pyd",
+      "sha256": "3ed0e5058d370fb14aa5469d81f96c5685559c054917c7280dd4125f21d25f62",
+      "size": 85272
+    },
+    {
+      "path": "_internal/_ctypes.pyd",
+      "sha256": "74e0e8384f6c2503215f4cf64c92efe7257f1aec44f72d67ad37dc8ba2530bc1",
+      "size": 125208
+    },
+    {
+      "path": "_internal/_decimal.pyd",
+      "sha256": "b8221d1c9e2c892dd6227a6042d1e49200cd5cb82adbd998e4a77f4ee0e9abf1",
+      "size": 257304
+    },
+    {
+      "path": "_internal/_elementtree.pyd",
+      "sha256": "4869325e5cffbd13d3cc02dc78226478adfb51a802b52ff65b5adfacff3511f1",
+      "size": 133400
+    },
+    {
+      "path": "_internal/_hashlib.pyd",
+      "sha256": "fd77a5756a17ec0788989f73222b0e7334dd4494b8c8647b43fe554cf3cfb354",
+      "size": 66328
+    },
+    {
+      "path": "_internal/_lzma.pyd",
+      "sha256": "7bf9ff61babebd90c499a8ed9b62141f947f90d87e0bbd41a12e99d20e06954a",
+      "size": 160024
+    },
+    {
+      "path": "_internal/_socket.pyd",
+      "sha256": "b102522c23dac2332511eb3502466caf842d6bcd092fbc276b7b55e9cc01b085",
+      "size": 83736
+    },
+    {
+      "path": "_internal/_sqlite3.pyd",
+      "sha256": "ee0e9b0a0af6a98d5e8ad5b9878688d2089f35978756196222b9d45f49168a9d",
+      "size": 125208
+    },
+    {
+      "path": "_internal/_ssl.pyd",
+      "sha256": "a5d361707f7a2a2d726b20770e8a6fc25d753be30bcbcbbb683ffee7959557c2",
+      "size": 178968
+    },
+    {
+      "path": "_internal/base_library.zip",
+      "sha256": "d0983d0d41842c982173285e8e2019fdf6718f9253dda6e0c06db94fca432cbc",
+      "size": 1334069
+    },
+    {
+      "path": "_internal/cs_manager/db/schema.sql",
+      "sha256": "a7cb8148febf8e458e67b4683f5fb9bc4a7ed56081a051408b3ce1742e7e3994",
+      "size": 30071
+    },
+    {
+      "path": "_internal/cs_manager/db/seed_data/catalog_seed.json",
+      "sha256": "6b31cd29a438a1d729dfd1f07ea9289a314b23ee3ab32b604113b2a365186cdd",
+      "size": 23370
+    },
+    {
+      "path": "_internal/cs_manager/db/seed_data/spec_seed.json",
+      "sha256": "2e68d2b997021335efb41d00f00d920094982f6b4a319543a185040a4c5dafba",
+      "size": 57582
+    },
+    {
+      "path": "_internal/cs_manager/db/seed_data/vnc_default.json",
+      "sha256": "6e5598a5924bfeeb9d55ecda0a438b41dd0907605236ea15f95a0858a41589df",
+      "size": 14819
+    },
+    {
+      "path": "_internal/cs_manager/resources/release_public_keys/e54cd8b746e52414.pub",
+      "sha256": "557ada0dc3c4410c9f57d2e3207d89727789c6762e0c6dedda7733e9bfc6b58e",
+      "size": 46
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/accounts/assets/index-Cknz6u1h.css",
+      "sha256": "1b41001e57f3ad5d29cfa13c8979a75be2c4f7236f6068c465dfe6dadb086ea9",
+      "size": 8555
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/accounts/assets/index-Dc_qlLmP.js",
+      "sha256": "dd01b33e9b0fa7d22c1c0756bfe3e70a7753a10b299760b9f746a6d693411c95",
+      "size": 227753
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/accounts/build-info.json",
+      "sha256": "25968fa174df9593d22c1ed3ea93d617d0048e269cc5ddaf80db1ca8f0fe2f59",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/accounts/index.html",
+      "sha256": "3dc9c8c6d8573974143f9a511bf71ccc110ef7b9350c69bbd082884d451aaf36",
+      "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/admin/assets/index-3ew6HVfo.css",
+      "sha256": "00e84a15b24f459e16f9d0fba78066307053685850be32b7afd6d5b297aa8a60",
+      "size": 10553
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/admin/assets/index-hVFL3KUy.js",
+      "sha256": "f0839338238f42d0505507e4fe28068637559c6387a32a86faa0e20d751fec1a",
+      "size": 228845
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/admin/build-info.json",
+      "sha256": "11c611a00943bb08cff8788cd18f9a0f0bcabd8ad6545b027afc2ac745dbf10e",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/admin/index.html",
+      "sha256": "31810970b3b53fd338b9ae0ee73506e132f429278c6929c5533d0b64a6808f61",
+      "size": 407
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/analysis/assets/index-D7aZsIFq.js",
+      "sha256": "15624a753d5edb2162479c4b564035712e6f47e53cdfe22257bdec011aee9f92",
+      "size": 236955
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/analysis/assets/index-DjNryMDe.css",
+      "sha256": "5e7e334a3c2250c2140c2747b3f67bcd2426094537beddd848a3ac486d95a377",
+      "size": 12399
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/analysis/build-info.json",
+      "sha256": "e551e5be6805847a8afc14088d6f6c4eb02d9164543f5e7d8343a8cec60cedcb",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/analysis/index.html",
+      "sha256": "134b6dc4528ee9dd12a53277e1a5b896e5bcff53f0a30f4070b2f485d6a8f88f",
+      "size": 401
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/backup/assets/index-BoWY05ju.js",
+      "sha256": "5e25ef9a6954b2d22b8c2bdf5eb36b994f537589b380b423521d4db7fea7381c",
+      "size": 221912
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/backup/assets/index-CZpJsPNx.css",
+      "sha256": "783b2704a0555efd31148a244354aea3b736f5ecd84d9a6924d19fd319ff5cd5",
+      "size": 4972
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/backup/build-info.json",
+      "sha256": "a20dd2e99443f85638132d513eba0699452320676f99dccfe62e9b1dc9e33bc4",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/backup/index.html",
+      "sha256": "c429675b324f7bcfda0e45314813ec3b1034fe0b760eab02ee650642e05e9cc8",
+      "size": 401
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/catalog/assets/index-ClkOLkz5.js",
+      "sha256": "85aae59be8e90b33b6a6eed3d09f92d33f4653855539935002d113b6e1d87d72",
+      "size": 228416
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/catalog/assets/index-DHFjyAtD.css",
+      "sha256": "e4415f4070b9756bcf2e2298ffe616954cc55dfaf46b29045edbd0ab99fe099a",
+      "size": 8699
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/catalog/build-info.json",
+      "sha256": "8766c6d496b0e74c54b566d980cdeaecc2df937a2e7cf7896ed2f95203d1c541",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/catalog/index.html",
+      "sha256": "3618b6e8f8893e3eb5cf42a6ab63081e311e3ac24f332508805dc6c5e109d896",
+      "size": 404
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-BeQiTu8t.js",
+      "sha256": "683eaedd02a4f7edb3516dada3d99d6dddfd660e0ba86e9f90201314bf224a73",
+      "size": 227782
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-C8udSDiB.css",
+      "sha256": "e93e945fb85a66f768aa2ca9e36c233c545934452be4526b50bb872552f33d9c",
+      "size": 9821
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/chat/build-info.json",
+      "sha256": "2476dc5b53753e87d96ca180826493066abfcc42eb0ce6d7961a04ccc8aeab93",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/chat/index.html",
+      "sha256": "d450b836b7a5437397f3db865c7ce1b6c2c91f5b2baf7d1569711fbf3bcccdee",
+      "size": 395
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/clock/assets/index-BkFXEiUd.js",
+      "sha256": "1ddd6353e4ebb4dbe92f79b7edb341cc0a8974d7f67a1b407269ff5548f33f15",
+      "size": 226681
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/clock/assets/index-DoFPRNVi.css",
+      "sha256": "f731ba149aebd0113147260c9ea085386bb397ea08ef149cf236fcd098aba6de",
+      "size": 8874
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/clock/build-info.json",
+      "sha256": "aaf96ad4810b0eb2ea50ce028b58c982f08cd3c7f3136bb2a0c7eb352a528cf3",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/clock/index.html",
+      "sha256": "48333770af2253fe9696790fbdfd37fbcc07d7b048c02fd4c1075c8420af90a9",
+      "size": 401
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/diagnosis/assets/index-DqoUY-CZ.js",
+      "sha256": "8fa5846c96a35c04e77e16b0c381644719b7771f2733b8c6006d3729f83eb9bd",
+      "size": 224551
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/diagnosis/assets/index-_vk5t4Z8.css",
+      "sha256": "4044a17ac11b76b81956c9f054ba019ffa33a9a5046f3ef31113aaa598b5b5cc",
+      "size": 6837
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/diagnosis/build-info.json",
+      "sha256": "f3a4c9b3f67f29e55b7dba795826362e897a2c839a4a75c614f4b95bc003024a",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/diagnosis/index.html",
+      "sha256": "070181860cff3955cb7ad39baac2b9b8637c9928d297682d1f0d104e76bff761",
+      "size": 410
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/handover/assets/index-BdXzHviz.css",
+      "sha256": "f933a32a6eb1c68177b6d3ca3ae7c033cd49366bf3ecfeadf82840a8f704aa62",
+      "size": 6630
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/handover/assets/index-Dp2R0p60.js",
+      "sha256": "8e0db0a20ba33283d933af61b9742a21c5f4b6903bb26fe50d01c7c46abb6050",
+      "size": 226487
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/handover/build-info.json",
+      "sha256": "9f99961ac77a320f479a3a39380886e5074e5463b0b6c7dcaae47cd46a263ecc",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/handover/index.html",
+      "sha256": "8db9851a5e3c116b45c25058233ba303087f292a9d1b312c70eb3301c48f3d48",
+      "size": 397
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/info/assets/index-CHLuUzw7.css",
+      "sha256": "ac9a2f696185da9f4a410b389e94ab9a707b60d35c16366842e7f3e89f195ac7",
+      "size": 6429
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/info/assets/index-orpWNRXj.js",
+      "sha256": "baa57967307d09fa5315d9fba788fd9cabe15c073bb7da49340f535678412159",
+      "size": 226766
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/info/build-info.json",
+      "sha256": "7091475a1e4c21e52e9b41ec41789bc7eac6459639f7488d1ceb5e14bf4ddb77",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/info/index.html",
+      "sha256": "9280a50d88468f31433e0778628c99c49409e6fd6acd5c2454c4b57b28e50df9",
+      "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/issues/assets/index-CjoPtFvH.js",
+      "sha256": "e1359a021288508789785ed923c8c2e21fd5613689f211d743955b8a136cb6f8",
+      "size": 234838
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/issues/assets/index-Cq76md92.css",
+      "sha256": "1469077b7406b1e1eb6c3c756e6e9d1fd38bb873efc37dc78a5d8de036cc70bd",
+      "size": 11671
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/issues/build-info.json",
+      "sha256": "48d9bbcb4ec9d8e56c93e4e1a340c05e9e38f2908a48e8d701c6e1b41d7b7a00",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/issues/index.html",
+      "sha256": "85555c9666f9c922f3ea07d6446d5436de88da5af452eefa740d41c4d94bf9f0",
+      "size": 406
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/kakao/assets/index-D18W1iNp.css",
+      "sha256": "36ec1875376602432f71e4beb1ff6fbfcc8869e83acff1b9732bca6daf1943fa",
+      "size": 11213
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/kakao/assets/index-rM1bOd46.js",
+      "sha256": "746663cbe6623a900cd7063b6a5716154ff52d27a2eda0235a9f6afe665e4f90",
+      "size": 230614
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/kakao/build-info.json",
+      "sha256": "5aec1eeccf2ef72b42afd5a19f9443ceae323919f147c3f5127f704199a3f6ac",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/kakao/index.html",
+      "sha256": "69ddc752a24507bb29e457dc86d1bde1b9c065401c206bb3e92a86e63ed05f67",
+      "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/log/assets/index-FZ3Ds_9V.css",
+      "sha256": "d6b4be2d89c3d2fbfebfb9b64ef69643fdaefdc6e4296f561c4732233f9363a7",
+      "size": 17896
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/log/assets/index-VSNHEmZc.js",
+      "sha256": "2764722a00fe9f5c20014cf387a7cad25a49800c67cbc9979477c868bcc10023",
+      "size": 243951
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/log/build-info.json",
+      "sha256": "966203baef58beedfa3578bafa236d10cd41dcc2c85391e0d052f45cd8ef28a1",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/log/index.html",
+      "sha256": "fcd127fd73ff393b8fe538b2f23aeab334655cef143a4816d6d2af1b4d9a730c",
+      "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/login/assets/index-BUlPT8j5.js",
+      "sha256": "6a6ab99499189969afc3e18c1b3931e53a431e683afb38d7ed0a5d2d80930a55",
+      "size": 222552
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/login/assets/index-CHwKWMOB.css",
+      "sha256": "fb0ee7ab3405f2086b33dc56cf4f6e3aca12308d41382e99c0a2331933966c3c",
+      "size": 5251
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/login/build-info.json",
+      "sha256": "5548d199a802180a581e92a9f826a438d8f067dfda9b47adfd768ced987f095e",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/login/index.html",
+      "sha256": "446d21bdc12f0e3d82df158e3db1cc9bf84b132e5c8d54801fd46ecb39a3deaf",
+      "size": 417
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/my_work/assets/index-DGodxvI5.css",
+      "sha256": "2bb9cf9052dd741603a24f2a983bc45b63afa65946b764fadcbbc9fe7f5ecb6f",
+      "size": 10112
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/my_work/assets/index-DnCBztN1.js",
+      "sha256": "5e4e025080d909a784eb4f96b29a8a4ba641ccf0f2030ba459625a1f92952075",
+      "size": 229541
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/my_work/build-info.json",
+      "sha256": "71685cbd282d5a47435316fffaa1e9cfd557cadeedd22c5edb085256b058a0ed",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/my_work/index.html",
+      "sha256": "4c5169b5585c64c53ebbac87057531ee836f42c26f14c636c71423ac2b006ea7",
+      "size": 392
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/notion/assets/index-C5Uqy4n5.js",
+      "sha256": "35df541df1dcf9c5c3518225b378e4efbc88d9767fc4a55b9c1fcb7c0dd027ee",
+      "size": 227136
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/notion/assets/index-DVcxs0AZ.css",
+      "sha256": "676eb49cc188aa962624f80e1ef31144ee0a9ef8c4863a6ac9fc948675ffedf1",
+      "size": 8150
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/notion/build-info.json",
+      "sha256": "4f4a9f1d4ce7b75e494c78523a83f4ce8f8b0e614fb77ad0052de482484aff78",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/notion/index.html",
+      "sha256": "3d0337d644009cb85dda5f47b4bc2d98aef49ee11c7e0d21db38952f2350bbd0",
+      "size": 389
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/offset/assets/index-BgbyQPL9.css",
+      "sha256": "0050d1a1ae83691339136183f0ba6b5463d518ad8a55afe83611b8e81e82bd90",
+      "size": 7772
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/offset/assets/index-DFNz2kPQ.js",
+      "sha256": "75d587123f60da3b37db28bc7a3b8690dd03c05894bc53c3ffd5e036418e93ed",
+      "size": 226672
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/offset/build-info.json",
+      "sha256": "fb6f9c23d82aed35dec91070fd3e8d030043ab89fd7b60583c2e5f83175ec0ce",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/offset/index.html",
+      "sha256": "605decc1bceca24ce3f29c6af72bfa7281e47acb9e23e8aef4cac402ae62e6ad",
+      "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/parts/assets/index-ByndUe0f.css",
+      "sha256": "34f061d729a42a2575822284faa17882cb7e034406416cadbf13f464959c53aa",
+      "size": 10985
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/parts/assets/index-DWbA-clj.js",
+      "sha256": "1aa06f3f55bc59a5c6b8eefe0dfb59a2c525263f5e40cbbeb69dd3b7ba49c1cc",
+      "size": 234547
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/parts/build-info.json",
+      "sha256": "f9032cccc778378c4039990caeb669f9e8fd50e48c154b45e3fd186deacaeeb0",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/parts/index.html",
+      "sha256": "54e70c193d66e5aeadebe59186d5973314f556f93345056ca4647c4cb0f90fa3",
+      "size": 397
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/schedule/assets/index-B1EOwPDr.css",
+      "sha256": "ef50e0ac707e3d430eee68fe5bc61abd7cacdfba34d4f1b04f0c0beb1a6bf29a",
+      "size": 9523
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/schedule/assets/index-DKp5WTHi.js",
+      "sha256": "3076e496a87224f6f8807e49721c65f18b270d073ffa6571dc5ec3d9dd5e7d26",
+      "size": 229577
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/schedule/build-info.json",
+      "sha256": "6f6172a17da98fcf44ea7fab4828d418b3dba5af7c452690cfa7a0a2c6c6ff17",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/schedule/index.html",
+      "sha256": "6003d8153ff85ce6b5c28f4ab2b0829001ca9413197a5ed97032ccfa67e388bb",
+      "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/spec/assets/index-BUePDIZQ.js",
+      "sha256": "97a9b64e13e2771ee69b952667228952d6ce666ef1d2450175f618100d424096",
+      "size": 230940
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/spec/assets/index-BzBv_rV9.css",
+      "sha256": "325b119c20196f794491747d4ba74e30794942bd3caf9e9fb8f586b2edcb47f1",
+      "size": 11030
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/spec/build-info.json",
+      "sha256": "b4d241937a1c000f3f72b92e57d702fb3dd6a9559169541ad7c052f7958f6e58",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/spec/index.html",
+      "sha256": "6959aecdf23bd11844d0bbeb938fb1ed17068f6d31ea3a1a25f240c92f6b4951",
+      "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/vnc/assets/index-B9EjI8sg.css",
+      "sha256": "e378e1e265a5efa7cc7a030002a28d6696e169cc80773c6b83f71d27f0647562",
+      "size": 8864
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/vnc/assets/index-Cl2q7REB.js",
+      "sha256": "432f75fec92f5ecdb554960ea5b8a76066e6b4d23d24f30f224e0fd854ad0876",
+      "size": 226784
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/vnc/build-info.json",
+      "sha256": "d47d7ad27d09125431666e5cdaf57a07657a8bdc710a09b01c19dec1c8ec2c2a",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/vnc/index.html",
+      "sha256": "ab18cd34154706d25a710a43f496b0b01636650b9fabf383f0cfa278b7904ed4",
+      "size": 397
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/workflow/assets/index-BU6dIEIw.js",
+      "sha256": "bd87a57c0e8a099eac183e9890dd47ae8f042df6b83b408b51bacc82ca749088",
+      "size": 245513
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/workflow/assets/index-CF4hFMFO.css",
+      "sha256": "95998258fda130c5ded8f38a0c7e58f309cab47b9b5bf3ca9af9deff62f068f7",
+      "size": 11540
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/workflow/build-info.json",
+      "sha256": "5a292e0cb3bc16131716ffc2173251c9e6501fb446664ba0409e0a5e11c8eb68",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/workflow/index.html",
+      "sha256": "8a7214d80fce922e20b7cb89e17fdb2d3b22746d524aa4fe227fa3884550fcf2",
+      "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/workmonth/assets/index-CNY-tnJW.css",
+      "sha256": "d3fa4aec5102754fe912b51199eb34b9cc65587a4f27e82faff7676360d9076e",
+      "size": 5808
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/workmonth/assets/index-CQbrGWPC.js",
+      "sha256": "a994e8bce4e297cd1452b5b2953e84eb1ae50e78a0ad268705d0b0f881feaf71",
+      "size": 222805
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/workmonth/build-info.json",
+      "sha256": "43a6b4d6e6673a19913a18093e690f625152b50344cc3c9eed015a04c27aef69",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/workmonth/index.html",
+      "sha256": "134e75b64be0301c8d5b8f4d2bef5b854711969c3e0374b05a9ef1ae19c0f767",
+      "size": 410
+    },
+    {
+      "path": "_internal/cs_manager/resources/world_countries.geojson",
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+      "size": 838726
+    },
+    {
+      "path": "_internal/cs_manager/resources/world_map.png",
+      "sha256": "75868b6a92787da24c51d8d2ca0f215633297bf6ad42a74e52845f76567f8bbf",
+      "size": 1288828
+    },
+    {
+      "path": "_internal/libcrypto-3.dll",
+      "sha256": "05fe080eab7fc535c51e10c1bd76a2f3e6217f9c91a25034774588881c3f99de",
+      "size": 5191960
+    },
+    {
+      "path": "_internal/libffi-8.dll",
+      "sha256": "eff52743773eb550fcc6ce3efc37c85724502233b6b002a35496d828bd7b280a",
+      "size": 39696
+    },
+    {
+      "path": "_internal/libssl-3.dll",
+      "sha256": "2e9fbcd8f7fdc13a5179533239811456554f2b3aa2fb10e1b17be0df81c79006",
+      "size": 787224
+    },
+    {
+      "path": "_internal/pyexpat.pyd",
+      "sha256": "efd6099b1a6efdadd988d08dce0d8a34bd838106238250bccd201dc7dcd9387f",
+      "size": 202008
+    },
+    {
+      "path": "_internal/python3.dll",
+      "sha256": "5146005c36455e7ede4b8ecc0dc6f6fa8ea6b4a99fedbabc1994ae27dfab9d1b",
+      "size": 68376
+    },
+    {
+      "path": "_internal/python312.dll",
+      "sha256": "21700f0bad5769a1b61ea408dc0a140ffd0a356a774c6eb0cc70e574b929d2e2",
+      "size": 6926616
+    },
+    {
+      "path": "_internal/select.pyd",
+      "sha256": "411d6f538bdbaf60f1a1798fa8aa7ed3a4e8fcc99c9f9f10d21270d2f3742019",
+      "size": 31000
+    },
+    {
+      "path": "_internal/shiboken6/MSVCP140.dll",
+      "sha256": "005f2324c7ff79bbe9a44992b0708abb4c871bd24bcc7a34aca5eab4439c1f4a",
+      "size": 549176
+    },
+    {
+      "path": "_internal/shiboken6/Shiboken.pyd",
+      "sha256": "0e2c5318c5ac60a016a12230bbb1f6a9d990c45cbf4a7c4af24aefb5ab7dc40a",
+      "size": 33080
+    },
+    {
+      "path": "_internal/shiboken6/VCRUNTIME140.dll",
+      "sha256": "8d9c679c825c5fff298d66c41af30f35c289fc101868dfc9635547bada0daba6",
+      "size": 116024
+    },
+    {
+      "path": "_internal/shiboken6/VCRUNTIME140_1.dll",
+      "sha256": "e4d7ea5f4f4ff6d0c208e693853617cdef0ad71cfe5dd5c3ae16c8a6b64c18ea",
+      "size": 41272
+    },
+    {
+      "path": "_internal/shiboken6/shiboken6.abi3.dll",
+      "sha256": "47f4f9b44c95037565dd14f4be04f350f20c53c05483b750e0be867c39a7441e",
+      "size": 384824
+    },
+    {
+      "path": "_internal/sqlite3.dll",
+      "sha256": "7ef475d27f9634f6a75e88959e003318d7eb214333d25bdf9be1270fa0308c82",
+      "size": 1541912
+    },
+    {
+      "path": "_internal/unicodedata.pyd",
+      "sha256": "bc2cf23b7b7491edcf03103b78dbaf42afd84a60ea71e764af9a1ddd0fe84268",
+      "size": 1138456
+    },
+    {
+      "path": "installed_release.json",
+      "sha256": "ee3f987ab12c7593fa3b3b5fa9fe41370781bede54823400d9a15699dcd031ef",
+      "size": 279
+    }
+  ],
+  "hash_algorithm": "sha256",
+  "release_id": "2026.09.17-r1",
+  "schema_version": 1,
+  "total_bytes": 354475008
+}

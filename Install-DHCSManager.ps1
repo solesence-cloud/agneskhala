@@ -144,22 +144,6 @@ if ($running.Count -gt 0) { throw "DH.CSManager is running: $(Format-Holders $ru
 # swapped and the folder stays where it is.
 $parked = @(Get-FolderProcesses -Root $safeInstall | Where-Object { -not $_.RunsFromFolder })
 if ($parked.Count -gt 0) { Write-Host "The folder is kept open by $(Format-Holders $parked); it stays open and the files inside are replaced." }
-$archiveUrl = if ($release.PSObject.Properties.Name -contains 'archive_url') { [string]$release.archive_url } else { '' }
-$localArchive = Assert-Descendant (Join-Path $repositoryRoot $release.archive) $repositoryRoot
-$downloadedArchive = $null
-if (Test-Path -LiteralPath $localArchive -PathType Leaf) { $archive = $localArchive }
-elseif (-not [string]::IsNullOrWhiteSpace($archiveUrl)) {
-    $safeId = $release.release_id -replace '[^A-Za-z0-9._-]','_'
-    $downloadedArchive = Join-Path ([IO.Path]::GetTempPath()) "DH.CSManager-$safeId.zip"
-    Write-Host "Downloading $archiveUrl"
-    try { Invoke-WebRequest -Uri $archiveUrl -OutFile $downloadedArchive -UseBasicParsing } catch { throw "Could not download the release: $($_.Exception.Message)" }
-    $archive = $downloadedArchive
-} else { throw "Release archive is missing: $localArchive" }
-if (-not ((Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash.ToLowerInvariant().Equals($release.archive_sha256.ToLowerInvariant(),[StringComparison]::Ordinal))) {
-    if ($null -ne $downloadedArchive) { Remove-Item -LiteralPath $downloadedArchive -Force -ErrorAction SilentlyContinue }
-    throw 'Release archive SHA-256 mismatch.'
-}
-
 $stamp = Get-Date -Format 'yyyyMMdd_HHmmss'; $safeId = $release.release_id -replace '[^A-Za-z0-9._-]','_'
 # A timestamp makes failed attempts non-blocking; never delete an unknown old staging folder.
 $staging = Assert-Descendant (Join-Path $installParent ".DH.CSManager.staging.$safeId.$stamp") $installParent
@@ -167,11 +151,54 @@ $backupRoot = Join-Path $installParent 'DH.CSManager_Backups'; $backup = Assert-
 $failed = Assert-Descendant (Join-Path $installParent "DH.CSManager.failed.$stamp") $installParent
 if (-not $NonInteractive -and -not $PSCmdlet.ShouldProcess($safeInstall,"install DH.CSManager $($release.release_id); preserve previous version at $backup")) { exit 0 }
 
+# Delta update (2026-09-16): the installed app assembles the new version from the files that
+# changed; everything else is copied from this install. PowerShell 5.1 cannot verify Ed25519,
+# the app can - so the app does the trusting and this script only swaps folders.
+# Only an app whose stamp says it knows `--stage-update` is asked: an older exe given an unknown
+# argument simply opens its window.
+$deltaStaged = $false
+$releaseUrl = if ($release.PSObject.Properties.Name -contains 'release_url') { [string]$release.release_url } else { '' }
+$objectsUrl = if ($release.PSObject.Properties.Name -contains 'objects_url') { [string]$release.objects_url } else { '' }
+$installedExe = Join-Path $safeInstall 'CS_Manager.exe'
+$capabilities = @()
+try { $capabilities = @((Get-Content -LiteralPath (Join-Path $safeInstall 'installed_release.json') -Raw -Encoding utf8 | ConvertFrom-Json).capabilities) } catch { $capabilities = @() }
+if ($releaseUrl.StartsWith('https://',[StringComparison]::OrdinalIgnoreCase) -and $objectsUrl.StartsWith('https://',[StringComparison]::OrdinalIgnoreCase) -and ($capabilities -contains 'stage-update') -and (Test-Path -LiteralPath $installedExe -PathType Leaf)) {
+    Write-Host "Downloading only the files that changed..."
+    $stageLog = Join-Path ([IO.Path]::GetTempPath()) "DH.CSManager-stage-$safeId.$stamp.log"
+    $stageArguments = @('--stage-update', '--staging', ('"{0}"' -f $staging), '--release-url', ('"{0}"' -f $releaseUrl), '--objects-url', ('"{0}"' -f $objectsUrl), '--release-id', ('"{0}"' -f $release.release_id))
+    $stager = Start-Process -FilePath $installedExe -ArgumentList $stageArguments -Wait -PassThru -NoNewWindow -RedirectStandardOutput $stageLog
+    $said = if (Test-Path -LiteralPath $stageLog) { (Get-Content -LiteralPath $stageLog -Raw -Encoding utf8) } else { '' }
+    Remove-Item -LiteralPath $stageLog -Force -ErrorAction SilentlyContinue
+    if ($null -ne $said) { $said = $said.Trim() }
+    if ($stager.ExitCode -eq 0) { $deltaStaged = $true; Write-Host $said }
+    elseif ($stager.ExitCode -eq 3) { Write-Host "$said`nFalling back to the full download." }
+    else { throw "The update was refused and nothing was changed: $said (exit $($stager.ExitCode))" }
+}
+
+$downloadedArchive = $null
+if (-not $deltaStaged) {
+    $archiveUrl = if ($release.PSObject.Properties.Name -contains 'archive_url') { [string]$release.archive_url } else { '' }
+    $localArchive = Assert-Descendant (Join-Path $repositoryRoot $release.archive) $repositoryRoot
+    if (Test-Path -LiteralPath $localArchive -PathType Leaf) { $archive = $localArchive }
+    elseif (-not [string]::IsNullOrWhiteSpace($archiveUrl)) {
+        $downloadedArchive = Join-Path ([IO.Path]::GetTempPath()) "DH.CSManager-$safeId.zip"
+        Write-Host "Downloading $archiveUrl"
+        try { Invoke-WebRequest -Uri $archiveUrl -OutFile $downloadedArchive -UseBasicParsing } catch { throw "Could not download the release: $($_.Exception.Message)" }
+        $archive = $downloadedArchive
+    } else { throw "Release archive is missing: $localArchive" }
+    if (-not ((Get-FileHash -LiteralPath $archive -Algorithm SHA256).Hash.ToLowerInvariant().Equals($release.archive_sha256.ToLowerInvariant(),[StringComparison]::Ordinal))) {
+        if ($null -ne $downloadedArchive) { Remove-Item -LiteralPath $downloadedArchive -Force -ErrorAction SilentlyContinue }
+        throw 'Release archive SHA-256 mismatch.'
+    }
+}
+
 $movedOld = $false; $inPlace = $false; $placingNew = $false
 try {
-    Assert-SafeArchive $archive $staging
-    # Expand-Archive terminates this host after a network download; this .NET path is verified.
-    [IO.Compression.ZipFile]::ExtractToDirectory($archive,$staging)
+    if (-not $deltaStaged) {
+        Assert-SafeArchive $archive $staging
+        # Expand-Archive terminates this host after a network download; this .NET path is verified.
+        [IO.Compression.ZipFile]::ExtractToDirectory($archive,$staging)
+    }
     foreach ($name in $requiredFiles) { if (-not (Test-Path -LiteralPath (Join-Path $staging $name) -PathType Leaf)) { throw "Extracted package is missing required file: $name" } }
     New-Item -ItemType Directory -Path $backupRoot -Force | Out-Null
     if (Test-Path -LiteralPath $safeInstall) {
