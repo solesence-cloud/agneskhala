@@ -172,7 +172,12 @@ if ($releaseUrl.StartsWith('https://',[StringComparison]::OrdinalIgnoreCase) -an
     if ($null -ne $said) { $said = $said.Trim() }
     if ($stager.ExitCode -eq 0) { $deltaStaged = $true; Write-Host $said }
     elseif ($stager.ExitCode -eq 3) { Write-Host "$said`nFalling back to the full download." }
-    else { throw "The update was refused and nothing was changed: $said (exit $($stager.ExitCode))" }
+    # Only exit code left is 1 (FAILED, see update_apply.py): something arrived that did not
+    # match what it was signed to be. A connection that merely dropped becomes exit 3 above,
+    # but once mismatched bytes have been seen the app keeps exit 1 even if the next attempt
+    # then fails on the network - so the log below may well mention a network error too, and
+    # that does not soften what happened. Nothing was changed; never fall back to the ZIP.
+    else { throw "A downloaded piece did not match what it was signed to be - the update was stopped because this is what tampering looks like. Nothing was changed: $said (exit $($stager.ExitCode))" }
 }
 
 $downloadedArchive = $null
