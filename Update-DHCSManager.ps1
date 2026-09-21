@@ -120,6 +120,33 @@ if ($isRepository) {
         Stop-WithMessage "git status 가 실패했습니다 ($LASTEXITCODE). 설치본은 그대로입니다."
     }
     if (-not [string]::IsNullOrWhiteSpace(($dirty | Out-String))) {
+        # `status` 가 M 이라고 적어도 **내용은 같을 수 있다** (2026-09-18 Round 11 U-8).
+        # `core.autocrlf` 가 켜진 Windows PC 에서 어떤 도구가 파일을 LF 로
+        # 덮어쓰면, git 은 그 파일을 영원히 수정된 것으로 적는다 - 블롭 해시가 양쪽
+        # 같아도 그렇다. 체크아웃하면 CRLF 가 될 파일인데 작업트리가 LF 라서
+        # stat 캐시를 못 갱신하기 때문이다. 그때 `git diff` 는 **빈 출력**이다.
+        #
+        # 그래서 "사용자가 고쳤는가" 를 `status` 가 아니라 **내용**으로 판단한다.
+        # `diff --quiet HEAD` 는 스테이지된 것까지 함께 보고, 줄바꿈 유령에는
+        # 0(차이 없음)을 낸다.
+        #
+        # 2026-09-11 에 같은 계열을 한 번 닫았다(추적 안 되는 파일). 이번은
+        # 추적되는데 내용이 같은 파일이라 그 수정의 사정거리 밖이었다.
+        # `2>$null` 을 붙이지 마라. PowerShell 은 네이티브 exe 의 stderr 를 리다이렉트할 때
+        # 줄마다 ErrorRecord(NativeCommandError)로 감싸고, 그러면 이 스크립트가 거기서
+        # 끊긴다 - git 이 바로 이 상황에서 "LF will be replaced by CRLF" 를 stderr 로
+        # 낸다. 대신 `core.safecrlf=false` 로 그 경고를 **안 만들게** 한다.
+        & $git.Source -C $repositoryRoot -c core.safecrlf=false diff --quiet HEAD
+        if ($LASTEXITCODE -eq 0) {
+            # 되돌릴 내용이 없다 - 여기서 `checkout -- .` 은 아무것도 버리지 않는다.
+            # 그냥 두면 `pull` 이 "local changes would be overwritten" 로 막는다.
+            Write-Host '줄바꿈만 다른 파일을 정리합니다. (고친 내용은 없습니다)'
+            & $git.Source -C $repositoryRoot -c core.safecrlf=false checkout -- .
+            $dirty = & $git.Source -C $repositoryRoot -c core.safecrlf=false `
+                        status --porcelain --untracked-files=no
+        }
+    }
+    if (-not [string]::IsNullOrWhiteSpace(($dirty | Out-String))) {
         $names = ($dirty | ForEach-Object { $_.Substring(3) }) -join ', '
         Stop-WithMessage @"
 이 폴더의 파일이 수정돼 있어서 최신 버전을 받아올 수 없습니다.

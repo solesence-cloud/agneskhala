@@ -1,4 +1,4 @@
-# DH.CSManager 배포
+﻿# DH.CSManager 배포
 
 이 저장소는 사용자 설치용 파일만 담는다. 개발 소스·Python 가상환경·서명 개인키는 없다.
 

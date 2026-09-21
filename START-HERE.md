@@ -1,4 +1,4 @@
-# 처음 시작하기 (START-HERE)
+﻿# 처음 시작하기 (START-HERE)
 
 > 파일 이름이 영문인 이유: 이 파일을 복사하는 PowerShell 스크립트가 Windows
 > PowerShell 5.1 에서 한글 파일명을 못 읽는다(BOM 없는 `.ps1` 을 cp949 로
