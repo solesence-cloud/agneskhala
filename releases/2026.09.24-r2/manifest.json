@@ -1,12 +1,12 @@
 {
-  "aggregate_sha256": "88eb865f2c34059242e984028be8b9e240616d7d0775588c05aa116a8bd68e86",
-  "created_utc": "2026-09-23T19:28:16Z",
+  "aggregate_sha256": "4b85fe6ac6386797cc69b9b711e41d837178574fb313c0cb59f3acc803f60269",
+  "created_utc": "2026-09-24T16:34:23Z",
   "file_count": 206,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "88f18cfd3ad0b4e442f8e8488e9a1ad80a249ad0b4a7db9e9c449d5a208959c6",
-      "size": 3370695
+      "sha256": "ee9a914666b014fe378bbf2ed708ae799c8e34858bbb0f10707cbf37450771ac",
+      "size": 3421698
     },
     {
       "path": "README.md",
@@ -465,8 +465,8 @@
     },
     {
       "path": "_internal/cs_manager/db/schema.sql",
-      "sha256": "df86cd3b9cd9b0c52bb0aa9a43b22c14bc7742eeca61f82802f80de9ceac3d28",
-      "size": 32756
+      "sha256": "22450478941f9e61b170c549c58e9800bf4baff8cae28889658f297361841133",
+      "size": 34172
     },
     {
       "path": "_internal/cs_manager/db/seed_data/catalog_seed.json",
@@ -589,23 +589,23 @@
       "size": 404
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-BT1lf94f.js",
-      "sha256": "299dfc77702a89939f6116d5f2d70126bb46da1c326d4046c37d377534b9373f",
-      "size": 228793
-    },
-    {
       "path": "_internal/cs_manager/resources/web/chat/assets/index-DwnZX872.css",
       "sha256": "02126bc7908dc097518c1734fcea23f7bc333151505290feb0ce0e3b82068f2a",
       "size": 10108
     },
     {
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-Nn-xaQYG.js",
+      "sha256": "a99240392b0c36ab5d8b81143fac35e438d2ac02cac978ce2f850cabc12ebf94",
+      "size": 228901
+    },
+    {
       "path": "_internal/cs_manager/resources/web/chat/build-info.json",
-      "sha256": "8252c0d6c4fa19c98d6d964ac99672c7a19c5950eb06fc3892b93d112f5a06f3",
+      "sha256": "507e80c2723f79b732535db721a6efd82cceabe9d6042123a00a8ad872d39efb",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/index.html",
-      "sha256": "cd9112a9ad2b6e84175f0e34333937ed68837c5ef9ee9b1985e42d79dee6b2e2",
+      "sha256": "5fbf3de6c92009f93a1fd097139258d170157957f919de1e7c0ad8b8e7810ac1",
       "size": 395
     },
     {
@@ -629,23 +629,23 @@
       "size": 401
     },
     {
-      "path": "_internal/cs_manager/resources/web/diagnosis/assets/index-DqoUY-CZ.js",
-      "sha256": "8fa5846c96a35c04e77e16b0c381644719b7771f2733b8c6006d3729f83eb9bd",
-      "size": 224551
+      "path": "_internal/cs_manager/resources/web/diagnosis/assets/index-BOyLCxPH.js",
+      "sha256": "875548a5d1d9b5bd2c6ce3af84d7baad7d3a18d8745cc18499faad78e33b764f",
+      "size": 225126
     },
     {
-      "path": "_internal/cs_manager/resources/web/diagnosis/assets/index-_vk5t4Z8.css",
-      "sha256": "4044a17ac11b76b81956c9f054ba019ffa33a9a5046f3ef31113aaa598b5b5cc",
-      "size": 6837
+      "path": "_internal/cs_manager/resources/web/diagnosis/assets/index-CGKMjLrL.css",
+      "sha256": "50a14a3eddbc47733145b5cf46ac4b8cff86703a4329838cd83e6b6828222850",
+      "size": 6905
     },
     {
       "path": "_internal/cs_manager/resources/web/diagnosis/build-info.json",
-      "sha256": "5e647cefd911dbd0c9c6b8577464cbab9b4b7bb876d6af07c56d6568b9ed59e9",
+      "sha256": "da339f007e89488ceb7c84e1b8e747d5e6904b7c6467bcf02fdd45f5a6c86685",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/diagnosis/index.html",
-      "sha256": "070181860cff3955cb7ad39baac2b9b8637c9928d297682d1f0d104e76bff761",
+      "sha256": "d6caa2e2f72d8379e150cf37382315565da26e58798d8f19554bd34c1eedab2a",
       "size": 410
     },
     {
@@ -729,23 +729,23 @@
       "size": 398
     },
     {
-      "path": "_internal/cs_manager/resources/web/log/assets/index-CZzATXEx.js",
-      "sha256": "2929a5997494f45c1d8ecb0912eea603db10942f47609f1ef7433147e1763bca",
-      "size": 243975
+      "path": "_internal/cs_manager/resources/web/log/assets/index-CPLZ96XA.js",
+      "sha256": "d932d8cdb08ab3280ad1d4c48c1695967707c8d44731981664a45b5cde43712d",
+      "size": 245050
     },
     {
-      "path": "_internal/cs_manager/resources/web/log/assets/index-FZ3Ds_9V.css",
-      "sha256": "d6b4be2d89c3d2fbfebfb9b64ef69643fdaefdc6e4296f561c4732233f9363a7",
-      "size": 17896
+      "path": "_internal/cs_manager/resources/web/log/assets/index-DKi3KJIV.css",
+      "sha256": "3788730c169bbbf26d4b167bccc468955b833d9beb6b93477481e9da8453c87a",
+      "size": 17986
     },
     {
       "path": "_internal/cs_manager/resources/web/log/build-info.json",
-      "sha256": "6976d97f1fb267e8282aec900b4a67258b756cb87afffe5ac51908cce8a6360e",
+      "sha256": "ca3731dd94adb9fcadfd56166e32ddef88d5b4341f9251b8e4b127c3f69236e5",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/log/index.html",
-      "sha256": "58079ce2f9d90e3f9d610e5fe0f53f1265ee48c2fcb89f97273c68180c4d62c0",
+      "sha256": "b16083476fcf6f36997f413e6fee1fa7261393296478cb6972c86943d4c5f643",
       "size": 398
     },
     {
@@ -769,43 +769,43 @@
       "size": 417
     },
     {
-      "path": "_internal/cs_manager/resources/web/my_work/assets/index-C_TrvcWU.js",
-      "sha256": "c5fb6f571f083bf9a2b93db0e1b9cb30bee31f112c4d431e9e5ea04b514eadb2",
-      "size": 230642
+      "path": "_internal/cs_manager/resources/web/my_work/assets/index-BEAQy38d.css",
+      "sha256": "901c4960a84016d5eff50317eed9ff8f6a18af027558f3dc34e3f78a1675538e",
+      "size": 11724
     },
     {
-      "path": "_internal/cs_manager/resources/web/my_work/assets/index-iRrPKCNJ.css",
-      "sha256": "1f05d2b1dfeddcf4ae3345f1bb7ea56f3c8fe9c2068bfe45994fc01e4c6cf8b2",
-      "size": 11334
+      "path": "_internal/cs_manager/resources/web/my_work/assets/index-DFqdxeHQ.js",
+      "sha256": "7ffbcf8d6133a069b889141b6642fe9005e3f833339d13967913ee06724f969d",
+      "size": 231134
     },
     {
       "path": "_internal/cs_manager/resources/web/my_work/build-info.json",
-      "sha256": "ba9172c7acc0b7a0d3e2dcb65ee67e2967eded6d833101e9201500c4ca0a3a1b",
+      "sha256": "379576625094a04c7882df67bd102a6a55e921587b3e10c7222248523dfc0c81",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/my_work/index.html",
-      "sha256": "a4f96750e1fca9efda2382fd1018c01586f3a3849cf9b7ca72d0c128d6114484",
+      "sha256": "1f299da7bf215f0842045566c61430c7615dc0b227324ae5bb56c94bb01d0fca",
       "size": 392
     },
     {
-      "path": "_internal/cs_manager/resources/web/notion/assets/index-C5Uqy4n5.js",
-      "sha256": "35df541df1dcf9c5c3518225b378e4efbc88d9767fc4a55b9c1fcb7c0dd027ee",
-      "size": 227136
+      "path": "_internal/cs_manager/resources/web/notion/assets/index-bnN3PviV.css",
+      "sha256": "1b2a82c1ff8be73be7a03810e3d0ca9ce4a57567138813fb02da34713c099864",
+      "size": 13100
     },
     {
-      "path": "_internal/cs_manager/resources/web/notion/assets/index-DVcxs0AZ.css",
-      "sha256": "676eb49cc188aa962624f80e1ef31144ee0a9ef8c4863a6ac9fc948675ffedf1",
-      "size": 8150
+      "path": "_internal/cs_manager/resources/web/notion/assets/index-uOVARIZG.js",
+      "sha256": "71d3cb09cd9cebb4c5c54112ce83bd2eb5880d71dd4af4611745a13747e3718e",
+      "size": 336368
     },
     {
       "path": "_internal/cs_manager/resources/web/notion/build-info.json",
-      "sha256": "6f47b90c72acb365bc4be0fdc13b8f31e63994d29e25599047867d8f9097665b",
+      "sha256": "5920a0b8dd003cfd6ecc1d213c2de5c25e20e40734c6b0ff307071cc97bfe35c",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/notion/index.html",
-      "sha256": "3d0337d644009cb85dda5f47b4bc2d98aef49ee11c7e0d21db38952f2350bbd0",
+      "sha256": "7cfbeb1055b57fd85da4f83ac6c45d2b1ac874267c6e7fc8595962254db9a2b0",
       "size": 389
     },
     {
@@ -1030,12 +1030,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "bd75e2a6b382bc70620e7394e9dec7fe89af8f951e0614058646f9f821fc2484",
+      "sha256": "094c0a85c7aa5a24b92b34ccfe4908bd05220e4ef8d211b106a49b96479a5744",
       "size": 278
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.09.23-r2",
+  "release_id": "2026.09.24-r2",
   "schema_version": 1,
-  "total_bytes": 354680666
+  "total_bytes": 354850065
 }
