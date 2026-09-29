@@ -1,12 +1,12 @@
 {
-  "aggregate_sha256": "92c5652cc389c3db8d40e393ebdd95ad1e5df73e44cb9ec2657c52b0cd503dab",
-  "created_utc": "2026-09-28T01:35:12Z",
+  "aggregate_sha256": "2a6fb0014a24124696d3dc7e58aff885764ef567c8978c33bc660ef4e4209ecf",
+  "created_utc": "2026-09-29T15:04:47Z",
   "file_count": 206,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "0186dff0bb51a243850fdf90673434bac76e43d09d49d61a1356ad691230eca2",
-      "size": 3458249
+      "sha256": "270643f827c06e27c4548ecb6885629b1ac8592ad14b5d7d81a682a0217acf8e",
+      "size": 3462419
     },
     {
       "path": "README.md",
@@ -514,18 +514,18 @@
       "size": 12450
     },
     {
-      "path": "_internal/cs_manager/resources/web/admin/assets/index-C7wsZ6Pj.js",
-      "sha256": "8a6898b6f0abbd85784f96e5723bbdc8d87c9fbab1b6b922917b7002e880e2cc",
-      "size": 236099
+      "path": "_internal/cs_manager/resources/web/admin/assets/index-Bq2oLxyf.js",
+      "sha256": "ce18ab29b6d116bc50fbe85757bd4196dd9c54c0eddf540d441bed55de665571",
+      "size": 236194
     },
     {
       "path": "_internal/cs_manager/resources/web/admin/build-info.json",
-      "sha256": "28d98aa6798fde5c97f636017d2069d72801de7f8d9715c5599c213c4236446e",
+      "sha256": "98351a9f0d1d53bb1988fc11d0c18876ff0a6160f1217e20899a755198e660cc",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/admin/index.html",
-      "sha256": "5de0d9cd03b829da467471df0bd460cb2780f64706d108f3e0430c9469f11195",
+      "sha256": "78b67d78c65e793dbdbc8e08c014e33b8131e0ff630992aa600e9e8f87a4f76e",
       "size": 407
     },
     {
@@ -589,23 +589,23 @@
       "size": 404
     },
     {
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-BMjv5Og6.js",
+      "sha256": "5c3d5ee1cecddb86fdd7bba1d1aaa9f73458ddde0b3283a92540b4093dcfb4c9",
+      "size": 232284
+    },
+    {
       "path": "_internal/cs_manager/resources/web/chat/assets/index-Cm9A-Cjc.css",
       "sha256": "7df677fa743cf1865696423dd3314c294e3a194eb534c0ecbdc7b3c738804d97",
       "size": 11608
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-DtBr2kw-.js",
-      "sha256": "18416545049bedc8082d76a7f3d7cd67f49a3f3c658b4aa7d0180d6640d6f35d",
-      "size": 231855
-    },
-    {
       "path": "_internal/cs_manager/resources/web/chat/build-info.json",
-      "sha256": "05bb9c118a733543735fa9493f25b2df96f7ea917368bb4314d8f12042e62a72",
+      "sha256": "49c1ff37dc269a988da560367a983b06c98fc5267214e5e2848961bf803356cd",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/index.html",
-      "sha256": "da03b39b742ba62cabe18890f0fc9db751d6f2a5bf1533c14c470df86e9b9d7c",
+      "sha256": "2da8148f2c6f9a41934fa19de50ff01759125fda6b8882e49cefd906e005ba57",
       "size": 395
     },
     {
@@ -1030,12 +1030,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "4ab447a47ccaa89abfc9ed326199b3956d7b56d12f8cb7d15f7fcc4e9a467e44",
+      "sha256": "de61172f97b7f9b03410cf1bfc4a5daccbd2276e47a76a2c869cf275acfe99c4",
       "size": 278
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.09.27-r4",
+  "release_id": "2026.09.29-r1",
   "schema_version": 1,
-  "total_bytes": 354914176
+  "total_bytes": 354918870
 }
