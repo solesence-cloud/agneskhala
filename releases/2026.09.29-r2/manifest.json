@@ -1,17 +1,17 @@
 {
-  "aggregate_sha256": "005903587b21f75eeab7868464f73f339b1dfc0c01871d535c439907de9bdb92",
-  "created_utc": "2026-09-28T06:33:48Z",
+  "aggregate_sha256": "4d70109576bfd62411548a69187baee6c4929be3aea0d9b1d5c0652e267d7d0c",
+  "created_utc": "2026-09-29T20:42:33Z",
   "file_count": 206,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "e5c559cf5b822195e122580e06a5011890dcc17ccff64ead6f8e4677bd012afc",
-      "size": 3460756
+      "sha256": "dac2140c99995b41ab99413493f8d08a024304481ce9627df448bc8ecf785409",
+      "size": 3456338
     },
     {
       "path": "README.md",
-      "sha256": "b89f2fec82b6ebc6c1384d92bb471375c4f3c41d3a09b3999e7cb828ad4633cc",
-      "size": 8353
+      "sha256": "44c354c718205cddb33054b1ffeeb48e0f902074eac17538e2f67208428335d8",
+      "size": 8514
     },
     {
       "path": "START-HERE.md",
@@ -509,23 +509,23 @@
       "size": 398
     },
     {
-      "path": "_internal/cs_manager/resources/web/admin/assets/index-BWwQkDm-.css",
-      "sha256": "16f01aa94e62035d681273879e210eebd545de4273457cf98e59fe5270b9ce3d",
-      "size": 12450
+      "path": "_internal/cs_manager/resources/web/admin/assets/index-CPlx6ng8.css",
+      "sha256": "3c609560f37fe0c0a7447759050389ecbed5c9eb5a32ab2420b8d15cfb5e87a8",
+      "size": 12976
     },
     {
-      "path": "_internal/cs_manager/resources/web/admin/assets/index-C7wsZ6Pj.js",
-      "sha256": "8a6898b6f0abbd85784f96e5723bbdc8d87c9fbab1b6b922917b7002e880e2cc",
-      "size": 236099
+      "path": "_internal/cs_manager/resources/web/admin/assets/index-CelyKSCY.js",
+      "sha256": "beb80aef6d909e24b1399ec8ac81eef07bfbd0b39d27cb7066af076a3d1772f9",
+      "size": 239898
     },
     {
       "path": "_internal/cs_manager/resources/web/admin/build-info.json",
-      "sha256": "28d98aa6798fde5c97f636017d2069d72801de7f8d9715c5599c213c4236446e",
+      "sha256": "0fee3c36398d7a703a13c8bb19d11a301eb52b022396412d4bacb5d28f3359ce",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/admin/index.html",
-      "sha256": "5de0d9cd03b829da467471df0bd460cb2780f64706d108f3e0430c9469f11195",
+      "sha256": "f6abe385a2f62a09246d20e78165f9e7dddcb6bf8ba5b9a9bdff5ca953b08d71",
       "size": 407
     },
     {
@@ -589,23 +589,23 @@
       "size": 404
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-Cm9A-Cjc.css",
-      "sha256": "7df677fa743cf1865696423dd3314c294e3a194eb534c0ecbdc7b3c738804d97",
-      "size": 11608
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-Bhr6KCPH.js",
+      "sha256": "56a9b5b5e694ee112555531edcdb95c27f89fb6e9f0bc03253545bebceadbf37",
+      "size": 232462
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-DRzSOAVw.js",
-      "sha256": "6c6944006c592058f3fcefd849940c7f0e18e5d54c4be5c9d5b1dd5ec3c40ef0",
-      "size": 232286
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-Bv1wQge5.css",
+      "sha256": "7a43819ebecb3a45f7541a23e0b226ad045e39319cf90f7f50e1bb242ed4739e",
+      "size": 11339
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/build-info.json",
-      "sha256": "52f4dc9c0b5a6e5939533aef4981f0de5165b8b3dc91826de0689d7bda51acd6",
+      "sha256": "3ad90f7da80c7bec62f08bcf3945c66d455555ea55e41cb05aed628b7216a4c9",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/index.html",
-      "sha256": "059c8a76f78c4ee68564236d7db38f7e24d52787b9d0f1db05be13646ad2ef02",
+      "sha256": "6512900efb246a559668e66403860b51fe108ef676f8a5d417448f1e949a2869",
       "size": 395
     },
     {
@@ -654,18 +654,18 @@
       "size": 6630
     },
     {
-      "path": "_internal/cs_manager/resources/web/handover/assets/index-Dp2R0p60.js",
-      "sha256": "8e0db0a20ba33283d933af61b9742a21c5f4b6903bb26fe50d01c7c46abb6050",
-      "size": 226487
+      "path": "_internal/cs_manager/resources/web/handover/assets/index-C-22QCkP.js",
+      "sha256": "92f8bfbbf81cc5e09627fd4b3ef497da6c1cf0d674249adf6623b43dfdbcf6fe",
+      "size": 226013
     },
     {
       "path": "_internal/cs_manager/resources/web/handover/build-info.json",
-      "sha256": "3cbdcc9f51352e988f48cbf7358f9815ead33411186064c672bf530f8df01461",
+      "sha256": "503834c56c9893c27dead90e8aa3e80aeef7a29a23b34712112892184fd4a902",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/handover/index.html",
-      "sha256": "8db9851a5e3c116b45c25058233ba303087f292a9d1b312c70eb3301c48f3d48",
+      "sha256": "74bad072d2596e4274cc677e1630982c2efd6574c35c8e46b89a4c2a56f84180",
       "size": 397
     },
     {
@@ -789,23 +789,23 @@
       "size": 392
     },
     {
-      "path": "_internal/cs_manager/resources/web/notion/assets/index-DriIBswb.js",
-      "sha256": "d9dd45d4359750ba6a4b6f6e4160854395e8b15f688ace0f27a59d3a51dc390d",
-      "size": 341155
-    },
-    {
       "path": "_internal/cs_manager/resources/web/notion/assets/index-DzbyPfl6.css",
       "sha256": "67024dad4a36a0ccba9a3328e8ac3bc4496b58768e5638a96c967524612b83ae",
       "size": 15920
     },
     {
+      "path": "_internal/cs_manager/resources/web/notion/assets/index-QgRq5rlC.js",
+      "sha256": "036419574b929a71c0a466477e97b5e0ea3e6a2cc3b476fd70a700c503c58574",
+      "size": 341255
+    },
+    {
       "path": "_internal/cs_manager/resources/web/notion/build-info.json",
-      "sha256": "885414cb812d6d400e3c9d09e5d233371b26e0c2079964c62d544f1362c80a97",
+      "sha256": "c3b67fe881ef91d8817db72e59fc87d8d6a30f33a04b603a0ccd317e0bc14ebd",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/notion/index.html",
-      "sha256": "325c47013ef32d173b18b958e4780a1184aef3851fe2dfd6e4486e04077355d0",
+      "sha256": "e56379d0212ca04392ed28a5af5d01434fcbde77351a772459c4f5000c6b0698",
       "size": 389
     },
     {
@@ -849,23 +849,23 @@
       "size": 397
     },
     {
-      "path": "_internal/cs_manager/resources/web/schedule/assets/index-DtkKg84i.js",
-      "sha256": "81051b970ebe0ddf265727799715df9937cb5664e88b82128aa68da73a2fea13",
-      "size": 229989
+      "path": "_internal/cs_manager/resources/web/schedule/assets/index-B3RReckm.js",
+      "sha256": "0bef2687136b6a6d8b5f5d8ffba22ad264f98a4f027d783fcdcf970c3bc01c0e",
+      "size": 233014
     },
     {
-      "path": "_internal/cs_manager/resources/web/schedule/assets/index-pV12O0L2.css",
-      "sha256": "77a33a78bbd4943be9d38b1ece6040f0d6dd0671ed10fcd003a52965fa7c368d",
-      "size": 9759
+      "path": "_internal/cs_manager/resources/web/schedule/assets/index-DxeStKhC.css",
+      "sha256": "155cfd16e328c334534776f5806b701509ecba3b8243b4a6a216015c0d333f03",
+      "size": 10342
     },
     {
       "path": "_internal/cs_manager/resources/web/schedule/build-info.json",
-      "sha256": "8e00a1d9e438b0f5300a640bc8b5c55fadac9225bf31df350352065f2812d719",
+      "sha256": "46238fb70cea6200f29ebb3f04246a34d73bfb36613f40b9f787d2318a6f3de7",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/schedule/index.html",
-      "sha256": "ea3d0164c57669025669acdfc8e4fdd8dab40882d9378ce3b109d807023168df",
+      "sha256": "d50d077f7a7cd79076fd4f305e914197dece5018dbf9db4a927a407cb065b1f9",
       "size": 398
     },
     {
@@ -1030,12 +1030,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "78430a350a27ecc7a90d5a5d1273ebd6f68773f3be03b24b3c0a467f322af927",
+      "sha256": "96b26a72fc926ac4c1bb292baa02472081cf385cd2589d9b77b5dc26980dd227",
       "size": 278
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.09.28-r1",
+  "release_id": "2026.09.29-r2",
   "schema_version": 1,
-  "total_bytes": 354917114
+  "total_bytes": 354920323
 }
