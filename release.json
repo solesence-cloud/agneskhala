@@ -1,12 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.09.29-r3",
-    "archive":  "releases/2026.09.29-r3/CS_Manager-2026.09.29-r3.zip",
-    "archive_sha256":  "f6f282659f20b1fc3083581d157771021c0cc9d69f9c4b8864097b82f8d897b3",
-    "archive_url":  "https://csm-2026.com/releases/2026.09.29-r3/CS_Manager-2026.09.29-r3.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.09.29-r3",
+    "release_id":  "2026.10.01-r1",
+    "archive":  "releases/2026.10.01-r1/CS_Manager-2026.10.01-r1.zip",
+    "archive_sha256":  "9db4a2b1229e598bd28a555b2a28da19908b51b32028b7bda543bf391b8fead1",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.01-r1/CS_Manager-2026.10.01-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.01-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.09.29-r3/manifest.json",
-    "manifest_signature":  "releases/2026.09.29-r3/manifest.json.sig"
+    "manifest":  "releases/2026.10.01-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.01-r1/manifest.json.sig",
+    "notes":  [
+                  "Information 안에 「🤝 미팅」 화면이 생겼습니다 - 고객사 요청·합의 사항을 팀이 같이 봅니다",
+                  "봇이 적어 둔 이슈 초안을 Issue 화면에서 열어 바로 등록할 수 있습니다",
+                  "「내 노하우」에 사진(3장까지)과 봇 보강 질문 답 칸이 생겼습니다"
+              ]
 }
