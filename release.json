@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.01-r1",
-    "archive":  "releases/2026.10.01-r1/CS_Manager-2026.10.01-r1.zip",
-    "archive_sha256":  "9db4a2b1229e598bd28a555b2a28da19908b51b32028b7bda543bf391b8fead1",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.01-r1/CS_Manager-2026.10.01-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.01-r1",
+    "release_id":  "2026.10.01-r2",
+    "archive":  "releases/2026.10.01-r2/CS_Manager-2026.10.01-r2.zip",
+    "archive_sha256":  "4dbe39086a2714377f13de3401491630bc138191ee9892b12fcdf8550122f23d",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.01-r2/CS_Manager-2026.10.01-r2.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.01-r2",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.01-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.01-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.01-r2/manifest.json",
+    "manifest_signature":  "releases/2026.10.01-r2/manifest.json.sig",
     "notes":  [
-                  "Information 안에 「🤝 미팅」 화면이 생겼습니다 - 고객사 요청·합의 사항을 팀이 같이 봅니다",
-                  "봇이 적어 둔 이슈 초안을 Issue 화면에서 열어 바로 등록할 수 있습니다",
-                  "「내 노하우」에 사진(3장까지)과 봇 보강 질문 답 칸이 생겼습니다"
+                  "봇에게 사진 한 장을 붙여 보낼 수 있습니다 - 「사진」 버튼이나 Ctrl+V, 글 없이 사진만도 됩니다",
+                  "팀원 Wiki 화면의 운영자 안내 두 줄을 없앴습니다",
+                  "처음 시작하기 안내서(START-HERE)를 지금 앱에 맞게 고쳤습니다"
               ]
 }
