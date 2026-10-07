@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.07-r1",
-    "archive":  "releases/2026.10.07-r1/CS_Manager-2026.10.07-r1.zip",
-    "archive_sha256":  "af50d4edb636a3dfc0c786364bd242aa00de4ad4f2f5c7145359c3fd4ec9ce7d",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.07-r1/CS_Manager-2026.10.07-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.07-r1",
+    "release_id":  "2026.10.07-r2",
+    "archive":  "releases/2026.10.07-r2/CS_Manager-2026.10.07-r2.zip",
+    "archive_sha256":  "2f0743fcacfef3e4c8069031f1574d285613ef2200f9a5354a4021367ffc8c9d",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.07-r2/CS_Manager-2026.10.07-r2.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.07-r2",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.07-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.07-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.07-r2/manifest.json",
+    "manifest_signature":  "releases/2026.10.07-r2/manifest.json.sig",
     "notes":  [
-                  "콘솔 소속팀 줄을 오른쪽 클릭하면 팀 이름을 바꿀 수 있습니다",
-                  "같은 증상이 쌓인 질문에는 봇 답에 「추정」 칸이 붙습니다",
-                  "관리자 콘솔 표가 좁은 창에서도 겹치지 않습니다"
+                  "관리자 콘솔에서 지운 계정이 근무표에서 빠집니다",
+                  "팀 이름 바꾸기가 서버 오류 없이 됩니다",
+                  "나머지는 그대로입니다"
               ]
 }
