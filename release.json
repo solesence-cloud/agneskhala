@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.01-r2",
-    "archive":  "releases/2026.10.01-r2/CS_Manager-2026.10.01-r2.zip",
-    "archive_sha256":  "4dbe39086a2714377f13de3401491630bc138191ee9892b12fcdf8550122f23d",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.01-r2/CS_Manager-2026.10.01-r2.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.01-r2",
+    "release_id":  "2026.10.07-r1",
+    "archive":  "releases/2026.10.07-r1/CS_Manager-2026.10.07-r1.zip",
+    "archive_sha256":  "af50d4edb636a3dfc0c786364bd242aa00de4ad4f2f5c7145359c3fd4ec9ce7d",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.07-r1/CS_Manager-2026.10.07-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.07-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.01-r2/manifest.json",
-    "manifest_signature":  "releases/2026.10.01-r2/manifest.json.sig",
+    "manifest":  "releases/2026.10.07-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.07-r1/manifest.json.sig",
     "notes":  [
-                  "봇에게 사진 한 장을 붙여 보낼 수 있습니다 - 「사진」 버튼이나 Ctrl+V, 글 없이 사진만도 됩니다",
-                  "팀원 Wiki 화면의 운영자 안내 두 줄을 없앴습니다",
-                  "처음 시작하기 안내서(START-HERE)를 지금 앱에 맞게 고쳤습니다"
+                  "콘솔 소속팀 줄을 오른쪽 클릭하면 팀 이름을 바꿀 수 있습니다",
+                  "같은 증상이 쌓인 질문에는 봇 답에 「추정」 칸이 붙습니다",
+                  "관리자 콘솔 표가 좁은 창에서도 겹치지 않습니다"
               ]
 }
