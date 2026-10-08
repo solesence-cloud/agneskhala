@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.07-r2",
-    "archive":  "releases/2026.10.07-r2/CS_Manager-2026.10.07-r2.zip",
-    "archive_sha256":  "2f0743fcacfef3e4c8069031f1574d285613ef2200f9a5354a4021367ffc8c9d",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.07-r2/CS_Manager-2026.10.07-r2.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.07-r2",
+    "release_id":  "2026.10.07-r3",
+    "archive":  "releases/2026.10.07-r3/CS_Manager-2026.10.07-r3.zip",
+    "archive_sha256":  "70adc7cd7e90cfa7fc23e08dd8cb6eb9c688c235330e58f240274a73bd786e9c",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.07-r3/CS_Manager-2026.10.07-r3.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.07-r3",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.07-r2/manifest.json",
-    "manifest_signature":  "releases/2026.10.07-r2/manifest.json.sig",
+    "manifest":  "releases/2026.10.07-r3/manifest.json",
+    "manifest_signature":  "releases/2026.10.07-r3/manifest.json.sig",
     "notes":  [
-                  "관리자 콘솔에서 지운 계정이 근무표에서 빠집니다",
-                  "팀 이름 바꾸기가 서버 오류 없이 됩니다",
-                  "나머지는 그대로입니다"
+                  "창 바탕에 은은한 그라데이션과 유리 띠가 들어갔습니다",
+                  "이슈 화면 버튼과 My Work 제목이 더 깔끔해졌습니다",
+                  "로그 분석 화면에 칸 경계가 생겼습니다"
               ]
 }
