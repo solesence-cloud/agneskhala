@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.07-r3",
-    "archive":  "releases/2026.10.07-r3/CS_Manager-2026.10.07-r3.zip",
-    "archive_sha256":  "70adc7cd7e90cfa7fc23e08dd8cb6eb9c688c235330e58f240274a73bd786e9c",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.07-r3/CS_Manager-2026.10.07-r3.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.07-r3",
+    "release_id":  "2026.10.11-r1",
+    "archive":  "releases/2026.10.11-r1/CS_Manager-2026.10.11-r1.zip",
+    "archive_sha256":  "7452836e0ed88233211e989b5a41e0b7dbb8c154d5f39002dac4e34bb7d41b08",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.11-r1/CS_Manager-2026.10.11-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.11-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.07-r3/manifest.json",
-    "manifest_signature":  "releases/2026.10.07-r3/manifest.json.sig",
+    "manifest":  "releases/2026.10.11-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.11-r1/manifest.json.sig",
     "notes":  [
-                  "창 바탕에 은은한 그라데이션과 유리 띠가 들어갔습니다",
-                  "이슈 화면 버튼과 My Work 제목이 더 깔끔해졌습니다",
-                  "로그 분석 화면에 칸 경계가 생겼습니다"
+                  "미팅 고객사는 운영자가 정한 목록에서 고릅니다",
+                  "서버가 잠깐 거절해도 쓴 미팅·봇 질문·인수인계 답이 사라지지 않습니다",
+                  "글래스 화면에서 경고·성공 알림 색과 흐린 글이 또렷해졌습니다"
               ]
 }
