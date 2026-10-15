@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.11-r1",
-    "archive":  "releases/2026.10.11-r1/CS_Manager-2026.10.11-r1.zip",
-    "archive_sha256":  "7452836e0ed88233211e989b5a41e0b7dbb8c154d5f39002dac4e34bb7d41b08",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.11-r1/CS_Manager-2026.10.11-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.11-r1",
+    "release_id":  "2026.10.15-r1",
+    "archive":  "releases/2026.10.15-r1/CS_Manager-2026.10.15-r1.zip",
+    "archive_sha256":  "ac1c20202ad8da8541ea9cd0dc3011fa0f3b360fc359e212c6ad552ca3d36ee5",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.15-r1/CS_Manager-2026.10.15-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.15-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.11-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.11-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.15-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.15-r1/manifest.json.sig",
     "notes":  [
-                  "미팅 고객사는 운영자가 정한 목록에서 고릅니다",
-                  "서버가 잠깐 거절해도 쓴 미팅·봇 질문·인수인계 답이 사라지지 않습니다",
-                  "글래스 화면에서 경고·성공 알림 색과 흐린 글이 또렷해졌습니다"
+                  "봇이 한 번에 두 가지씩 묻고, 「나중에」로 채운 데까지 남길 수 있습니다",
+                  "서버가 받지 않은 미팅은 사라지지 않고 표시되어, 고치거나 버릴 수 있습니다",
+                  "관리자 콘솔에서 미팅 고객사를 빼기·은퇴·이름 바꾸기 할 수 있습니다"
               ]
 }
