@@ -1,12 +1,12 @@
 {
-  "aggregate_sha256": "ba39d1f7fe88ae7ddf08ee98f58902084769d82b6e716d6733190fc5b44523ad",
-  "created_utc": "2026-10-15T09:44:52Z",
-  "file_count": 210,
+  "aggregate_sha256": "2a3c4af2cc872c0572795b3cdb9d042c4b9739deaa0f327c8c759e4b3d71b75e",
+  "created_utc": "2026-10-17T11:14:52Z",
+  "file_count": 214,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "c4bb9b3bdde428a32af7aef8bde0ec80c2fc6b8a9c962199b5d230b624d24d94",
-      "size": 3507715
+      "sha256": "7386641c489eeacde7d56603605226e210484ce5cd1d6a7e6f065b307a0dff27",
+      "size": 3555667
     },
     {
       "path": "README.md",
@@ -589,23 +589,23 @@
       "size": 404
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-BhWqDd6A.js",
-      "sha256": "68c8c231d1244176faf69489ce6d55c5fd6ef43c89c9e9ad78a6aa814b2082a4",
-      "size": 234711
-    },
-    {
       "path": "_internal/cs_manager/resources/web/chat/assets/index-eC4zcbGU.css",
       "sha256": "7fcb2bd85e725048a3f7b3be76e418383e8cb8729a3fb8a1042aea5bcd66d002",
       "size": 12694
     },
     {
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-l4KHgJV0.js",
+      "sha256": "6ac456042c570dd5598b904cdb635f8dcce6b88435a847c6bb9747020d34cbe6",
+      "size": 234767
+    },
+    {
       "path": "_internal/cs_manager/resources/web/chat/build-info.json",
-      "sha256": "c298ee474c27ec80980acdea190bbd8c52cd092cee5ec7eff00dae45fc3282a4",
+      "sha256": "b2a89395935a6cba0f29e3e66bf2869e544ccbe88ee05b6a9204f002f6ef387b",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/index.html",
-      "sha256": "e102626b135e72ea203884149faa6f6c337ea8c1b1784ed2b942fc118270bb15",
+      "sha256": "cf3e2f6efc19e8fcf9bb43f42d1a697b8a733aa3400002438b4d29e681c89cea",
       "size": 395
     },
     {
@@ -647,6 +647,26 @@
       "path": "_internal/cs_manager/resources/web/diagnosis/index.html",
       "sha256": "90c8ef29e525cebf2b5fa33371f8a7a8ab3db9d134214769c8787c0623f53935",
       "size": 410
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/education/assets/index-BxhKJMLF.css",
+      "sha256": "84c648b81292787b5ca4947d84f22fe7a02a0a34536255d26a754fc7e552cfce",
+      "size": 17444
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/education/assets/index-DZq_vt1G.js",
+      "sha256": "cac58e5d6e0fba82ec7a12dbd0b38187af0bb4d803992d5786ba5d2331b4400a",
+      "size": 254933
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/education/build-info.json",
+      "sha256": "15f0c79f99ab69cd9d58d5d9a13dfcc03ae1ef0e00a0440b12ad2bc8c6348206",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/education/index.html",
+      "sha256": "377e76fd536a9a4fe87cceaef1efb7cb081f8f1a678d04f998cb1a324f94aec6",
+      "size": 391
     },
     {
       "path": "_internal/cs_manager/resources/web/handover/assets/index-C8uu8epc.css",
@@ -1050,12 +1070,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "2a165af34d989837296a8198b9e7a5d54c2ec62c188838a5c61f9431047b6f31",
+      "sha256": "c8d4ed060ac752b45989c9ae75395b3464267a378b13fee6eed867711d99a37b",
       "size": 278
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.10.15-r1",
+  "release_id": "2026.10.17-r2",
   "schema_version": 1,
-  "total_bytes": 355234926
+  "total_bytes": 355555792
 }
