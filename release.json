@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.15-r1",
-    "archive":  "releases/2026.10.15-r1/CS_Manager-2026.10.15-r1.zip",
-    "archive_sha256":  "ac1c20202ad8da8541ea9cd0dc3011fa0f3b360fc359e212c6ad552ca3d36ee5",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.15-r1/CS_Manager-2026.10.15-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.15-r1",
+    "release_id":  "2026.10.17-r1",
+    "archive":  "releases/2026.10.17-r1/CS_Manager-2026.10.17-r1.zip",
+    "archive_sha256":  "c513f3727a839e1fc79a047b2149789128a19c684a556eefd6a08a1b5187d00b",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.17-r1/CS_Manager-2026.10.17-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.17-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.15-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.15-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.17-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.17-r1/manifest.json.sig",
     "notes":  [
-                  "봇이 한 번에 두 가지씩 묻고, 「나중에」로 채운 데까지 남길 수 있습니다",
-                  "서버가 받지 않은 미팅은 사라지지 않고 표시되어, 고치거나 버릴 수 있습니다",
-                  "관리자 콘솔에서 미팅 고객사를 빼기·은퇴·이름 바꾸기 할 수 있습니다"
+                  "팀이 있으면 「Education」 탭에서 교육 일지와 항목별 평가 점수를 함께 봅니다",
+                  "팀장은 커리큘럼·현지 테크 명단을 고치고, 교육 일지를 엑셀로 가져오고 내보냅니다",
+                  "봇 방에서 Enter로 보내고 Shift+Enter로 줄을 바꿉니다"
               ]
 }
