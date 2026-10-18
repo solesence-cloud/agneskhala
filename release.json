@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.17-r2",
-    "archive":  "releases/2026.10.17-r2/CS_Manager-2026.10.17-r2.zip",
-    "archive_sha256":  "4a1be289423819749bc0d8c3640a365b14f079f28f169bea879b8782c18e41a1",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.17-r2/CS_Manager-2026.10.17-r2.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.17-r2",
+    "release_id":  "2026.10.18-r1",
+    "archive":  "releases/2026.10.18-r1/CS_Manager-2026.10.18-r1.zip",
+    "archive_sha256":  "131a425d7a3ba90dd74f0b84403a413eff81908453069a996cf981774ac1d18b",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.18-r1/CS_Manager-2026.10.18-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.18-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.17-r2/manifest.json",
-    "manifest_signature":  "releases/2026.10.17-r2/manifest.json.sig",
+    "manifest":  "releases/2026.10.18-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.18-r1/manifest.json.sig",
     "notes":  [
-                  "교육 탭이 커리큘럼·일지 쓰기·평가 세 칸으로 바뀌었습니다",
-                  "평가는 기준별 점수로 매기고, 사람 이름을 두 번 누르면 평균이 나옵니다",
-                  "현지 테크 명단은 오른쪽 클릭으로 더하고 지웁니다"
+                  "봇 훈련 화면에서 PDF·엑셀·로그·사진을 올리면 봇이 읽고 노하우로 정리합니다",
+                  "내 노하우가 Bot 탭의 봇 훈련 화면으로 옮겨졌습니다",
+                  "팀원 창에서는 Wiki 탭이 보이지 않습니다(팀 문서는 운영자 화면에서 봅니다)"
               ]
 }

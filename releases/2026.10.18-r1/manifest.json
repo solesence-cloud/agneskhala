@@ -1,12 +1,12 @@
 {
-  "aggregate_sha256": "3c486d772ad23aa9c90fa73c765ba1f14d18febc1e44a4b0a6a24cf69daddd55",
-  "created_utc": "2026-10-17T07:21:13Z",
-  "file_count": 214,
+  "aggregate_sha256": "38f49b0a13bb62a8cd0d19f76e33435bf34d90889faa1c9a4dc54c34fb7068ca",
+  "created_utc": "2026-10-18T06:00:06Z",
+  "file_count": 219,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "9bda15f347cad79f8dc708c5915e15987d01a677bc989447b49e149caf6bca93",
-      "size": 3547015
+      "sha256": "cc030c212c528415316e044614941e68ac9719402fa4a9f5b16698b26e0f62d7",
+      "size": 3575362
     },
     {
       "path": "README.md",
@@ -152,6 +152,11 @@
       "path": "_internal/PySide6/QtOpenGL.pyd",
       "sha256": "0e166f207602e2de6153a05ebe04762d1396428ab0734947d9ebd6f871bbedf5",
       "size": 8713016
+    },
+    {
+      "path": "_internal/PySide6/QtPdf.pyd",
+      "sha256": "8282aecff6c12f60e5c05af1479934dc93254553f9299ed4704c4f04fd75bc33",
+      "size": 245560
     },
     {
       "path": "_internal/PySide6/QtPositioning.pyd",
@@ -649,23 +654,23 @@
       "size": 410
     },
     {
-      "path": "_internal/cs_manager/resources/web/education/assets/index-BcEbfOYj.js",
-      "sha256": "a1a2673bd7de923e3aad6b2ce5ac12325ea6ec93174c6f80405c02bfe5721ae2",
-      "size": 238305
+      "path": "_internal/cs_manager/resources/web/education/assets/index-BxhKJMLF.css",
+      "sha256": "84c648b81292787b5ca4947d84f22fe7a02a0a34536255d26a754fc7e552cfce",
+      "size": 17444
     },
     {
-      "path": "_internal/cs_manager/resources/web/education/assets/index-Cz6c34Ts.css",
-      "sha256": "9691f5aa58c9a8600cfb646f8ae42b733b6089b3e9c10dbd66011bab69a26521",
-      "size": 12763
+      "path": "_internal/cs_manager/resources/web/education/assets/index-DZq_vt1G.js",
+      "sha256": "cac58e5d6e0fba82ec7a12dbd0b38187af0bb4d803992d5786ba5d2331b4400a",
+      "size": 254933
     },
     {
       "path": "_internal/cs_manager/resources/web/education/build-info.json",
-      "sha256": "d7f14abc1724941280568479dbd47093f14a9a4c6d2813451b1fbe3c1297e4dc",
+      "sha256": "15f0c79f99ab69cd9d58d5d9a13dfcc03ae1ef0e00a0440b12ad2bc8c6348206",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/education/index.html",
-      "sha256": "9070317b23883aede1cf7da8b17580953a4553d1c36f6ab4c51ec11eaece45fc",
+      "sha256": "377e76fd536a9a4fe87cceaef1efb7cb081f8f1a678d04f998cb1a324f94aec6",
       "size": 391
     },
     {
@@ -829,23 +834,23 @@
       "size": 392
     },
     {
-      "path": "_internal/cs_manager/resources/web/notion/assets/index-BtmhuwLA.css",
-      "sha256": "261ec8a687a69e091504252048aa3a549b710af0f008d8713c043bcd89308ccb",
-      "size": 16902
+      "path": "_internal/cs_manager/resources/web/notion/assets/index-Bo1drfvU.css",
+      "sha256": "f2f18f7f419b585703b6a2b214dcc2cf63c85ffc728f247143db18817e59a991",
+      "size": 15286
     },
     {
-      "path": "_internal/cs_manager/resources/web/notion/assets/index-mEv5dQ8_.js",
-      "sha256": "a839efe6ff32ae094c098b7c00c2e42790891e04feb57cab02b37b40f87c55a1",
-      "size": 342030
+      "path": "_internal/cs_manager/resources/web/notion/assets/index-DB8Yjaiu.js",
+      "sha256": "8f43a692bbb676464e28d7bd7ca4a023f11d3e4479bc42d5dc35518259a7a3e1",
+      "size": 338644
     },
     {
       "path": "_internal/cs_manager/resources/web/notion/build-info.json",
-      "sha256": "0fb92d20172f2f07cb0c573676e6bbba9b22b2e9fd927cb0802a6ad646d138bf",
+      "sha256": "119fc1dbd5e38abe57853ec943223699b105d2d670116e850f634b6a9cb4b7ec",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/notion/index.html",
-      "sha256": "145e2d1eabe15b1c56a7c050aca9272a6156bbfc9e20c7a34051717a358d1ca2",
+      "sha256": "c47c3ef1b038ffb567cf6535055a6e1c059304e19a35649dcbf72ab02d6402a5",
       "size": 389
     },
     {
@@ -927,6 +932,26 @@
       "path": "_internal/cs_manager/resources/web/spec/index.html",
       "sha256": "73e7e0b3835c908c9283c29641d90860b8776442914ddc7e440cf147d51a567b",
       "size": 398
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/training/assets/index-B46d50kf.css",
+      "sha256": "326569ede2bee3d7f9f7faaf9afb189f9263fb4cf20b01eced1b7ac78df0285e",
+      "size": 8976
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/training/assets/index-CAJieiwD.js",
+      "sha256": "cd2a25d8f30dab9e44a2c9e8dee3e37458cd1203950e29b84f6cdf1f8539ff80",
+      "size": 226804
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/training/build-info.json",
+      "sha256": "d4f222aaf05107f076071313ece83cbce767ca05a7fd5537c53ba8b5677fbc78",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/training/index.html",
+      "sha256": "2611710025586ee5c3fb4d16b995050acae4307f56e6450f0693df3bc57bacfa",
+      "size": 395
     },
     {
       "path": "_internal/cs_manager/resources/web/vnc/assets/index-D9KtiZFc.js",
@@ -1070,12 +1095,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "d84c926fc16af55fb55f89fe54624e225360215583f8c7e3749c8bbd056be70a",
+      "sha256": "1dc59c2ada13274bf4d822e606658903f9556748167f7b59d6d83759c79ceb83",
       "size": 278
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.10.17-r1",
+  "release_id": "2026.10.18-r1",
   "schema_version": 1,
-  "total_bytes": 355525831
+  "total_bytes": 356052310
 }
