@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.18-r1",
-    "archive":  "releases/2026.10.18-r1/CS_Manager-2026.10.18-r1.zip",
-    "archive_sha256":  "131a425d7a3ba90dd74f0b84403a413eff81908453069a996cf981774ac1d18b",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.18-r1/CS_Manager-2026.10.18-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.18-r1",
+    "release_id":  "2026.10.19-r1",
+    "archive":  "releases/2026.10.19-r1/CS_Manager-2026.10.19-r1.zip",
+    "archive_sha256":  "92fbd9a0afb82193bc1366d6e4e189a38a527707acf219e613430123a367dd20",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.19-r1/CS_Manager-2026.10.19-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.19-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.18-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.18-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.19-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.19-r1/manifest.json.sig",
     "notes":  [
-                  "봇 훈련 화면에서 PDF·엑셀·로그·사진을 올리면 봇이 읽고 노하우로 정리합니다",
-                  "내 노하우가 Bot 탭의 봇 훈련 화면으로 옮겨졌습니다",
-                  "팀원 창에서는 Wiki 탭이 보이지 않습니다(팀 문서는 운영자 화면에서 봅니다)"
+                  "Game 탭에서 봇이 낸 주관식 문제를 풀고 채점·이번 달 팀 순위를 봅니다",
+                  "교육 탭 평가 칸에 항목 퀴즈 평균이 참고로 보입니다",
+                  "운영자 콘솔에서 퀴즈 신고 목록을 출처와 함께 봅니다"
               ]
 }
