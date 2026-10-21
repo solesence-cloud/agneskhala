@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.19-r1",
-    "archive":  "releases/2026.10.19-r1/CS_Manager-2026.10.19-r1.zip",
-    "archive_sha256":  "92fbd9a0afb82193bc1366d6e4e189a38a527707acf219e613430123a367dd20",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.19-r1/CS_Manager-2026.10.19-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.19-r1",
+    "release_id":  "2026.10.20-r1",
+    "archive":  "releases/2026.10.20-r1/CS_Manager-2026.10.20-r1.zip",
+    "archive_sha256":  "765c098c491ea7bfe7d8b40a7f4a177c1f30157e45dc15f3ea322f350bc3945a",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.20-r1/CS_Manager-2026.10.20-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.20-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.19-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.19-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.20-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.20-r1/manifest.json.sig",
     "notes":  [
-                  "Game 탭에서 봇이 낸 주관식 문제를 풀고 채점·이번 달 팀 순위를 봅니다",
-                  "교육 탭 평가 칸에 항목 퀴즈 평균이 참고로 보입니다",
-                  "운영자 콘솔에서 퀴즈 신고 목록을 출처와 함께 봅니다"
+                  "퀴즈 채점이 늦으면 다시 누르라고 알려 주고, 결과를 그대로 받습니다",
+                  "봇 방 「나중에」가 첫 메시지에서도 그 초안을 미룹니다",
+                  "교육 점수를 다시 보내도 거절되지 않고, 고친 커리큘럼이 덮이지 않습니다"
               ]
 }
