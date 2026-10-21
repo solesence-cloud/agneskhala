@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.20-r1",
-    "archive":  "releases/2026.10.20-r1/CS_Manager-2026.10.20-r1.zip",
-    "archive_sha256":  "765c098c491ea7bfe7d8b40a7f4a177c1f30157e45dc15f3ea322f350bc3945a",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.20-r1/CS_Manager-2026.10.20-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.20-r1",
+    "release_id":  "2026.10.21-r1",
+    "archive":  "releases/2026.10.21-r1/CS_Manager-2026.10.21-r1.zip",
+    "archive_sha256":  "311a790787bfae7848ea69874befb88411dd5232de2411ef127ed6b00399b5dd",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.21-r1/CS_Manager-2026.10.21-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.21-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.20-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.20-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.21-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.21-r1/manifest.json.sig",
     "notes":  [
-                  "퀴즈 채점이 늦으면 다시 누르라고 알려 주고, 결과를 그대로 받습니다",
-                  "봇 방 「나중에」가 첫 메시지에서도 그 초안을 미룹니다",
-                  "교육 점수를 다시 보내도 거절되지 않고, 고친 커리큘럼이 덮이지 않습니다"
+                  "메모 탭 새로: 교대 중 적고 / 로 스펙·자재 값 보기, 카톡 복사로 넘기기",
+                  "헤더 인수인계 버튼·퇴근 캐묻기·교대 요약은 내렸습니다 - 메모로 대신",
+                  "봇 이름이 Alpha 로 바뀌었습니다(Alpha 탭)"
               ]
 }
