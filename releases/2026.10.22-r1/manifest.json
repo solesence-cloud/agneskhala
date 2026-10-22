@@ -1,17 +1,17 @@
 {
-  "aggregate_sha256": "c2734349d8fbf5e00acac866d551bce3bbd52506ccff55c734c7cf65a263d41f",
-  "created_utc": "2026-10-21T01:43:15Z",
-  "file_count": 223,
+  "aggregate_sha256": "5cd99c6317ce932d0352551833cbf8afec0f02047c6a8b585046aeb7dccd7058",
+  "created_utc": "2026-10-22T13:11:48Z",
+  "file_count": 224,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "de0a0464eb3158c53d7aedf60448295f016f679c5a0ffd14c734ed66c9d30e56",
-      "size": 3596800
+      "sha256": "5216c9e5f2121d9cb490577345c7b67d9e179ebec3c0c1912d988524b8e803a7",
+      "size": 3626101
     },
     {
       "path": "README.md",
-      "sha256": "9866138116da91ecd77837a66f57df5894edb673810fe1cdeafb3287b59234fd",
-      "size": 8824
+      "sha256": "95feb4752c0d2e582382030360977f4c1f99ef64ba42047823bed625da571223",
+      "size": 9904
     },
     {
       "path": "START-HERE.md",
@@ -470,8 +470,8 @@
     },
     {
       "path": "_internal/cs_manager/db/schema.sql",
-      "sha256": "721e66bc2b14381ebe8bf95cd5d1a579a60c11a78329457d838847613233f525",
-      "size": 34885
+      "sha256": "927e279647a5e584b70a24d71d29fd0c8ba57109a10c8452fe79ff2b22d7731d",
+      "size": 36337
     },
     {
       "path": "_internal/cs_manager/db/seed_data/catalog_seed.json",
@@ -492,6 +492,11 @@
       "path": "_internal/cs_manager/resources/release_public_keys/e54cd8b746e52414.pub",
       "sha256": "557ada0dc3c4410c9f57d2e3207d89727789c6762e0c6dedda7733e9bfc6b58e",
       "size": 46
+    },
+    {
+      "path": "_internal/cs_manager/resources/startup_blackhole.jpg",
+      "sha256": "284e12016920b3a4e7243a536caccc7d6f31aee5d583e96042a5c4d1a7634323",
+      "size": 349759
     },
     {
       "path": "_internal/cs_manager/resources/web/accounts/assets/index-BwBjMs0s.css",
@@ -594,23 +599,23 @@
       "size": 404
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-CaznIgkN.js",
-      "sha256": "e882e8fca7dc3b169eaf7d5bcc52dc9dc7cf1b623258bad04fd599653a8f8091",
-      "size": 234980
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-Bs6u_PP7.css",
+      "sha256": "3ddfe078dddf058c9d4dabfed3b2f9444d26a53b25aa33bded9e1530a78667f6",
+      "size": 12399
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-qXTLq8id.css",
-      "sha256": "b5f8f6ad0b80293b80250e2e91eb4b736788ec0b092d0b41020acd826e3ccd48",
-      "size": 12717
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-CCWW_Osu.js",
+      "sha256": "d1e5b2f33fa09dbfd69e97975ca29d67fd2a8f4182d054079713dbb5223a561f",
+      "size": 233038
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/build-info.json",
-      "sha256": "b21df754972d91fdf3ae77469ed6d9669fa3fcfed982135b955a98398df081a2",
+      "sha256": "d754bda599cd2cbbf8b49fb0c630cda24e5827d1488e26ab9225cf3c415d35cc",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/index.html",
-      "sha256": "a8cf586d52293efe27b9ccbc8d436d67ffed7bc6ffaabd28c49d4807f84a8127",
+      "sha256": "6cd42e22ebb7b4f41e9097994e6e39dea01c95cf43c4ee869681e5e99ead496f",
       "size": 395
     },
     {
@@ -694,26 +699,6 @@
       "size": 389
     },
     {
-      "path": "_internal/cs_manager/resources/web/handover/assets/index-D6gLwC68.css",
-      "sha256": "463d4b04245ff7d7eb5912bfe540e4207a6c1344a58aee5f0a4abde39cb95f0a",
-      "size": 7424
-    },
-    {
-      "path": "_internal/cs_manager/resources/web/handover/assets/index-udPGZo3e.js",
-      "sha256": "92f8bfbbf81cc5e09627fd4b3ef497da6c1cf0d674249adf6623b43dfdbcf6fe",
-      "size": 226013
-    },
-    {
-      "path": "_internal/cs_manager/resources/web/handover/build-info.json",
-      "sha256": "ab0b5bca0a01aa5b58e72ac2227cddcaf5701c66a7461c4f6179a43f0797960e",
-      "size": 90
-    },
-    {
-      "path": "_internal/cs_manager/resources/web/handover/index.html",
-      "sha256": "1af9bce4aeabb520cef12efbc9b4f0995d5fc34a2acd458c43508a4da894a0f0",
-      "size": 397
-    },
-    {
       "path": "_internal/cs_manager/resources/web/info/assets/index-BDYM66Zj.css",
       "sha256": "5e96d5a1303d45c3e1b0f3ab7364a8a89eca1a622177772936dd7ef5393e0569",
       "size": 7223
@@ -739,18 +724,18 @@
       "size": 14797
     },
     {
-      "path": "_internal/cs_manager/resources/web/issues/assets/index-iFwmt_E9.js",
-      "sha256": "cdc6c827623b2b23b25bfd9767fbfb3075926ea5e12734803f3b2f3c1952a0c4",
-      "size": 239487
+      "path": "_internal/cs_manager/resources/web/issues/assets/index-DkNzdv7k.js",
+      "sha256": "24b0873d586d3b6f83c26ed9606fbc3f0f3fb7c6e33cd595daec59cb9c10dc05",
+      "size": 239623
     },
     {
       "path": "_internal/cs_manager/resources/web/issues/build-info.json",
-      "sha256": "48ddea343ff0b86d103d5a2574c863fbcbba874132cd41950c9b8501bdc89cff",
+      "sha256": "fffab19321867133e12e1be393a2eb282538c68f654bc6527263f691e0072abb",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/issues/index.html",
-      "sha256": "3b208742718ba66e98e89da405c2d4e1e3bddcb8e8f5e431007f92479855ad39",
+      "sha256": "057b1da85770c33da042f350aab24011e51b5a8747dc2b7101f7e2b12afa3349",
       "size": 406
     },
     {
@@ -834,6 +819,26 @@
       "size": 391
     },
     {
+      "path": "_internal/cs_manager/resources/web/memo/assets/index-CY8MivNE.js",
+      "sha256": "28ef64777f37b2c1e2e6c97bacbd0b189910479ecf21769f907bb6b71fd76102",
+      "size": 227731
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/memo/assets/index-r18Tis7F.css",
+      "sha256": "4a8c289ef3df486ce8feb25707d520e62eca0f5d451efa5252966329fcc2b694",
+      "size": 9652
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/memo/build-info.json",
+      "sha256": "3b9a97de92d20a91a7998262e1a1f633c4bffc5fb2b249eb1879c772d3502960",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/memo/index.html",
+      "sha256": "f0a0fc55aefeaf6ca4377123ca510631fe1003f76d12980783cdfc7b3641fd90",
+      "size": 391
+    },
+    {
       "path": "_internal/cs_manager/resources/web/my_work/assets/index-964RgT0A.css",
       "sha256": "327984ade5ef0a24a872e82653f2a2a745a63330f863ff94f00c9fd2ee5878c3",
       "size": 12600
@@ -914,23 +919,23 @@
       "size": 397
     },
     {
-      "path": "_internal/cs_manager/resources/web/schedule/assets/index-BILj_5Bm.js",
-      "sha256": "a0cc49092b1e5210c247879dd8ad65c02a225f0325f82141cdf7ad3b71eb3353",
-      "size": 233117
+      "path": "_internal/cs_manager/resources/web/schedule/assets/index-Bcp8BQcQ.js",
+      "sha256": "81051b970ebe0ddf265727799715df9937cb5664e88b82128aa68da73a2fea13",
+      "size": 229989
     },
     {
-      "path": "_internal/cs_manager/resources/web/schedule/assets/index-DWuFvwFT.css",
-      "sha256": "e7c5dd6a88ead37fbd2d53a4a0f5f7938531be729f644f776efe500ff930ee49",
-      "size": 11146
+      "path": "_internal/cs_manager/resources/web/schedule/assets/index-EvCbOXf_.css",
+      "sha256": "2183d5c872b26c83fe2a05dcdc9cf9974c000b311a3467a2bfd6a1472cc80618",
+      "size": 10563
     },
     {
       "path": "_internal/cs_manager/resources/web/schedule/build-info.json",
-      "sha256": "bc8913c0cd16a9ed2a88adc220e6ac41697e0204f1d7cd2ee76b3b56786a3ac9",
+      "sha256": "6732f059ca0a9b012a2395faf3cc6dde3b612855bd739184dcdcad9b0e10cd06",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/schedule/index.html",
-      "sha256": "739a88712e33e425e59fb4521efedb0a3dcbf8c70150e6594ae92d1edcefca4e",
+      "sha256": "47cd9888e25bb4448b57c1a3c83f40b735e59d7eb1bde3029b05e6225ef6b232",
       "size": 398
     },
     {
@@ -954,9 +959,9 @@
       "size": 398
     },
     {
-      "path": "_internal/cs_manager/resources/web/training/assets/index-BrdlIsQl.js",
-      "sha256": "cd2a25d8f30dab9e44a2c9e8dee3e37458cd1203950e29b84f6cdf1f8539ff80",
-      "size": 226804
+      "path": "_internal/cs_manager/resources/web/training/assets/index-DSqA72Gx.js",
+      "sha256": "5426a92e5d608e20b09a7b30e88a25b3194ad3f4a1ca8581971675b52c53bccf",
+      "size": 226806
     },
     {
       "path": "_internal/cs_manager/resources/web/training/assets/index-DmAyEBx7.css",
@@ -965,12 +970,12 @@
     },
     {
       "path": "_internal/cs_manager/resources/web/training/build-info.json",
-      "sha256": "5b6c735358bcd169e362d039688ebee4076569ca24d1f9d7624030c4952c4956",
+      "sha256": "ca08e271b76a0a7f9fbdf94c32089a9e11abf7d6e536c655927f9ebb01a70aae",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/training/index.html",
-      "sha256": "ef9f4b7a14b8d5798f3db09465a7afbc19b35e311a76a4aa5071458b2429dbed",
+      "sha256": "d2a4ef814754130cafced93ccc34b8f19eaeb2c36e8e7e9c000504dd991bc264",
       "size": 395
     },
     {
@@ -1115,12 +1120,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "dcc1e71a003e34550e9acd17bc6020eebf30b2e06ce60481a8ea7be639b72569",
+      "sha256": "500f5e454c3efaa379dd4191d1440cbf84cc8037dc536b60993af8c50c003408",
       "size": 278
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.10.20-r1",
+  "release_id": "2026.10.22-r1",
   "schema_version": 1,
-  "total_bytes": 356313602
+  "total_bytes": 356693301
 }

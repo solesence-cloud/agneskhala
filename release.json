@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.21-r1",
-    "archive":  "releases/2026.10.21-r1/CS_Manager-2026.10.21-r1.zip",
-    "archive_sha256":  "311a790787bfae7848ea69874befb88411dd5232de2411ef127ed6b00399b5dd",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.21-r1/CS_Manager-2026.10.21-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.21-r1",
+    "release_id":  "2026.10.22-r1",
+    "archive":  "releases/2026.10.22-r1/CS_Manager-2026.10.22-r1.zip",
+    "archive_sha256":  "0ec158c4fce86cf9d9d509ecb3468f83dafc66c5c91c4059c881354c4f3f264c",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.22-r1/CS_Manager-2026.10.22-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.22-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.21-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.21-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.22-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.22-r1/manifest.json.sig",
     "notes":  [
-                  "메모 탭 새로: 교대 중 적고 / 로 스펙·자재 값 보기, 카톡 복사로 넘기기",
-                  "헤더 인수인계 버튼·퇴근 캐묻기·교대 요약은 내렸습니다 - 메모로 대신",
-                  "봇 이름이 Alpha 로 바뀌었습니다(Alpha 탭)"
+                  "켤 때 로딩 화면이 블랙홀 그림으로 바뀜",
+                  "팀장이 적용한 근무표가 덮이던 드문 경우를 고침",
+                  "단체방 Alpha 답에는 내 메모가 안 쓰임"
               ]
 }
