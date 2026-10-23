@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.22-r1",
-    "archive":  "releases/2026.10.22-r1/CS_Manager-2026.10.22-r1.zip",
-    "archive_sha256":  "0ec158c4fce86cf9d9d509ecb3468f83dafc66c5c91c4059c881354c4f3f264c",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.22-r1/CS_Manager-2026.10.22-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.22-r1",
+    "release_id":  "2026.10.22-r2",
+    "archive":  "releases/2026.10.22-r2/CS_Manager-2026.10.22-r2.zip",
+    "archive_sha256":  "7d01f7ac37ffed9844ed47a345fbc19d641dcd06860738d2af9f8478d6c6f8e6",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.22-r2/CS_Manager-2026.10.22-r2.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.22-r2",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.22-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.22-r1/manifest.json.sig",
+    "manifest":  "releases/2026.10.22-r2/manifest.json",
+    "manifest_signature":  "releases/2026.10.22-r2/manifest.json.sig",
     "notes":  [
-                  "켤 때 로딩 화면이 블랙홀 그림으로 바뀜",
-                  "팀장이 적용한 근무표가 덮이던 드문 경우를 고침",
-                  "단체방 Alpha 답에는 내 메모가 안 쓰임"
+                  "켜면 Alpha 대화가 화면 가득 - 다른 기능은 왼쪽 아이콘·모든 기능(•••)·/ 로",
+                  "대화 위 「오늘」 을 누르면 내 근무·교육이 달력에 보입니다",
+                  "「My」 를 누르면 남은 답·Game·베네핏·교육 점수가 보입니다"
               ]
 }
