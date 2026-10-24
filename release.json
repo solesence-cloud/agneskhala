@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.22-r2",
-    "archive":  "releases/2026.10.22-r2/CS_Manager-2026.10.22-r2.zip",
-    "archive_sha256":  "7d01f7ac37ffed9844ed47a345fbc19d641dcd06860738d2af9f8478d6c6f8e6",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.22-r2/CS_Manager-2026.10.22-r2.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.22-r2",
+    "release_id":  "2026.10.24-r1",
+    "archive":  "releases/2026.10.24-r1/CS_Manager-2026.10.24-r1.zip",
+    "archive_sha256":  "9f7d5bf5c8c2ba5ecffe94ce23e547e467f833c294dca45ca75956a16950824c",
+    "archive_url":  "https://csm-2026.com/releases/2026.10.24-r1/CS_Manager-2026.10.24-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.10.24-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.22-r2/manifest.json",
-    "manifest_signature":  "releases/2026.10.22-r2/manifest.json.sig",
+    "manifest":  "releases/2026.10.24-r1/manifest.json",
+    "manifest_signature":  "releases/2026.10.24-r1/manifest.json.sig",
     "notes":  [
-                  "켜면 Alpha 대화가 화면 가득 - 다른 기능은 왼쪽 아이콘·모든 기능(•••)·/ 로",
-                  "대화 위 「오늘」 을 누르면 내 근무·교육이 달력에 보입니다",
-                  "「My」 를 누르면 남은 답·Game·베네핏·교육 점수가 보입니다"
+                  "앱 이름이 XPAO 로 바뀌고, 왼쪽 줄은 끌어서 정리하고 /fix 로 고정합니다",
+                  "봇이 답을 쓰는 동안 지금 무엇을 하는지 단계를 보여 줍니다",
+                  "새 로그인 화면(별똥별 하늘)과 흰 조약돌 아이콘"
               ]
 }

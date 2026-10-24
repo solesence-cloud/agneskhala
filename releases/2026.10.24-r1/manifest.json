@@ -1,17 +1,17 @@
 {
-  "aggregate_sha256": "5cd99c6317ce932d0352551833cbf8afec0f02047c6a8b585046aeb7dccd7058",
-  "created_utc": "2026-10-22T13:11:48Z",
-  "file_count": 224,
+  "aggregate_sha256": "4d2ce1306aaa0dc9d6b3f74701c00c6d4e00c8375103bc5cbd94477219e3de42",
+  "created_utc": "2026-10-24T09:22:38Z",
+  "file_count": 233,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "5216c9e5f2121d9cb490577345c7b67d9e179ebec3c0c1912d988524b8e803a7",
-      "size": 3626101
+      "sha256": "69ee1e9b9202ea18d7957609c6a863a39b59a3be59220eec0c2f59e88a4ab86d",
+      "size": 3697969
     },
     {
       "path": "README.md",
-      "sha256": "95feb4752c0d2e582382030360977f4c1f99ef64ba42047823bed625da571223",
-      "size": 9904
+      "sha256": "c2f1c8a78e8cf6cc32da8c6134a909f987687e8479c54542e696b4614bdaf3d4",
+      "size": 12479
     },
     {
       "path": "START-HERE.md",
@@ -489,6 +489,31 @@
       "size": 14819
     },
     {
+      "path": "_internal/cs_manager/resources/fonts/OFL.txt",
+      "sha256": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e",
+      "size": 4419
+    },
+    {
+      "path": "_internal/cs_manager/resources/fonts/Pretendard-Bold.otf",
+      "sha256": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+      "size": 1576660
+    },
+    {
+      "path": "_internal/cs_manager/resources/fonts/Pretendard-Medium.otf",
+      "sha256": "d39e50e4bb52b4993b6a4eeb821a171254745bd824446af01e1f616b89fface0",
+      "size": 1584068
+    },
+    {
+      "path": "_internal/cs_manager/resources/fonts/Pretendard-Regular.otf",
+      "sha256": "3ffbacde6ab8411f1d2db54bb9b1f0b3ee2a738932033722cf0388c06aed1c93",
+      "size": 1574352
+    },
+    {
+      "path": "_internal/cs_manager/resources/fonts/Pretendard-SemiBold.otf",
+      "sha256": "c89bc43027dc7cde5726e96223376f8eec09302b2fc1f8147fd5b57cfc376118",
+      "size": 1583704
+    },
+    {
       "path": "_internal/cs_manager/resources/release_public_keys/e54cd8b746e52414.pub",
       "sha256": "557ada0dc3c4410c9f57d2e3207d89727789c6762e0c6dedda7733e9bfc6b58e",
       "size": 46
@@ -599,43 +624,43 @@
       "size": 404
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-Bs6u_PP7.css",
-      "sha256": "3ddfe078dddf058c9d4dabfed3b2f9444d26a53b25aa33bded9e1530a78667f6",
-      "size": 12399
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-Kg_3rgJ0.js",
+      "sha256": "ea14f49a7fb7a6ab1ccd8da61e8e7621e4dc7013e390acde0a32e2758b05b9ec",
+      "size": 239718
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-CCWW_Osu.js",
-      "sha256": "d1e5b2f33fa09dbfd69e97975ca29d67fd2a8f4182d054079713dbb5223a561f",
-      "size": 233038
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-u8Qp9vbk.css",
+      "sha256": "696596dcfc57d9cac4676d96ac0febcc01ba9455f78de405d6aa410e8a4a41b7",
+      "size": 15647
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/build-info.json",
-      "sha256": "d754bda599cd2cbbf8b49fb0c630cda24e5827d1488e26ab9225cf3c415d35cc",
+      "sha256": "0a7058e04e6c392e064d8aa2e858bfd1e14e40a1ce65c7c357fab23176313058",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/index.html",
-      "sha256": "6cd42e22ebb7b4f41e9097994e6e39dea01c95cf43c4ee869681e5e99ead496f",
+      "sha256": "102ef050f01640e1b99524b85554e0cf74c15a5a078600c960353c88fd12688e",
       "size": 395
     },
     {
-      "path": "_internal/cs_manager/resources/web/clock/assets/index-BUw7dA_f.css",
-      "sha256": "8beea0bcce396806491accdab6519a8e67ea3329edfadd0ae40077da33d2ecd5",
-      "size": 9678
+      "path": "_internal/cs_manager/resources/web/clock/assets/index-Bp2mE3Os.js",
+      "sha256": "94fae2594df5d9d10af843fa6d982c37b66320a91cc41bbff9ca16c6e946750b",
+      "size": 226809
     },
     {
-      "path": "_internal/cs_manager/resources/web/clock/assets/index-xzLwjo0A.js",
-      "sha256": "1ddd6353e4ebb4dbe92f79b7edb341cc0a8974d7f67a1b407269ff5548f33f15",
-      "size": 226681
+      "path": "_internal/cs_manager/resources/web/clock/assets/index-D8BNE6jo.css",
+      "sha256": "e6db3368ca5dc1afc661319a89f1f55a3ca4c58c7553eb804a7587b276c59a28",
+      "size": 10046
     },
     {
       "path": "_internal/cs_manager/resources/web/clock/build-info.json",
-      "sha256": "886a58c046b71c137d42b4c92c24455254a65eb9be881d01d4d91d51ed9d0b31",
+      "sha256": "ccdc01400554580fdf8eb47749ec8231aead92eca04a37dfedf523bbb0f7f497",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/clock/index.html",
-      "sha256": "f8c75a5c16b38064c59e303e5b63476c2ed291b6198b0c7eb89d9ae9eeeb206e",
+      "sha256": "15d553a7315015dc8cf3d114bd1579e4648f2ac317153edbac770806b32a9fc0",
       "size": 401
     },
     {
@@ -779,24 +804,24 @@
       "size": 398
     },
     {
-      "path": "_internal/cs_manager/resources/web/login/assets/index-CK8SX5ot.css",
-      "sha256": "12642e91fefe8c8ab9e705e02b120f05d0d7b96c19d67bd6ef15430300593a42",
-      "size": 6116
+      "path": "_internal/cs_manager/resources/web/login/assets/index-B0WVRHZ-.js",
+      "sha256": "cc0921816faafa77e7fe6a2149606877814b1e997287bf23b2185ee1664ff96f",
+      "size": 224868
     },
     {
-      "path": "_internal/cs_manager/resources/web/login/assets/index-DM_0dSmy.js",
-      "sha256": "1e4d9eca5f5cd74849d826abcbcf17784d295f5528580648658cc408d01a0baa",
-      "size": 222652
+      "path": "_internal/cs_manager/resources/web/login/assets/index-DjM0NIo4.css",
+      "sha256": "0edd39d882cc157246f6c1ac47554429be0694b5b0b19ff6c1402cf12dcb7861",
+      "size": 6641
     },
     {
       "path": "_internal/cs_manager/resources/web/login/build-info.json",
-      "sha256": "abc55948fef5c8a0e75d4a1d7cded5e48963173aadbe6ed4882aedea63a600c3",
+      "sha256": "61fef261f53ccffa47f82a043483bab63184c3e9278d64bcb26e0e59eee72b0d",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/login/index.html",
-      "sha256": "1483a3937df9aa88740c82143907c0bee6799bc94d28a80e94274c0b0a950a4b",
-      "size": 417
+      "sha256": "f829cb9f7ebd9213159398a8abc47f72fd4c3bd44d0aa753c3051a6203346d40",
+      "size": 411
     },
     {
       "path": "_internal/cs_manager/resources/web/meetings/assets/index-DuSH5m3j.css",
@@ -819,24 +844,44 @@
       "size": 391
     },
     {
-      "path": "_internal/cs_manager/resources/web/memo/assets/index-CY8MivNE.js",
-      "sha256": "28ef64777f37b2c1e2e6c97bacbd0b189910479ecf21769f907bb6b71fd76102",
-      "size": 227731
+      "path": "_internal/cs_manager/resources/web/memo/assets/index-C1BuWARk.js",
+      "sha256": "304a962956886f80a2300891bc43345577273c53e41586dd25f0283b276af5db",
+      "size": 227978
     },
     {
-      "path": "_internal/cs_manager/resources/web/memo/assets/index-r18Tis7F.css",
-      "sha256": "4a8c289ef3df486ce8feb25707d520e62eca0f5d451efa5252966329fcc2b694",
-      "size": 9652
+      "path": "_internal/cs_manager/resources/web/memo/assets/index-D9I2pEkH.css",
+      "sha256": "27f0ac5fbd951a06586553354b915315f06ba985e824e955aa00edf3fad00728",
+      "size": 9713
     },
     {
       "path": "_internal/cs_manager/resources/web/memo/build-info.json",
-      "sha256": "3b9a97de92d20a91a7998262e1a1f633c4bffc5fb2b249eb1879c772d3502960",
+      "sha256": "f8b04b8d870746e35e7122d59ea0e1079e0300c7b95fac91273929124a1825b8",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/memo/index.html",
-      "sha256": "f0a0fc55aefeaf6ca4377123ca510631fe1003f76d12980783cdfc7b3641fd90",
+      "sha256": "2fa1c89d5a32a7f08ad935aa757be9a518c1834f64afa7d5282dfeade451a1db",
       "size": 391
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/my/assets/index-BNnAhkk3.css",
+      "sha256": "bb890c7b12a6c9402273ebd795cc8b81828671389218e1db28d26ccae55b9b8b",
+      "size": 6092
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/my/assets/index-DXc4Gwor.js",
+      "sha256": "ea74acccb75f8a72598feff9770aacf874c32e24d62ec4a856a609777009c6ae",
+      "size": 221753
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/my/build-info.json",
+      "sha256": "20fb621c4357d3675ff6ea7d4d125d992a4a88ec2160d61f91e7b20be90be3ea",
+      "size": 90
+    },
+    {
+      "path": "_internal/cs_manager/resources/web/my/index.html",
+      "sha256": "f771761b3d106fa450d54b6d36e08e11e08b6a3e8be06380da0ec8d7498ec526",
+      "size": 387
     },
     {
       "path": "_internal/cs_manager/resources/web/my_work/assets/index-964RgT0A.css",
@@ -959,23 +1004,23 @@
       "size": 398
     },
     {
-      "path": "_internal/cs_manager/resources/web/training/assets/index-DSqA72Gx.js",
-      "sha256": "5426a92e5d608e20b09a7b30e88a25b3194ad3f4a1ca8581971675b52c53bccf",
-      "size": 226806
-    },
-    {
       "path": "_internal/cs_manager/resources/web/training/assets/index-DmAyEBx7.css",
       "sha256": "e23f324bc123c966384f4e89de691e13023fc005a799715859e5aab8318141ee",
       "size": 8984
     },
     {
+      "path": "_internal/cs_manager/resources/web/training/assets/index-so9Wr3oY.js",
+      "sha256": "04cfcc4cdf3978f9125b5c4577c20100493d2f15975faf8151d0907c4faa80fb",
+      "size": 226790
+    },
+    {
       "path": "_internal/cs_manager/resources/web/training/build-info.json",
-      "sha256": "ca08e271b76a0a7f9fbdf94c32089a9e11abf7d6e536c655927f9ebb01a70aae",
+      "sha256": "311d2999681280bf294d05d9f7d4b48b1750724d4602564095365622d46ba77e",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/training/index.html",
-      "sha256": "d2a4ef814754130cafced93ccc34b8f19eaeb2c36e8e7e9c000504dd991bc264",
+      "sha256": "e18d1bdd80b9fa0e5a0aacc9350f7b0227964a7ad3b8d39e771b673e3b14d7d5",
       "size": 395
     },
     {
@@ -1120,12 +1165,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "500f5e454c3efaa379dd4191d1440cbf84cc8037dc536b60993af8c50c003408",
+      "sha256": "3e6b7ab9b96654680a8e1319230c5e20831281822871daaa4d26dac13d0bcab3",
       "size": 278
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.10.22-r1",
+  "release_id": "2026.10.24-r1",
   "schema_version": 1,
-  "total_bytes": 356693301
+  "total_bytes": 363332720
 }
