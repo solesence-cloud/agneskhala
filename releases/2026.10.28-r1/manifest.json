@@ -1,17 +1,17 @@
 {
-  "aggregate_sha256": "4d2ce1306aaa0dc9d6b3f74701c00c6d4e00c8375103bc5cbd94477219e3de42",
-  "created_utc": "2026-10-24T09:22:38Z",
+  "aggregate_sha256": "ecf41ff7c8feadc4cd7a8b963c16e5ed865d62de687c0dc260511ef65bb3db6e",
+  "created_utc": "2026-10-28T09:48:39Z",
   "file_count": 233,
   "files": [
     {
       "path": "CS_Manager.exe",
-      "sha256": "69ee1e9b9202ea18d7957609c6a863a39b59a3be59220eec0c2f59e88a4ab86d",
-      "size": 3697969
+      "sha256": "f50569699d37be014da348347a290abb9a6c04caeef12a72bd4233b89852e452",
+      "size": 3766730
     },
     {
       "path": "README.md",
-      "sha256": "c2f1c8a78e8cf6cc32da8c6134a909f987687e8479c54542e696b4614bdaf3d4",
-      "size": 12479
+      "sha256": "a322548f0f7dda3bf20322037de5fe8dcf629b8919ffb910939e38d86633320c",
+      "size": 14857
     },
     {
       "path": "START-HERE.md",
@@ -470,8 +470,8 @@
     },
     {
       "path": "_internal/cs_manager/db/schema.sql",
-      "sha256": "927e279647a5e584b70a24d71d29fd0c8ba57109a10c8452fe79ff2b22d7731d",
-      "size": 36337
+      "sha256": "4b02e12be14e96b570e6623cc4bbb5a127862a71606228eeccd799f41528f04b",
+      "size": 37788
     },
     {
       "path": "_internal/cs_manager/db/seed_data/catalog_seed.json",
@@ -529,38 +529,38 @@
       "size": 9380
     },
     {
-      "path": "_internal/cs_manager/resources/web/accounts/assets/index-LmAKpIji.js",
-      "sha256": "28352325f0af7dda56184d6c646b9da39ea4665dd8b45806b5743574360de0d7",
-      "size": 228016
+      "path": "_internal/cs_manager/resources/web/accounts/assets/index-DHbPDU-Y.js",
+      "sha256": "ecd4b7b8757ce6101fb6bf0e4310cd34c6d64176dc7ef1725204f9e8dec62c28",
+      "size": 228079
     },
     {
       "path": "_internal/cs_manager/resources/web/accounts/build-info.json",
-      "sha256": "52ea94c13b7323b6a698e82042232a46f57b8e1f144493e6f8d7b2a6894e37d5",
+      "sha256": "2c31f617a0dbc3ee78e1d35f4daaeebfb75508a41f97d519e5c78e500a78b629",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/accounts/index.html",
-      "sha256": "cc0c3f40ce68bf0f678b6a067c996bbd2a2edcbcfa7f0832986acc55ba1db95f",
+      "sha256": "bdfa2d8653440c4bb02139b668380819bd6062cc9bd21b42596e3a2d200d1ab3",
       "size": 398
     },
     {
-      "path": "_internal/cs_manager/resources/web/admin/assets/index-B5AS_diB.css",
-      "sha256": "6a51376fffef5d2684adecfc5d442b1525759eb540fdd24d44c045e9ba102c49",
-      "size": 14894
+      "path": "_internal/cs_manager/resources/web/admin/assets/index-B7AATnFG.css",
+      "sha256": "a4ba7df07270613522373b1c078919ce0fc8ab09746de9ddd1d7b0da713b4a7f",
+      "size": 15304
     },
     {
-      "path": "_internal/cs_manager/resources/web/admin/assets/index-DTH2Fsmw.js",
-      "sha256": "415e31a67d7d32a5bd2ad0e3d17490e649a05297675045b4b1fb3625c6cb85b2",
-      "size": 243502
+      "path": "_internal/cs_manager/resources/web/admin/assets/index-D9xiPnKJ.js",
+      "sha256": "e2e9661797fa7ab64e3c76a76f4457095a57ca4f2b671bab7255d722891138bc",
+      "size": 244479
     },
     {
       "path": "_internal/cs_manager/resources/web/admin/build-info.json",
-      "sha256": "b4590cf69123443c5e2eef25383cd41586928b493cf0091988da2c6896fbf1ab",
+      "sha256": "a31bfd41f507370ab09cf7b265d3d6cec55899bb90071ddb7c099861f6377c72",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/admin/index.html",
-      "sha256": "6bd6d612c69ffb14d14dca91d250a480a2bbd6ad70dc8854ef31ce3d39577ac2",
+      "sha256": "b06f6cbc8d5278ef7f59387e193ea30db96a874f9f0b46dd3221d39e95207f8b",
       "size": 407
     },
     {
@@ -624,23 +624,23 @@
       "size": 404
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-Kg_3rgJ0.js",
-      "sha256": "ea14f49a7fb7a6ab1ccd8da61e8e7621e4dc7013e390acde0a32e2758b05b9ec",
-      "size": 239718
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-CDkSZgUL.js",
+      "sha256": "1e30909d42a0a2ec97a16a44e25839384591035eb55c77a980b68912727ab12c",
+      "size": 240925
     },
     {
-      "path": "_internal/cs_manager/resources/web/chat/assets/index-u8Qp9vbk.css",
-      "sha256": "696596dcfc57d9cac4676d96ac0febcc01ba9455f78de405d6aa410e8a4a41b7",
-      "size": 15647
+      "path": "_internal/cs_manager/resources/web/chat/assets/index-C_h0fyH3.css",
+      "sha256": "146bc9bd859f40af133a8db4ee093a31a2e3fb43ccfc0d94685a20e623871849",
+      "size": 16733
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/build-info.json",
-      "sha256": "0a7058e04e6c392e064d8aa2e858bfd1e14e40a1ce65c7c357fab23176313058",
+      "sha256": "143865cef191f839947439b774df926a1ec971279852bf6471e6e73ba1279b71",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/chat/index.html",
-      "sha256": "102ef050f01640e1b99524b85554e0cf74c15a5a078600c960353c88fd12688e",
+      "sha256": "43b2de2fc0d25b8671cdaa6f595bc19393c89baababef12d186e3a0cf9f2389f",
       "size": 395
     },
     {
@@ -844,23 +844,23 @@
       "size": 391
     },
     {
-      "path": "_internal/cs_manager/resources/web/memo/assets/index-C1BuWARk.js",
-      "sha256": "304a962956886f80a2300891bc43345577273c53e41586dd25f0283b276af5db",
-      "size": 227978
+      "path": "_internal/cs_manager/resources/web/memo/assets/index-CCPjI9ys.css",
+      "sha256": "d9754b9d153e073df98c8697befd808df7d15dcc63cc7dd6a3706c8ed0da3188",
+      "size": 10660
     },
     {
-      "path": "_internal/cs_manager/resources/web/memo/assets/index-D9I2pEkH.css",
-      "sha256": "27f0ac5fbd951a06586553354b915315f06ba985e824e955aa00edf3fad00728",
-      "size": 9713
+      "path": "_internal/cs_manager/resources/web/memo/assets/index-DESlwvcj.js",
+      "sha256": "ac959209f4135a46df8a7aceb6b4e5b67a737691091e02013e9e0f9a78e78615",
+      "size": 241156
     },
     {
       "path": "_internal/cs_manager/resources/web/memo/build-info.json",
-      "sha256": "f8b04b8d870746e35e7122d59ea0e1079e0300c7b95fac91273929124a1825b8",
+      "sha256": "9942da5075305ba900bd94f18d078853697cd63517edda1c9bb1eb61f14de59d",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/memo/index.html",
-      "sha256": "2fa1c89d5a32a7f08ad935aa757be9a518c1834f64afa7d5282dfeade451a1db",
+      "sha256": "84845735846115e7477748428879601e8478d495c0a8351fa9c66aaef506eaae",
       "size": 391
     },
     {
@@ -1004,23 +1004,23 @@
       "size": 398
     },
     {
-      "path": "_internal/cs_manager/resources/web/training/assets/index-DmAyEBx7.css",
-      "sha256": "e23f324bc123c966384f4e89de691e13023fc005a799715859e5aab8318141ee",
-      "size": 8984
+      "path": "_internal/cs_manager/resources/web/training/assets/index-DKAiuSj5.js",
+      "sha256": "a885b5fdde0e9dd35cb17d7bb90fb00b7867572f8e9725939119b86d18588c28",
+      "size": 228289
     },
     {
-      "path": "_internal/cs_manager/resources/web/training/assets/index-so9Wr3oY.js",
-      "sha256": "04cfcc4cdf3978f9125b5c4577c20100493d2f15975faf8151d0907c4faa80fb",
-      "size": 226790
+      "path": "_internal/cs_manager/resources/web/training/assets/index-XeUJ8Mwd.css",
+      "sha256": "fa94841fa2d0c63f100cffd6e3958029e2b94c8dd23183c7c5f9f5fb32fe2e13",
+      "size": 9897
     },
     {
       "path": "_internal/cs_manager/resources/web/training/build-info.json",
-      "sha256": "311d2999681280bf294d05d9f7d4b48b1750724d4602564095365622d46ba77e",
+      "sha256": "13968a45584f00bde4aef32bd66a2b7e51530420d89f35f4e5d6823d5cce5abc",
       "size": 90
     },
     {
       "path": "_internal/cs_manager/resources/web/training/index.html",
-      "sha256": "e18d1bdd80b9fa0e5a0aacc9350f7b0227964a7ad3b8d39e771b673e3b14d7d5",
+      "sha256": "dab0a7c915613b2308e57275dd3bbd40b46562007ad3752cc574382129f78408",
       "size": 395
     },
     {
@@ -1165,12 +1165,12 @@
     },
     {
       "path": "installed_release.json",
-      "sha256": "3e6b7ab9b96654680a8e1319230c5e20831281822871daaa4d26dac13d0bcab3",
+      "sha256": "1b7ad775f05fc96d0f72d2a0ebfbab665897b02d8f0c4887eb8fd5ab7b5ae7e7",
       "size": 278
     }
   ],
   "hash_algorithm": "sha256",
-  "release_id": "2026.10.24-r1",
+  "release_id": "2026.10.28-r1",
   "schema_version": 1,
-  "total_bytes": 363332720
+  "total_bytes": 363425590
 }
