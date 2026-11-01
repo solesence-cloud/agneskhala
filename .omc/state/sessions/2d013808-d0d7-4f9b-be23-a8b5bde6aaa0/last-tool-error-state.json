@@ -1,7 +1,0 @@
-{
-  "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"cd E:/Program/CS_Manager_Py && .venv/Scripts/python.exe harness.py --fast 2>&1 | grep -E \\\"  FAIL |  WARN |결과\\\" | cut -c1-160; E:/Program/CS_Manager/CS_Manager.exe --self-check >/dev/null ...",
-  "error": "Exit code 1\n  WARN  마지막 감사(Round 12, 2026-09-22-round12-post-deploy-abcde-synthesis.md, 2026-09-22) 이후 배포 흔적 2건 - 설치본 2026.09.23-r1(681ff598aa\n결과: FAIL 0 / WARN 1\nself-check exit=0\n0",
-  "timestamp": "2026-09-23T14:14:02.116Z",
-  "retry_count": 1
-}
