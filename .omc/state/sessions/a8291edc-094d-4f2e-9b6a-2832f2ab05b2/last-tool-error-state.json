@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd /e/Program && CS_Manager/CS_Manager.exe --check-update > /c/Users/sole_/AppData/Local/Temp/claude/E--Program/a8291edc-094d-4f2e-9b6a-2832f2ab05b2/scratchpad/deploy/cu.txt 2>&1; PYTHONIO...",
+  "error": "Exit code 1\nTraceback (most recent call last):\r\n  File \"<string>\", line 3, in <module>\r\n  File \"C:\\Program Files\\Python312\\Lib\\urllib\\request.py\", line 215, in urlopen\r\n    return opener.open(url, data, timeout)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\Python312\\Lib\\urllib\\request.py\", line 521, in open\r\n    response = meth(req, response)\r\n               ^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Program Files\\Python312\\Lib\\urllib\\request.py\", line 630, in http_response\r\n    re...",
+  "timestamp": "2026-10-23T04:28:36.918Z",
+  "retry_count": 1
+}

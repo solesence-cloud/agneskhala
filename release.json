@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.10.28-r1",
-    "archive":  "releases/2026.10.28-r1/CS_Manager-2026.10.28-r1.zip",
-    "archive_sha256":  "68b665fdd574161406bea3775be80db2cd3a7a4f4ddbb51fffc2642586b667a8",
-    "archive_url":  "https://csm-2026.com/releases/2026.10.28-r1/CS_Manager-2026.10.28-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.10.28-r1",
+    "release_id":  "2026.11.02-r1",
+    "archive":  "releases/2026.11.02-r1/CS_Manager-2026.11.02-r1.zip",
+    "archive_sha256":  "9ac4698385de60ab7569cbcd1a3b0362e09e733cae524d34d058c0a39e5c6197",
+    "archive_url":  "https://csm-2026.com/releases/2026.11.02-r1/CS_Manager-2026.11.02-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.11.02-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.10.28-r1/manifest.json",
-    "manifest_signature":  "releases/2026.10.28-r1/manifest.json.sig",
+    "manifest":  "releases/2026.11.02-r1/manifest.json",
+    "manifest_signature":  "releases/2026.11.02-r1/manifest.json.sig",
     "notes":  [
-                  "Alpha 답 글이 사진을 기다리지 않습니다 · 사진은 따로 받고, 못 받으면 그렇게 적습니다",
-                  "메모의 카톡 차례 붙이기는 걷었습니다(카톡이 막음) · 아이콘 줄 「＋」·지금 위치 표시",
-                  "근무표 「적용」 은 한 번에 저장 · 운영자 콘솔: 현장 바꾸기·참고 자료 지우기·노하우 사진 수"
+                  "메모: /todo 체크칸 · 굵게·색 · /during 시간 칩 · 칩 안 「/」 뺌",
+                  "Alpha 답 근거를 접어 두고 「분야 없이 다시 묻기」 · 알림 머리 XPAO · 메뉴 영어·별 마크",
+                  "이슈 사진 ←→ 넘기기 · 작은 글자 「그」 가 잘려 보이던 것 고침"
               ]
 }
