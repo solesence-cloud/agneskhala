@@ -1,17 +1,17 @@
 {
     "schema_version":  1,
     "app_id":  "DH.CSManager",
-    "release_id":  "2026.11.02-r1",
-    "archive":  "releases/2026.11.02-r1/CS_Manager-2026.11.02-r1.zip",
-    "archive_sha256":  "9ac4698385de60ab7569cbcd1a3b0362e09e733cae524d34d058c0a39e5c6197",
-    "archive_url":  "https://csm-2026.com/releases/2026.11.02-r1/CS_Manager-2026.11.02-r1.zip",
-    "release_url":  "https://csm-2026.com/releases/2026.11.02-r1",
+    "release_id":  "2026.11.23-r1",
+    "archive":  "releases/2026.11.23-r1/CS_Manager-2026.11.23-r1.zip",
+    "archive_sha256":  "8dc61d86e74f2a910f33ef14ac1db3e1ad02ee31c5dbd96fcf37de2e2722a305",
+    "archive_url":  "https://csm-2026.com/releases/2026.11.23-r1/CS_Manager-2026.11.23-r1.zip",
+    "release_url":  "https://csm-2026.com/releases/2026.11.23-r1",
     "objects_url":  "https://csm-2026.com/releases/objects",
-    "manifest":  "releases/2026.11.02-r1/manifest.json",
-    "manifest_signature":  "releases/2026.11.02-r1/manifest.json.sig",
+    "manifest":  "releases/2026.11.23-r1/manifest.json",
+    "manifest_signature":  "releases/2026.11.23-r1/manifest.json.sig",
     "notes":  [
-                  "메모: /todo 체크칸 · 굵게·색 · /during 시간 칩 · 칩 안 「/」 뺌",
-                  "Alpha 답 근거를 접어 두고 「분야 없이 다시 묻기」 · 알림 머리 XPAO · 메뉴 영어·별 마크",
-                  "이슈 사진 ←→ 넘기기 · 작은 글자 「그」 가 잘려 보이던 것 고침"
+                  "메모: /todo 체크하면 줄이 그어져 남음 · 칩 뒤 커서가 칩 바깥에",
+                  "앱 메모리 절반 아래로(화면 다 열어 1,076MB → 441MB) · 화면이 죽으면 다시 읽고 알림",
+                  "검사 스펙 사진 자동 매핑 없앰 · 「분야 없이 다시 묻기」는 한 번만 · 백업에 메모가 정말 빠짐"
               ]
 }
